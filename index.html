@@ -6,13 +6,7 @@
   <!-- include ar.js for A-Frame -->
   <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
   <style>
-    .container {
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
+   
 button {
     padding: 10px 20px;
     margin: 10px;
@@ -27,7 +21,7 @@ button {
 </head>
 
 <body style='margin : 0px; overflow: hidden;'>
-  <div class="container">
+  
   <a-scene embedded arjs vr-mode-ui="enabled: false">
     <!-- create your content here. just a box for now -->
     <!--a-box position='0 0.5 0' material='opacity: 0.5;'></a-box-->
@@ -41,7 +35,7 @@ button {
   <video id="recordedVideo" controls></video>
         <button id="startBtn">Start Recording</button>
         <button id="stopBtn">Stop Recording</button>
-  </div>
+
 </body>
 <script>
   const startBtn = document.getElementById('startBtn');
