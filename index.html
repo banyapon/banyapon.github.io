@@ -1,24 +1,153 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-  <!-- include ar.js for A-Frame -->
-  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <title>JBC Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body style='margin : 10px; overflow: hidden;'>
-  <div class="main">
-    <a-scene embedded arjs vr-mode-ui="enabled: false">
-      <a-box position="-1 0.5 -10" rotation="0 45 0" scale="1 1 1" color="#4CC3D9"
-        material="color: #d2a21e; opacity: 0.5; emissive: #654001" geometry="">
-      </a-box>
-      <a-camera camera="fov: 60"></a-camera>
-    </a-scene>
-    <button id="recording-toggle">Start recording</button>
-  </div>
-  <script src="app.js"></script>
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Nav Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                <div class="p-2 me-2">
+                    <img class="logoMain" src="img/logo.png" alt="Icon" style="width: 30px; height: 30px;">
+                </div>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <!--a href="#" class="nav-item nav-link">Contact</a-->
+                </div>
+                <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Join Academy</a>
+            </div>
+        </nav>
+        <!-- Nav End -->
+
+        <!-- Join Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="m-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="jbc-h"><span class="jbc-branding">JBC</span> Academy offers easy-to-understand courses in blockchain and cryptocurrency, suitable for all levels. Learn at your pace, online or offline, with the <span class="jbc-branding">JBC</span> Blockchain Network.</h1>
+                </div>
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="btn btn-jbc py-3 px-5" href="">Join Academy</a>
+                </div>
+            </div>
+        </div>
+        <!-- Join End -->
+
+
+        <!-- Course Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="img/imageOnline.png">
+                        </div>
+                    </div>
+                    <div class="jbc-box col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="module">
+                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"><img src="img/wpf_online.svg"></div>
+                            <h2 class="jbc-branding">Online Learning </h2><p class="text-white text-jbc-p">Explore our online courses, available anytime, anywhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="img/imageOffline.png">
+                        </div>
+                    </div>
+                    <div class="jbc-box col-lg-6 wow slideInRight" data-wow-delay="0.1s">
+                        <div class="module">
+                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3"><img src="img/fluent_people-community-16-regular.svg"></div>
+                            <h2 class="jbc-branding">Offline Workshops </h2><p class="text-white text-jbc-p">Join our workshops for a more personal learning experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Course End -->
+
+
+        <!-- Stay Connect Start -->
+        <div class="container-xxl py-xx2-2">
+            <div class="container">
+                <div class="m-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="jbc-h-sub">Stay Connected with <span class="jbc-branding">JBC</span> Academy</h1>
+                </div>
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="jbc-p-sub">Subscribe to receive the latest updates on our engaging online courses and dynamic offline events. Be the first to know about new learning opportunities and community gatherings with JBC Academy. Join our mailing list today and step into the world of blockchain education and events!</p>
+                </div>
+
+                <div class="buttonJoinBottom">
+                    <a class="btn btn-jbc-bold py-3 px-5" href="">Join Academy</a>
+                </div>
+            </div>
+        </div>
+        <!-- Stay Connect End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid text-white-50 footer pt-5x mt-5 wow fadeIn" data-wow-delay="0.1s">
+            &copy; <a class="border-bottom" href="#">2024 JBC Academy</a>, All Right Reserved.
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
