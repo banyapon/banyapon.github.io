@@ -616,4 +616,14 @@ body{
         margin: 0 auto !important;
         text-align: center !important;
     }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #ff9b00;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        transition: box-shadow 0.15s ease-in-out;
+    }
   }
