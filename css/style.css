@@ -559,3 +559,61 @@ body{
     padding-right: 0;
     border-right: none;
 }
+
+
+/* Media Mobile */
+@media only screen and (max-width: 600px) {
+    .jbc-h {
+        color: #FFFFFF !important;
+        max-width: 100%;
+        font-size: 22px;
+        visibility: visible;
+        animation-delay: 0.1s;
+        animation-name: fadeInUp;
+        text-align: left !important;
+        padding-bottom: 50px !important;
+    }
+
+    .m-5 {
+        margin: 1rem !important;
+    }
+
+    .jbc-h-sub {
+        color: #FFFFFF !important;
+        max-width: 100%;
+        font-size: 30px;
+        visibility: visible;
+        animation-delay: 0.1s;
+        animation-name: fadeInUp;
+        text-align: center !important;
+        padding-bottom: 50px;
+    }
+
+    .p-5 {
+        padding: 1rem !important;
+    }
+
+    .btn.btn-jbc-bold {
+        border-radius: 30px;
+        color: #333;
+        font-size: 17px;
+        font-weight: bold;
+        background-color: #FFA520;
+        border-width: 3px;
+        border-color: #FFA520;
+    }
+
+    .jbc-box {
+        padding: 1.5px;
+        margin: 20px;
+        width: 90%;
+        position: relative;
+        background: linear-gradient(to bottom, black, #ffa520);
+        border-radius: 30px;
+    }
+    .py-xx2-2 {
+        width: 90% !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+  }
