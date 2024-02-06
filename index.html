@@ -43,6 +43,15 @@
 </head>
 
 <body>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J72P904X9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3J72P904X9');
+    </script>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner"
@@ -67,7 +76,7 @@
                 <div class="navbar-nav ms-auto">
                     <!--a href="#" class="nav-item nav-link">Contact</a-->
                 </div>
-                <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Join Academy</a>
+                <a href="#register" class="btn btn-primary px-3 d-none d-lg-flex">Join Academy</a>
             </div>
         </nav>
         <!-- Nav End -->
@@ -81,7 +90,7 @@
                         with the <span class="jbc-branding">JBC</span> Blockchain Network.</h1>
                 </div>
                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <a class="btn btn-jbc py-3 px-5" href="">Join Academy</a>
+                    <a class="btn btn-jbc py-3 px-5" href="#register">Join Academy</a>
                 </div>
             </div>
         </div>
@@ -134,7 +143,7 @@
 
         <!-- Stay Connect Start -->
         <div class="container-xxl py-xx2-2">
-            <form name="register">
+            <form id="register" name="register">
                 <div class="container">
                     <div class="m-5 wow fadeInUp" data-wow-delay="0.1s">
                         <h1 class="jbc-h-sub">Stay Connected with <span class="jbc-branding">JBC</span> Academy</h1>
@@ -166,8 +175,9 @@
                 <h4 class="alert-heading">THANK YOU!</h4>
                 <p>You successfully!</p>
                 <hr>
-                <p class="mb-0">Our staff will be contacting you shortly to JBC Academy. In the meantime, you can check out our website for more information.</p>
-              </div>
+                <p class="mb-0">Our staff will be contacting you shortly to JBC Academy. In the meantime, you can check
+                    out our website for more information.</p>
+            </div>
         </div>
         <!-- Stay Connect End -->
 
