@@ -124,6 +124,7 @@ body{
 
 .logoMain{width: 100% !important; height:auto !important;}
 
+#failed{display: none;}
 #alertBlock{display: none;}
 
 .form-control {
