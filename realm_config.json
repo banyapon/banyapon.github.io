@@ -1,7 +1,0 @@
-{
-    "app_id": "jbcacademy-jfjur",
-    "config_version": 20210101,
-    "name": "JBCAcademy",
-    "provider_region": "aws-ap-southeast-1",
-    "deployment_model": "LOCAL"
-}
