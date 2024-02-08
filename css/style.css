@@ -608,6 +608,11 @@ body {
 
 /* Media Mobile */
 @media only screen and (max-width: 600px) {
+    .jbc-p-sub {
+        color: #fff;
+        font-size: 18px;
+    }
+
     .jbc-h {
         color: #FFFFFF !important;
         max-width: 100%;
