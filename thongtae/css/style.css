@@ -405,6 +405,10 @@ footer {
 
 @media (min-width: 576px) {
 
+    .parent {
+        display: block;
+    }
+
     .filter-box {
         width: 100% !important;
         margin: auto;
@@ -424,5 +428,228 @@ footer {
     .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 1.5rem !important;
         padding-left: 1.5rem !important;
+    }
+
+    .showPC {
+        display: block !important;
+    }
+
+    .showMobile {
+        display: none !important;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+
+    body {
+        padding-right: 0px !important;
+    }
+
+    .img-responsive {
+        width: 100% !important;
+    }
+
+    .parent {
+        display: none;
+    }
+
+    .jumbotron {
+        /* padding: 2rem 1rem; */
+        margin-bottom: 2rem !important;
+        background-color: #e9ecef;
+        /* border-radius: 0.3rem; */
+        width: 98% !important;
+    }
+
+    .promo {
+        width: 90% !important;
+    }
+
+    .logo-info {
+        padding-top: 0%;
+        padding-left: 5%;
+        width: 50%;
+        position: absolute;
+    }
+
+    .center {
+        margin: auto;
+        width: 90%;
+        padding-bottom: 0px;
+    }
+
+    .showMobile {
+        display: block;
+    }
+
+
+    .filter-box {
+        display: none !important;
+    }
+
+    .nav-item {
+        padding: 10px !important;
+    }
+
+    .input {
+        font-size: 12px;
+        padding: 17px 16px;
+        width: 100%;
+        padding-right: 18px;
+        outline: none;
+        background: #FFFFFF;
+        color: #000000;
+        border: 2px solid #000000;
+        border-radius: 80px;
+        box-shadow: 3px 3px 2px 0px #E2E2E2;
+        transition: .3s ease;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .navbar-collapse {
+        background-color: #d6a445 !important;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .about-content-mobile {
+        width: 100%;
+        margin: auto;
+        padding: 30px !important;
+    }
+
+    .text-center {
+        text-align: center !important;
+        width: 100%;
+        margin: auto;
+    }
+
+    .y-active {
+        width: 90%;
+        margin: auto;
+    }
+
+    .g-active {
+        width: 90%;
+        margin: auto;
+    }
+
+    .fixed-img {
+        width: 25px !important;
+        height: auto;
+    }
+
+    .branding {
+        margin: auto;
+        width: 100%;
+        padding: 1px;
+        padding-bottom: 0px;
+    }
+
+    .header-prompt {
+        margin-top: 0px;
+    }
+
+    .item {
+        padding-bottom: 20px;
+        width: 95%;
+    }
+
+    .blackbox {
+        margin-top: 1%;
+        font-size: 12px;
+        background-color: #000;
+        padding: 2px;
+        color: #d6a445;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .base-width {
+        width: 90% !important;
+    }
+
+    .caption-box {
+        margin-top: 1%;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        text-align: left;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .sub-caption-box {
+        margin-top: 0%;
+        font-size: 12px;
+        color: #000000;
+        text-align: left;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .sub-caption-foot {
+        margin-top: 0%;
+        font-size: 20px;
+        color: #000000;
+        text-align: left;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .showlogo {
+        width: auto !important;
+        height: 20px !important;
+    }
+
+    .showPC {
+        display: none !important;
+    }
+
+    .mobile-logo {
+        padding-left: 50%;
+    }
+
+    .zero {
+        padding-top: 35%;
+        color: #d0d0d0;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .quotes-topic {
+        font-family: "Prompt", sans-serif;
+        font-size: 24px;
+        color: #000;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 95%;
+        margin: auto;
+    }
+
+    .white-bg {
+        font-size: 11px;
+        background-color: #fff;
+        color: #000;
+        font-family: "Prompt", sans-serif;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .spacing {
+        padding: 5%;
+    }
+
+    .spacing-footer {
+        padding: 0px 50px 0px 5px !important;
+    }
+
+    .footer {
+        position: fixed;
+        right: 10px;
+        bottom: 15%;
+        width: 50%;
+        color: white;
+        text-align: center;
     }
 }
