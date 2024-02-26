@@ -1,0 +1,428 @@
+body {
+    font-family: "Prompt", sans-serif;
+}
+
+a {
+    color: #000 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #694400 !important;
+}
+
+.about-img {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.padding-center {
+    padding: 80px;
+}
+
+.mask-a {
+    background-image: url("../images/maska.png");
+    padding: 2%;
+}
+
+.mask-b {
+    background-image: url("../images/maskb.png");
+    padding: 2%;
+}
+
+.center-p {
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-size: 18px;
+    padding-top: 100px;
+}
+
+.about-us {
+    width: 100%;
+    height: auto;
+}
+
+.about-content {
+    width: 95%;
+    margin: auto;
+    padding: 70px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    color: #D6A445;
+}
+
+h1 {
+    color: #D6A445;
+}
+
+footer {
+    background-color: #D6A445;
+    color: #fff;
+}
+
+.normal {
+    padding: 30px;
+    color: #fff;
+    font-size: 22px;
+    height: 230px;
+    font-family: "Prompt", sans-serif;
+}
+
+.normal h1 {
+    color: #000 !important;
+    font-size: 120px;
+    font-family: "Playfair", serif;
+}
+
+.subscribe {
+    border: solid #fff 1px;
+    border-radius: 80px;
+    padding: 7px;
+    font-size: 11px;
+}
+
+.policy {
+    font-size: 14px;
+}
+
+.white-bg {
+    background-color: #fff;
+    color: #000;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.white-text-a {
+    color: #DDDDDD !important;
+}
+
+.blocked-a {
+    padding: 60px 10px 60px 120px;
+}
+
+.blocked-b {
+    padding: 60px 10px 60px 120px;
+    text-align: left;
+}
+
+.blocked-c {
+    padding: 60px 10px 60px 120px;
+    text-align: left;
+    font-family: "Prompt", sans-serif;
+    color: #000 !important;
+}
+
+.black-text {
+    color: #000;
+    font-family: "Prompt", sans-serif;
+}
+
+.sublime {
+    padding-top: 20px;
+}
+
+.blacked {
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+    height: 230px;
+}
+
+.blacked h1 {
+    color: #D6A445 !important;
+    font-size: 160px;
+    font-family: "Playfair", serif;
+}
+
+.five-span {
+    position: absolute;
+    top: 50%;
+    right: 29%;
+    text-align: left;
+    font-size: 22px;
+    font-family: "Prompt", sans-serif;
+}
+
+.quotes-topic {
+    font-family: "Prompt", sans-serif;
+    font-size: 35px;
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+.project-name {
+    font-family: "Prompt", sans-serif;
+    color: #000;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.header-prompt {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D6A445;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.nav-link {
+    font-family: "Prompt", sans-serif !important;
+    display: block;
+    padding: 1.5rem 1rem;
+    color: #fff !important;
+    text-shadow: 1px 1px #717171 !important;
+    font-weight: bold !important;
+}
+
+.header-pods {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.y-active {
+    background-color: #D6A445;
+    padding: 10px;
+    border-radius: 80px;
+    text-align: center;
+    color: #fff;
+    width: 170px;
+}
+
+.g-active {
+    background-color: #d0d0d0;
+    padding: 10px;
+    border-radius: 80px;
+    text-align: center;
+    color: #000;
+    width: 170px;
+}
+
+.promotion-item {
+    padding-bottom: 50px;
+}
+
+.branding-logo {
+    width: 200px;
+    height: 90px;
+    margin: auto;
+}
+
+.black-solid {
+    border: 2px #000 solid;
+}
+
+.recommended-news {
+    font-family: "Prompt", sans-serif !important;
+    width: 85%;
+    margin: auto;
+    text-align: left !important;
+}
+
+.recommended-townhome {
+    font-family: "Prompt", sans-serif !important;
+    width: 65%;
+    margin: auto;
+    text-align: left !important;
+}
+
+.recommended {
+    font-family: "Prompt", sans-serif !important;
+    width: 85%;
+    margin: auto;
+    text-align: left !important;
+}
+
+.parent {
+    position: absolute !important;
+    width: 40%;
+    z-index: 10;
+    margin: auto;
+    background-color: #ffffff00 !important;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fab {
+    float: left;
+}
+
+.carousel-item {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Add a gray background color and some padding to the footer */
+.footer {
+    position: fixed;
+    right: 15px;
+    bottom: 5%;
+    width: 11%;
+    color: white;
+    text-align: center;
+}
+
+.recommended-topic {
+    font-family: "Prompt", sans-serif !important;
+    padding-bottom: 30px;
+}
+
+.branding {
+    margin: auto;
+    width: 90%;
+    padding: 1px;
+    padding-bottom: 0px;
+}
+
+.branding img {
+    width: 100%;
+    height: auto;
+}
+
+.item {
+    padding-bottom: 20px;
+}
+
+.logo-info {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 15%;
+    position: absolute;
+}
+
+.blackbox {
+    margin-top: 30%;
+    background-color: #000;
+    padding: 10px;
+    color: #d6a445;
+    font-family: "Prompt", sans-serif !important;
+}
+
+.showlogo {
+    width: 100px !important;
+    height: auto !important;
+}
+
+.caption-box {
+    margin-top: 30%;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Prompt", sans-serif !important;
+}
+
+.sub-caption-box {
+    margin-top: 2%;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    font-family: "Prompt", sans-serif !important;
+}
+
+.property {
+    margin: auto;
+    width: 95%;
+    padding: 1px;
+    padding-bottom: 50px;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 1px;
+    padding-bottom: 10px;
+}
+
+/* SearchBar */
+.custom_input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.input {
+    font-size: 18px;
+    padding: 17px 16px;
+    width: 100%;
+    padding-right: 18px;
+    outline: none;
+    background: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 80px;
+    box-shadow: 3px 3px 2px 0px #E2E2E2;
+    transition: .3s ease;
+    font-family: "Prompt", sans-serif !important;
+}
+
+.input:focus {
+    background: #F2F2F2;
+    border: 2px solid #d6a445;
+    border-radius: 80px;
+}
+
+.input::placeholder {
+    color: #DDDDDD;
+    font-family: "Prompt", sans-serif !important;
+}
+
+.svg_icon {
+    position: absolute;
+    right: 35px;
+    fill: #d6a445;
+    width: 48px;
+    height: 28px
+}
+
+/* SearchBar */
+
+@media (min-width: 576px) {
+
+    .filter-box {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .jumbotron {
+        padding: 0rem 0rem !important;
+    }
+
+    .jumbotron {
+        padding: 0rem 0rem !important;
+        margin-bottom: 1rem !important;
+        background-color: #e9ecef;
+        border-radius: 0.3rem;
+    }
+
+    .navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+}
