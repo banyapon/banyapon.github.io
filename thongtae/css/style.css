@@ -287,6 +287,10 @@ footer {
     padding-bottom: 30px;
 }
 
+.recommended-topic h1 {
+    font-weight: 300 !important;
+}
+
 .branding {
     margin: auto;
     width: 90%;
@@ -303,20 +307,134 @@ footer {
     padding-bottom: 20px;
 }
 
+/*#box{
+    transition: margin-top 2s;
+    -moz-transition: margin-top 2s;
+    -webkit-transition: margin-top 2s;
+    -o-transition: margin-top 2s;
+}
+
+#box:hover {
+    margin-top:50px;
+    outline:0;
+}*/
+
 .logo-info {
-    padding-top: 5%;
-    padding-left: 5%;
-    width: 15%;
+    padding-top: 4%;
+    padding-left: 4%;
+    width: 17%;
     position: absolute;
 }
 
-.blackbox {
+/*Inverse*/
+#box {
+    animation: fadeIn 2s;
+    display: block;
+}
+
+#boxHover {
+    animation: fadeIn 2s;
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    display: inline-block;
+}
+
+.wrapper:hover #box {
+
+    display: none;
+}
+
+.wrapper:hover #boxHover {
+
+    display: block;
+}
+
+.wrapper:hover .blackbox_inv {
+    transform: translateY(0%);
+}
+
+.blackbox {  
     margin-top: 30%;
     background-color: #000;
     padding: 10px;
     color: #d6a445;
     font-family: "Prompt", sans-serif !important;
+    transition: margin-top 2s;
+    -moz-transition: margin-top 2s;
+    -webkit-transition: margin-top 2s;
+    -o-transition: margin-top 2s;
 }
+
+.blackbox_inv {
+    position:relative;
+    top:0;
+    -webkit-transition:all 1s ease;
+       -moz-transition:all 1s ease;
+        -ms-transition:all 1s ease;
+         -o-transition:all 1s ease;
+            transition:all 1s ease;
+    transform: translateY(70%);
+    transition: all 3s ease;
+    margin-top: 30%;
+    background-color: #d6a445;
+    padding: 10px;
+    color: #000;
+    font-family: "Prompt", sans-serif !important;
+}
+
 
 .showlogo {
     width: 100px !important;
@@ -324,7 +442,7 @@ footer {
 }
 
 .caption-box {
-    margin-top: 30%;
+    margin-top: 20%;
     font-size: 20px;
     color: #000000;
     font-weight: bold;
@@ -333,18 +451,25 @@ footer {
 }
 
 .sub-caption-box {
-    margin-top: 2%;
-    font-size: 18px;
+    margin-top: 1%;
+    font-size: 15px;
     color: #000000;
     text-align: left;
     font-family: "Prompt", sans-serif !important;
 }
 
 .property {
+
     margin: auto;
     width: 95%;
     padding: 1px;
     padding-bottom: 50px;
+    font-family: "Prompt", sans-serif !important;
+}
+
+.property h1 {
+    font-weight: 300 !important;
+    padding-bottom: 20px;
 }
 
 .property img {
@@ -394,11 +519,14 @@ footer {
 }
 
 .svg_icon {
+    background: #d1a343;
+    padding: 15px;
+    border-radius: 80%;
     position: absolute;
-    right: 35px;
-    fill: #d6a445;
-    width: 48px;
-    height: 28px
+    right: 5px;
+    fill: #000;
+    width: 7%;
+    height: auto;
 }
 
 /* SearchBar */
@@ -432,6 +560,12 @@ footer {
 
     .showPC {
         display: block !important;
+        width: 100%;
+        padding: 40px;
+    }
+
+    .showBrandingPC {
+        width: 70% !important;
     }
 
     .showMobile {
@@ -566,6 +700,15 @@ footer {
         background-color: #000;
         padding: 2px;
         color: #d6a445;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .blackbox_inv {
+        margin-top: 1%;
+        font-size: 12px;
+        background-color: #d6a445;
+        padding: 2px;
+        color: #000;
         font-family: "Prompt", sans-serif !important;
     }
 
