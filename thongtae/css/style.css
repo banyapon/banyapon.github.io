@@ -88,7 +88,7 @@ a:hover {
 }
 
 .about-content {
-    width: 95%;
+    width: 85% !important;
     margin: auto;
     padding: 70px;
 }
@@ -287,6 +287,11 @@ footer {
     padding-bottom: 50px;
 }
 
+.promotion-item .img-responsive{
+    width: 100% !important;
+    height: auto !important;
+}
+
 .branding-logo {
     width: 200px;
     height: 90px;
@@ -306,7 +311,14 @@ footer {
 
 .recommended-townhome {
     font-family: "Prompt", sans-serif !important;
-    width: 65%;
+    width: 55%;
+    margin: auto;
+    text-align: left !important;
+}
+
+.recommended-condo {
+    font-family: "Prompt", sans-serif !important;
+    width: 75%;
     margin: auto;
     text-align: left !important;
 }
@@ -324,7 +336,7 @@ footer {
     z-index: 10;
     margin: auto;
     background-color: #ffffff00 !important;
-    top: 17%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -653,6 +665,46 @@ footer {
     display: none;
 }
 
+.ShowTL{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.ShowTL .imgInner{
+    animation: fadeIn 2s;
+    display: none;
+}
+
+.ShowTL:hover .imgCover {
+    animation: fadeIn 2s;
+    display: none;
+}
+
+.ShowTL:hover .imgInner {
+    animation: fadeIn 2s;
+    display: block;
+}
+
+.Intro{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.Intro .imgInner{
+    display: none;
+}
+
+.Intro:hover .imgCover {
+    animation: fadeIn 1s;
+    display: none;
+}
+
+.Intro:hover .imgInner {
+    animation: fadeIn 1s;
+    display: block;
+}
+
 
 .itemProp {
     width: 100%;
@@ -782,6 +834,13 @@ footer {
 .center {
     margin: auto;
     width: 50%;
+    padding: 1px;
+    padding-bottom: 10px;
+}
+
+.center-news{
+    margin: auto;
+    width: 30%;
     padding: 1px;
     padding-bottom: 10px;
 }

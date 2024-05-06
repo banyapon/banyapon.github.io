@@ -22,8 +22,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-sm branding-logo showPC">
+    <header id="myHeader">
+        <nav class="navbar navbar-expand-sm branding-logo showPC_logo">
             <a href="index.html"><img src="images/logo.png" /></a>
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light showMobile">
@@ -55,22 +55,74 @@
         <div class="parent">
             <nav class="navbar navbar-expand-sm">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">PROJECT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="single.html">บ้านเดี่ยว</a></li>
+                                <li><a href="twin.html">บ้านแฝด</a></li>
+                                <li><a href="townhome.html">ทาวน์โฮม</a></li>
+                                <li><a href="condominium.html">คอนโด</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="news-promotion.html">NEWS / PROMOTION</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="news.html">ข่าวสาร และกิจกรรม</a></li>
+                                <li><a href="news-promotion.html">โปรโมชันของเรา</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">ABOUT</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">CONTACT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li>ร่วมงานกับเรา</li>
+                                <li>เสนอขายที่ดิน</li>
+                                <li>เสนอผู้รับเหมา</li>
+                                <li>สมัครเอเจนท์</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </nav>
         </div>
-        <img src="images/condo-head.png" class="about-us" />
+
+        <div id="demo1" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo1" data-slide-to="0" class="active"></li>
+                <li data-target="#demo1" data-slide-to="1"></li>
+                <li data-target="#demo1" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/condo1.png" alt="Thongtae Asset" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/condo2.png" alt="Thongtae Asset" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/condo3.png" alt="Thongtae Asset" />
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo1" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
 
     </div>
 
@@ -85,40 +137,53 @@
             </div>
         </div>
 
-        <div class="recommended">
+        <div class="recommended-condo">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/condoA.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#">
+                        <div class="itemProp">
+                            <img src="images/condoA.png" class="imgCover img-responsive" alt="Image">
+                            <img src="images/condoAHover.png" class="imgInner img-responsive-hover" alt="Image">
+                        </div>
+                    </a>
+
                     <a href="#">
                         <h4 class="project-name">KEEN CENTRE</h4>
                     </a>
                     <p><img src="images/location.png" /> <strong>ศรีราชา</strong></p>
                     <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 2.XX ล้านบาท</strong></p>
-                    <p>คอนโดระดับพรีเมี่ยม ทันสมัย ใจกลางศรีราชา
-                        สะดวกสะบาย ครบทุกไลฟ์สไตล์คนเมือง</p>
+                    <p><strong>เริ่มต้น 2.8 ล้านบาท</strong></p>
+                    <p>สัมผัสชีวิตที่เหนือระดับ ใจกลางศรีราชา คอนโดระดับพรีเมี่ยมหรูหราสไตล์ญี่ปุ่นทันสมัยใจกลางเมืองศรีราชาติดถนนสุขุมวิท
+                        ทำเลที่ดีที่สุดในศรีราชา ครบทุกไลฟ์สไตล์คนเมือง</p>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/condoB.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#">
+                        <div class="itemProp">
+                            <img src="images/condoB.png" class="imgCover img-responsive" alt="Image">
+                            <img src="images/condoBHover.png" class="imgInner img-responsive-hover" alt="Image">
+                        </div>
+                       
                     <a href="#">
                         <h4 class="project-name">G CONDO 2</h4>
                     </a>
                     <p><img src="images/location.png" /> <strong>ศรีราชา</strong></p>
                     <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 1.XX ล้านบาท</strong></p>
-                    <p>คอนโดเพื่อคนรุ่นใหม่ ใจกลางเมืองศรีราชา
-                        ตอบโจทย์ทุกไลฟ์สไตล์เมืองในแบบคุณ</p>
+                    <p><strong>เริ่มต้น 2 ล้านบาท</strong></p>
+                    <p>คอนโดเพื่อคนรุ่นใหม่ใจกลางเมืองศรีราชา มอบประสบการณ์ของการอยู่อาศัยในแบบของคนเมืองที่รักอิสระ บนพื้นที่ที่ออกแบบมาเพื่อความเป็นส่วนตัวตอบโจทย์ทุกไลฟ์สไตล์เมืองในแบบคุณ</p>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/condoC.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#">
+                        <div class="itemProp">
+                            <img src="images/condoC.png" class="imgCover img-responsive" alt="Image">
+                            <img src="images/condoCHover.png" class="imgInner img-responsive-hover" alt="Image">
+                        </div></a>
                     <a href="#">
                         <h4 class="project-name">GOLDEN CONDO</h4>
                     </a>
                     <p><img src="images/location.png" /> <strong>แหลมฉบัง</strong></p>
                     <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 1.XX ล้านบาท</strong></p>
-                    <p>คอนโดทำเลดี ใจกลางแหลมฉบัง
-                        คุ้มค่าทุกฟังก์ชันตอบโจทย์ทุกการใช้ชีวิต</p>
+                    <p><strong>เริ่มต้น 1.59 ล้านบาท</strong></p>
+                    <p>เชื่อมทุกความต้องการให้ลงตัว คอนโดทำเลดีใจกลางแหลมฉบังคุ้มค่าทุกฟังก์ชัน ตอบโจทย์การใช้ชีวิตที่ให้มากกว่าพื้นที่ส่วนตัว เป็นพื้นที่ที่รองรับทุกรูปแบบของการใช้ชีวิตในทุกวันให้คุ้มค่าที่สุด</p>
                 </div>
             </div>
 
@@ -127,15 +192,17 @@
 
                 </div>
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/condoD.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#"><div class="itemProp">
+                        <img src="images/condoD.png" class="imgCover img-responsive" alt="Image">
+                        <img src="images/condoDHover.png" class="imgInner img-responsive-hover" alt="Image">
+                    </div></a>
                     <a href="#">
                         <h4 class="project-name">GOLDEN CONDO</h4>
                     </a>
                     <p><img src="images/location.png" /> <strong>เครือสหพัฒน์</strong></p>
                     <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 1.XX ล้านบาท</strong></p>
-                    <p>เต็มที่กับพื้นที่ส่วนตัวอย่างอิสระ
-                        คอนโดแต่งครบพร้อมอยู่</p>
+                    <p><strong>เริ่มต้น 1.58 ล้านบาท</strong></p>
+                    <p>ชีวิตดีๆบนพื้นที่ที่ลงตัว พื้นที่กว้างเหมาะสำหรับอยู่อาศัยแบบไม่อึดอัด ใจกลางเครือสหพัฒน์ เดินทางไปทำงานสะดวก ใช้ชีวิตสบายเต็มที่กับพื้นที่ส่วนตัวอย่างอิสระ ตอบโจทย์ชีวิตที่ลงตัว</p>
                 </div>
                 <div class="col-sm-4">
 
@@ -148,12 +215,12 @@
     </div>
 
     <footer class="container-fluid text-center showPC">
-        <div class="row">
-            <div class="col normal">
+        <div class="row checkPointFooter">
+            <div class="col normal labelLeft">
                 <h1>7,000<sup>+</sub></h1>
                 <p>ที่อยู่อาศัย<strong>ที่ส่งมอบให้ลูกค้า</strong></p>
             </div>
-            <div class="col blacked">
+            <div class="col blacked labelRight">
                 <h1>5<sup>+</sub></h1>
                 <div class="five-span">
                     <p>โครงการ<br /><strong>ที่กำลังจะเกิดขึ้น</strong></p>

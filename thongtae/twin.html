@@ -22,8 +22,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-sm branding-logo showPC">
+    <header id="myHeader">
+        <nav class="navbar navbar-expand-sm branding-logo showPC_logo">
             <a href="index.html"><img src="images/logo.png" /></a>
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light showMobile">
@@ -55,22 +55,74 @@
         <div class="parent">
             <nav class="navbar navbar-expand-sm">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">PROJECT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="single.html">บ้านเดี่ยว</a></li>
+                                <li><a href="twin.html">บ้านแฝด</a></li>
+                                <li><a href="townhome.html">ทาวน์โฮม</a></li>
+                                <li><a href="condominium.html">คอนโด</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="news-promotion.html">NEWS / PROMOTION</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="news.html">ข่าวสาร และกิจกรรม</a></li>
+                                <li><a href="news-promotion.html">โปรโมชันของเรา</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">ABOUT</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">CONTACT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li>ร่วมงานกับเรา</li>
+                                <li>เสนอขายที่ดิน</li>
+                                <li>เสนอผู้รับเหมา</li>
+                                <li>สมัครเอเจนท์</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </nav>
         </div>
-        <img src="images/HouseType Banner.png" class="about-us" />
+
+        <div id="demo1" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo1" data-slide-to="0" class="active"></li>
+                <li data-target="#demo1" data-slide-to="1"></li>
+                <li data-target="#demo1" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/singleHouse3.png" alt="Thongtae Asset" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/singleHouse2.png" alt="Thongtae Asset" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/singleHouse1.png" alt="Thongtae Asset" />
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo1" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
 
     </div>
 
@@ -87,40 +139,48 @@
 
         <div class="recommended">
             <div class="row">
+                
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/twinc.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#"><div class="itemProp">
+                        <img src="images/twina.png" class="imgCover img-responsive" alt="Image">
+                        <img src="images/twinaHover.png" class="imgInner img-responsive-hover" alt="Image">
+                    </div></a>
                     <a href="#">
                         <h4 class="project-name">GOLDEN PRIVE</h4>
                     </a>
-                    <p><img src="images/location.png" /> <strong>บางแสน-หนองมน</strong></p>
+                    <p><img src="images/location.png" /> <strong>พนัสนิคม อมตะ</strong></p>
                     <hr class="black-solid" />
                     <p><strong>เริ่มต้น 3 ล้านบาท</strong></p>
-                    <p>"เพราะความสุขมีได้ทุกวัน"
+                    <p>บ้านสบายโอบล้อมทุกความสะดวก
+                        บ้านดีไซน์สวยโดดเด่นด้วยสไตล์โมเดิร์น เรียบง่าย
+                        มีจุดเด่นอย่างเป็นเอกลักษณ์</p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#"><div class="itemProp">
+                        <img src="images/twinb.png" class="imgCover img-responsive" alt="Image">
+                        <img src="images/twinbHover.png" class="imgInner img-responsive-hover" alt="Image">
+                    </div></a>
+                    <a href="#">
+                        <h4 class="project-name">GOLDEN PRIVE</h4>
+                    </a>
+                    <p><img src="images/location.png" /> <strong>บางแสน - หนองมน</strong></p>
+                    <hr class="black-solid" />
+                    <p><strong>เริ่มต้น 3 ล้านบาท</strong></p>
+                    <p>เพราะความสุขมีได้ทุกวัน
                         บ้านสไตล์วิวเขา บรรยากาศรีสอร์ตโอบล้อมไปด้วยธรรมชาติ</p>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/twina.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#"><div class="itemProp">
+                        <img src="images/twinc.png" class="imgCover img-responsive" alt="Image">
+                        <img src="images/twincHover.png" class="imgInner img-responsive-hover" alt="Image">
+                    </div></a>
                     <a href="#">
                         <h4 class="project-name">GOLDEN VALLEY</h4>
                     </a>
-                    <p><img src="images/location.png" /> <strong>ศรีราชา</strong></p>
+                    <p><img src="images/location.png" /> <strong>อัสสัมชัญ - ศรีราชา</strong></p>
                     <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 2 ล้านบาท</strong></p>
-                    <p>"ฟังก์ชั่นชีวิตที่ลงตัว"
-                        บ้านคุณภาพดีไซน์สวย ตอบโจทย์ไลฟ์สไตล์ผู้อยู่อาศัยในทุกระดับ
-                        กับฟังก์ชันสุดล้ำ ที่เข้าถึงทุกความต้องการของทุกคน</p>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#"><img src="images/twinb.png" class="img-responsive" style="width:100%" alt="Image"></a>
-                    <a href="#">
-                        <h4 class="project-name">GOLDEN HOME</h4>
-                    </a>
-                    <p><img src="images/location.png" /> <strong>หนองยายบู่</strong></p>
-                    <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 1.5 ล้านบาท</strong></p>
-                    <p>"ฟังก์ชั่นชีวิตที่ลงตัว"
-                        บ้านคุณภาพดีไซน์สวย ตอบโจทย์ไลฟ์สไตล์ผู้อยู่อาศัยในทุกระดับ
-                        กับฟังก์ชันสุดล้ำ ที่เข้าถึงทุกความต้องการของทุกคน</p>
+                    <p><strong>เริ่มต้น 2.5 ล้านบาท</strong></p>
+                    <p>บ้านที่คุ้มค่าสำหรับคุณ ทาวน์โฮมสไตล์โมเดิร์น ดีไซน์คอนเซ็ปที่ให้คุณได้มากกว่าที่อยู่อาศัยเพราะเราคือบ้านที่อยู่ได้อย่างอิสระ ตอบโจทย์คนรุ่นใหม่เป็นบ้านคุ้มค่า + ได้ชีวิตการเป็นอยู่ที่ดีขึ้น</p>
                 </div>
             </div>
 
@@ -130,12 +190,12 @@
     </div>
 
     <footer class="container-fluid text-center showPC">
-        <div class="row">
-            <div class="col normal">
+        <div class="row checkPointFooter">
+            <div class="col normal labelLeft">
                 <h1>7,000<sup>+</sub></h1>
                 <p>ที่อยู่อาศัย<strong>ที่ส่งมอบให้ลูกค้า</strong></p>
             </div>
-            <div class="col blacked">
+            <div class="col blacked labelRight">
                 <h1>5<sup>+</sub></h1>
                 <div class="five-span">
                     <p>โครงการ<br /><strong>ที่กำลังจะเกิดขึ้น</strong></p>

@@ -22,8 +22,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-sm branding-logo showPC">
+    <header id="myHeader">
+        <nav class="navbar navbar-expand-sm branding-logo showPC_logo">
             <a href="index.html"><img src="images/logo.png" /></a>
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light showMobile">
@@ -55,27 +55,79 @@
         <div class="parent">
             <nav class="navbar navbar-expand-sm">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">PROJECT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="single.html">บ้านเดี่ยว</a></li>
+                                <li><a href="twin.html">บ้านแฝด</a></li>
+                                <li><a href="townhome.html">ทาวน์โฮม</a></li>
+                                <li><a href="condominium.html">คอนโด</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="news-promotion.html">NEWS / PROMOTION</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="news.html">ข่าวสาร และกิจกรรม</a></li>
+                                <li><a href="news-promotion.html">โปรโมชันของเรา</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">ABOUT</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">CONTACT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li>ร่วมงานกับเรา</li>
+                                <li>เสนอขายที่ดิน</li>
+                                <li>เสนอผู้รับเหมา</li>
+                                <li>สมัครเอเจนท์</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </nav>
         </div>
-        <img src="images/news.png" class="about-us" />
+
+        <div id="demo1" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo1" data-slide-to="0" class="active"></li>
+                <li data-target="#demo1" data-slide-to="1"></li>
+                <li data-target="#demo1" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/news.png" alt="Thongtae Asset" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/news2b.png" alt="Thongtae Asset" />
+                </div>
+                <div class="carousel-item">
+                    <img src="images/news3b.png" alt="Thongtae Asset" />
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo1" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
 
     </div>
 
     <div class="header-pods showPC">
-        <div class="center">
+        <div class="center-news">
             <div class="row filter-box">
                 <div class="col-6">
                     <div class="y-active">PROMOTION</div>
@@ -134,12 +186,12 @@
     </div>
 
     <footer class="container-fluid text-center showPC">
-        <div class="row">
-            <div class="col normal">
+        <div class="row checkPointFooter">
+            <div class="col normal labelLeft">
                 <h1>7,000<sup>+</sub></h1>
                 <p>ที่อยู่อาศัย<strong>ที่ส่งมอบให้ลูกค้า</strong></p>
             </div>
-            <div class="col blacked">
+            <div class="col blacked labelRight">
                 <h1>5<sup>+</sub></h1>
                 <div class="five-span">
                     <p>โครงการ<br /><strong>ที่กำลังจะเกิดขึ้น</strong></p>
