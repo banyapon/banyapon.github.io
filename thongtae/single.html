@@ -22,8 +22,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-sm branding-logo showPC">
+    <header id="myHeader">
+        <nav class="navbar navbar-expand-sm branding-logo showPC_logo">
             <a href="index.html"><img src="images/logo.png" /></a>
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light showMobile">
@@ -55,17 +55,39 @@
         <div class="parent">
             <nav class="navbar navbar-expand-sm">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">PROJECT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="single.html">บ้านเดี่ยว</a></li>
+                                <li><a href="twin.html">บ้านแฝด</a></li>
+                                <li><a href="townhome.html">ทาวน์โฮม</a></li>
+                                <li><a href="condominium.html">คอนโด</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="news-promotion.html">NEWS / PROMOTION</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="newsd.html">ข่าวสาร และกิจกรรม</a></li>
+                                <li><a href="news-promotion.html">โปรโมชันของเรา</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">ABOUT</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
                         <a class="nav-link" href="#">CONTACT</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li>ร่วมงานกับเรา</li>
+                                <li>เสนอขายที่ดิน</li>
+                                <li>เสนอผู้รับเหมา</li>
+                                <li>สมัครเอเจนท์</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -79,7 +101,7 @@
             <div class="row filter-box">
                 <div class="col-3"></div>
                 <div class="col-2"><img src="images/single.png" /></div>
-                <div class="col-4">
+                <div class="col-5">
                     <p class="header-prompt">โครงการบ้านเดี่ยว</p>
                 </div>
             </div>
@@ -88,37 +110,52 @@
         <div class="recommended">
             <div class="row">
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/PhotoA.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#">
+                        <div class="itemProp">
+                            <img src="images/GoldenPrimeA.png" class="imgCover img-responsive" alt="Image">
+                            <img src="images/GoldenPrimeAHover.png" class="imgInner img-responsive-hover" alt="Image">
+                        </div>
+                    </a>
                     <a href="#">
                         <h4 class="project-name">GOLDEN PRIVE</h4>
                     </a>
-                    <p><img src="images/location.png" /> <strong>บางแสน-หนองมน</strong></p>
+                    <p><img src="images/location.png" /> <strong>พนัสนิคม อมตะ</strong></p>
                     <hr class="black-solid" />
                     <p><strong>เริ่มต้น 3 ล้านบาท</strong></p>
-                    <p>"เพราะความสุขมีได้ทุกวัน"
-                        บ้านสไตล์วิวเขา บรรยากาศรีสอร์ตโอบล้อมไปด้วยธรรมชาติ</p>
+                    <p>บ้านสบายโอบล้อมทุกความสะดวก
+                        บ้านดีไซน์สวยโดดเด่นด้วยสไตล์โมเดิร์น เรียบง่าย
+                        มีจุดเด่นอย่างเป็นเอกลักษณ์</p>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/singleB.png" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <a href="#">
+                        <div class="itemProp">
+                            <img src="images/PhotoA.png" class="imgCover img-responsive" alt="Image">
+                            <img src="images/PriveHover.png" class="imgInner img-responsive-hover" alt="Image">
+                        </div>
+                    </a>
                     <a href="#">
                         <h4 class="project-name">GOLDEN VALLEY</h4>
                     </a>
-                    <p><img src="images/location.png" /> <strong>ศรีราชา</strong></p>
+                    <p><img src="images/location.png" /> <strong>บางแสน - หนองมน</strong></p>
                     <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 2 ล้านบาท</strong></p>
-                    <p>"ฟังก์ชั่นชีวิตที่ลงตัว"
-                        บ้านคุณภาพดีไซน์สวย ตอบโจทย์ไลฟ์สไตล์ผู้อยู่อาศัยในทุกระดับ
-                        กับฟังก์ชันสุดล้ำ ที่เข้าถึงทุกความต้องการของทุกคน</p>
+                    <p><strong>เริ่มต้น 3 ล้านบาท</strong></p>
+                    <p>เพราะความสุขมีได้ทุกวัน
+                        บ้านสไตล์วิวเขา บรรยากาศรีสอร์ตโอบล้อมไปด้วยธรรมชาติ</p>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#"><img src="images/PhotoB.png" class="img-responsive" style="width:100%" alt="Image"></a>
                     <a href="#">
-                        <h4 class="project-name">GOLDEN HOME</h4>
+                        <div class="itemProp">
+                            <img src="images/GoldenValley.png" class="imgCover img-responsive" alt="Image">
+                            <img src="images/GoldenValleyHover.png" class="imgInner img-responsive-hover" alt="Image">
+                        </div>
                     </a>
-                    <p><img src="images/location.png" /> <strong>หนองยายบู่</strong></p>
+                    <a href="#">
+                        <h4 class="project-name">GOLDEN VALLEY</h4>
+                    </a>
+                    <p><img src="images/location.png" /> <strong>อัสสัมชัญ - ศรีราชา</strong></p>
                     <hr class="black-solid" />
-                    <p><strong>เริ่มต้น 1.5 ล้านบาท</strong></p>
-                    <p>"ฟังก์ชั่นชีวิตที่ลงตัว"
+                    <p><strong>เริ่มต้น 2.5 ล้านบาท</strong></p>
+                    <p>ฟังก์ชั่นชีวิตที่ลงตัว
                         บ้านคุณภาพดีไซน์สวย ตอบโจทย์ไลฟ์สไตล์ผู้อยู่อาศัยในทุกระดับ
                         กับฟังก์ชันสุดล้ำ ที่เข้าถึงทุกความต้องการของทุกคน</p>
                 </div>
@@ -132,12 +169,12 @@
 
 
     <footer class="container-fluid text-center showPC">
-        <div class="row">
-            <div class="col normal">
+        <div class="row checkPointFooter">
+            <div class="col normal labelLeft">
                 <h1>7,000<sup>+</sub></h1>
                 <p>ที่อยู่อาศัย<strong>ที่ส่งมอบให้ลูกค้า</strong></p>
             </div>
-            <div class="col blacked">
+            <div class="col blacked labelRight">
                 <h1>5<sup>+</sub></h1>
                 <div class="five-span">
                     <p>โครงการ<br /><strong>ที่กำลังจะเกิดขึ้น</strong></p>

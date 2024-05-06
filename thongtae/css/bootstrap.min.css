@@ -770,13 +770,13 @@ pre code {
 .col-1 {
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
-    max-width: 8.333333%
+    max-width: 12%
 }
 
 .col-2 {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
-    max-width: 16.666667%
+    max-width:22%
 }
 
 .col-3 {
@@ -806,7 +806,7 @@ pre code {
 .col-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
-    max-width: 58.333333%
+    max-width: 50%
 }
 
 .col-8 {
@@ -7239,7 +7239,8 @@ a.close.disabled {
     left: 0;
     z-index: 15;
     display: -ms-flexbox;
-    display: flex;
+    /*display: flex;*/
+    display: none;
     -ms-flex-pack: center;
     justify-content: center;
     padding-left: 0;
