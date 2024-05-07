@@ -944,6 +944,46 @@ footer {
 /*Mobile*/
 @media only screen and (max-width: 768px) {
 
+    .anim_to_top {
+        height: 20%;
+        z-index: 10;
+        position: absolute;
+        top: -60%;
+        font-family: "Prompt", sans-serif !important;
+    }
+
+    .caption-title-project-sub{
+        display: none;
+    }
+
+    .caption-title-project{
+        display: none;
+    }
+    .small-sub-caption-box{
+        display: none;
+    }
+
+    .imgCover{
+        width: 95%;
+    }
+
+    .imgInner{
+        width: 95%;
+    }
+
+    .quotes-topic:hover {
+        transform: translateY(0%);
+    }
+    
+    .quotes-topic:hover .ThongtaeText {
+        transform: translateY(0%);
+        color: #D6A446 !important;
+        font-size: 15px;
+    }
+
+    .ThongtaeText{
+        font-size: 15px;
+    }
     #renderBox {
         height: 100%;
         overflow: hidden !important;
@@ -1142,7 +1182,7 @@ footer {
         font-family: "Prompt", sans-serif;
         font-size: 24px;
         color: #000;
-        padding-top: 40px;
+        padding-top: 1px;
         padding-bottom: 30px;
         width: 95%;
         margin: auto;
