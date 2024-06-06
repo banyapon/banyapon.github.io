@@ -26,6 +26,129 @@ a:hover {
     height: auto;
 }
 
+.singleBrand {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.insideLogo {
+    width: 30%;
+    padding: 2% 30% 0% 35%;
+}
+
+.insideMenu {
+    padding-top: 5% !important;
+}
+
+.col {
+    font-family: "Prompt", sans-serif;
+    font-size: 16px !important;
+    color: #000;
+    padding: 25px;
+    text-align: left !important;
+}
+
+.lockBox {
+    width: 70%;
+}
+
+.singleText {
+    font-family: "Prompt", sans-serif;
+}
+
+.singleTextBig {
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    font-size: 25px !important;
+    margin-bottom: 0px !important;
+}
+
+.singleTextMinor {
+    font-family: "Prompt", sans-serif;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.infomationSingle .col{
+    font-family: "Prompt", sans-serif;
+    font-size: 16px !important;
+    color: #000;
+    padding: 15px;
+    text-align: left !important;
+}
+
+.thongtae {
+    color: #D6A445 !important;
+}
+
+.plusSize {
+    font-size: 18px !important;
+}
+
+.boxHouse {
+    position: relative;
+}
+
+.boxHouse img {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+
+.bannerSection {
+    width: 100% !important;
+}
+
+.bannerSection img {
+    width: 100% !important;
+    height: auto;
+}
+
+.infomationSingle {
+    width: 100%;
+    background-color: #FBF7F3;
+    padding-top: 5px;
+}
+
+.itemSlide {
+    padding-left: 5% !important;
+}
+
+.detailSingle {
+    width: 70%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.imgBoxSection {
+    width: 30%;
+    height: 40px;
+    padding-bottom: 15px;
+}
+
+.imgBoxSection img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto !important;
+}
+
+.detailSection {
+    width: 99% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.bannerSingle {
+    width: 100% !important;
+}
+
+.col-8 img {
+    padding: 15px !important;
+    width: 100%;
+}
+
 /*DropDown */
 .dropdown {
     position: relative;
@@ -48,10 +171,11 @@ a:hover {
     display: block;
 }
 
-.dropdown-content ul{
+.dropdown-content ul {
     list-style-type: none;
 }
-.dropdown-content li{
+
+.dropdown-content li {
     padding-bottom: 10px;
 }
 
@@ -73,6 +197,14 @@ a:hover {
 .mask-b {
     background-image: url("../images/maskb.png");
     padding: 2%;
+}
+
+.centerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-bottom: 25px;
 }
 
 .center-p {
@@ -287,7 +419,7 @@ footer {
     padding-bottom: 50px;
 }
 
-.promotion-item .img-responsive{
+.promotion-item .img-responsive {
     width: 100% !important;
     height: auto !important;
 }
@@ -665,12 +797,12 @@ footer {
     display: none;
 }
 
-.ShowTL{
+.ShowTL {
     width: 65%;
     margin: 0 auto;
 }
 
-.ShowTL .imgInner{
+.ShowTL .imgInner {
     animation: fadeIn 2s;
     display: none;
 }
@@ -685,13 +817,13 @@ footer {
     display: block;
 }
 
-.Intro{
+.Intro {
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 
-.Intro .imgInner{
+.Intro .imgInner {
     display: none;
 }
 
@@ -838,7 +970,7 @@ footer {
     padding-bottom: 10px;
 }
 
-.center-news{
+.center-news {
     margin: auto;
     width: 30%;
     padding: 1px;
@@ -952,38 +1084,40 @@ footer {
         font-family: "Prompt", sans-serif !important;
     }
 
-    .caption-title-project-sub{
+    .caption-title-project-sub {
         display: none;
     }
 
-    .caption-title-project{
-        display: none;
-    }
-    .small-sub-caption-box{
+    .caption-title-project {
         display: none;
     }
 
-    .imgCover{
+    .small-sub-caption-box {
+        display: none;
+    }
+
+    .imgCover {
         width: 95%;
     }
 
-    .imgInner{
+    .imgInner {
         width: 95%;
     }
 
     .quotes-topic:hover {
         transform: translateY(0%);
     }
-    
+
     .quotes-topic:hover .ThongtaeText {
         transform: translateY(0%);
         color: #D6A446 !important;
         font-size: 15px;
     }
 
-    .ThongtaeText{
+    .ThongtaeText {
         font-size: 15px;
     }
+
     #renderBox {
         height: 100%;
         overflow: hidden !important;
