@@ -56,12 +56,23 @@ a:hover {
     font-family: "Prompt", sans-serif;
 }
 
+.singleTextCentrer {
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+}
+
+.spacingBottom{    padding-bottom: 30px;}
+
 .singleTextBig {
     font-family: "Prompt", sans-serif;
     font-weight: bold;
     font-size: 25px !important;
     margin-bottom: 0px !important;
 }
+
+.boxCat{width: 90%; margin-left: auto; margin-right: auto;}
+.boxMap{width: 35%; margin-left: auto; margin-right: auto;}
+.arrowBox{    margin-top: 7%;}
 
 .singleTextMinor {
     font-family: "Prompt", sans-serif;
@@ -204,6 +215,22 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+    padding-bottom: 25px;
+}
+
+.centerDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-bottom: 25px;
+}
+
+.centerDivMap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     padding-bottom: 25px;
 }
 
