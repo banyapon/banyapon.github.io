@@ -173,6 +173,11 @@ Main Components
     font-size: 12px !important;
   }
 
+  .events-content ol{
+    width: 60%;
+    margin-left: 25%;
+  }
+
   .events-content h2{
     font-family: "Prompt", sans-serif !important;
     font-size: 35px !important;
