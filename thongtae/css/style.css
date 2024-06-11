@@ -16,10 +16,18 @@ a:hover {
     z-index: 25;
     position: sticky;
     top: 0;
-    box-shadow: 2px 1px #cacaca99;
+    box-shadow: 2px 1px #fff;
     height: 70px;
 }
 
+#myHeaderInside {
+    background-color: #fff;
+    z-index: 25;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 1px #fff;
+    height: 125px;
+}
 .about-img {
     padding: 5px;
     width: 100%;
@@ -101,7 +109,7 @@ textarea {
     width: 100%;
 }
 
-.submitBtnContact{ padding: 30px;}
+.submitBtnContact{ padding: 30px;     border: 0px;}
 
 .condoClass{
     padding-left: 40px !important;
@@ -480,6 +488,20 @@ footer {
     padding-top: 5px;
 }
 
+.formSelect{
+    width: 100%;
+    border: 0px;
+    color: #7f7f7f;
+}
+
+.formText{
+    font-family: "Prompt", sans-serif;
+    color: #7f7f7f !important;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
 .header-prompt {
     font-family: "Prompt", sans-serif;
     font-weight: 400;
@@ -494,6 +516,21 @@ footer {
     border-radius: 0;
 }
 
+.navbar-inside {
+    margin-top: 150px;
+    border-radius: 0;
+}
+
+.mixed{
+    margin-top: 0px;
+}
+
+.nav-item-wt{
+    padding-top: 25px;
+    width:160px;
+}
+
+
 .nav-link {
     font-family: "Prompt", sans-serif !important;
     display: block;
@@ -502,6 +539,19 @@ footer {
     text-shadow: 1px 1px #717171 !important;
     font-weight: bold !important;
 }
+
+.navinside-link {
+    font-family: "Prompt", sans-serif !important;
+    display: block;
+    padding: 0.2rem;
+    color: #333 !important;
+    /* text-shadow: 1px 1px #717171 !important; */
+    font-weight: bold !important;
+    font-size: 14px;
+    text-align: center;
+}
+
+
 
 .header-pods {
     width: 50%;
