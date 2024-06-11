@@ -6,8 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="js/timeline.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -151,6 +153,124 @@
     <div class="ShowTL">
         <img class="about-us imgCover" src="images/timeline.png" />
         <img class="about-us imgInner" src="images/timelineHover.png" />
+    </div>
+
+    <div id="timeline">
+        <section class="cd-horizontal-timeline">
+            <div class="timeline">
+                <div class="events-wrapper">
+                    <div class="events">
+                        <ol>
+                            <li><a href="#0" data-date="01/02/2024" class="selected">2023</a></li>
+                            <li><a href="#0" data-date="01/03/2024">2022</a></li>
+                            <li><a href="#0" data-date="01/04/2024">2020</a></li>
+                            <li><a href="#0" data-date="01/05/2024">2019</a></li>
+                            <li><a href="#0" data-date="01/06/2024">2018</a></li>
+                            <li><a href="#0" data-date="01/07/2024">2015</a></li>
+                            <li><a href="#0" data-date="01/08/2024">2014</a></li>
+                            <li><a href="#0" data-date="01/09/2024">2013</a></li>
+                            <li><a href="#0" data-date="01/10/2024">2012</a></li>
+                            <li><a href="#0" data-date="01/11/2024">2010</a></li>
+                            <li><a href="#0" data-date="01/12/2024">2006</a></li>
+                            <li><a href="#0" data-date="01/01/2025">2003</a></li>
+                            <li><a href="#0" data-date="01/02/2025">1999</a></li>
+
+
+                        </ol>
+
+                        <span class="filling-line" aria-hidden="true"></span>
+                    </div> <!-- .events -->
+                </div> <!-- .events-wrapper -->
+
+                <ul class="cd-timeline-navigation">
+                    <li><a href="#0" class="prev inactive">Prev</a></li>
+                    <li><a href="#0" class="next">Next</a></li>
+                </ul> <!-- .cd-timeline-navigation -->
+            </div> <!-- .timeline -->
+
+            <div class="events-content">
+                <ol>
+                    <li class="selected" data-date="01/02/2024">
+                        <h2>โกลเด้นพรีเว่</h2>
+                        <em>พนัสนิคม-อมตะ</em>
+                    </li>
+
+                    <li data-date="01/03/2024">
+                        <h2>จี คอนโด 2 </h2>
+                        <em>ศรีราชา เฟส 2</em>
+                        <h2>โกลเด้นโฮม</h2>
+                        <em>หนองยายบู่</em>
+                    </li>
+
+                    <li data-date="01/04/2024">
+                        <h2>โกลเด้นคอนโด</h2>
+                        <em>แหลมฉบัง</em>
+                    </li>
+
+                    <li data-date="01/05/2024">
+                        <h2>ซัน คอนโด</h2>
+                        <em>วังหิน</em>
+                        <h2>โกลเด้น ทาวน์</h2>
+                        <em>ศรีสุวิช</em>
+                        <h2>โกลเด้นวัลเลย์</h2>
+                        <em>ศรีราชา</em>
+                        <h2>โกลเด้นพรีเว่</h2>
+                        <em>บางแสน-หนองมน</em>
+                    </li>
+
+                    <li data-date="01/06/2024">
+                        <h2>โกลเด้นคอนโด</h2> เครือสหพัฒน์ เฟส 1</em>
+                        <h2>เดอะ ซัน</h2> <em>อัสสัมชัญ</em>
+                        <h2>KEEN</h2> <em>Sriracha</em>
+                    </li>
+
+                    <li data-date="01/07/2024">
+                        <h2>โกลเด้นโฮม 4</h2>
+                        <h2>โกลเด้น เอเวนิว</h2>
+                        <em>ซันทารา</em>
+                    </li>
+
+                    <li data-date="01/08/2024">
+                        <h2>โกลเด้นโฮม 3</h2>
+                        <h2>จี คอนโด 2 </h2>
+                        <em>ศรีราชา เฟส 1</em>
+                    </li>
+
+                    <li data-date="01/09/2024">
+                        <h2>โกลเด้นโฮม 2</h2>
+                        <h2>โกลเด้น ทาวน์ 2</h2>
+                    </li>
+
+                    <li data-date="01/10/2024">
+                        <h2>โกลเด้นโฮม 1</h2>
+                        <h2>โกลเด้น ทาวน์ 1</h2>
+                        <h2>โกลเด้น ซิตี้</h2>
+                    </li>
+
+                    <li data-date="01/11/2024">
+                        <h2>โกลเด้นโฮม 1</h2>
+                        <h2>โกลเด้น ทาวน์ 1</h2>
+                        <h2>โกลเด้น ซิตี้</h2>
+                    </li>
+
+                    <li data-date="01/12/2024">
+                        <h2>ธารดารา</h2>
+                    </li>
+
+                    <li data-date="01/01/2025">
+                        <h2>ธารทิพย์ แลนด์</h2>
+                        <em>พระราม 2</em>
+                    </li>
+
+                    <li data-date="01/02/2025">
+                        <h2>บริษัทเริ่มลงทุน</h2>
+                        <em>ก่อตั้งธุรกิจอสังหาริมทรัพย์</em>
+                    </li>
+
+
+                </ol>
+            </div> <!-- .events-content -->
+        </section>
     </div>
     <footer class="container-fluid text-center showPC">
         <div class="row checkPointFooter">
