@@ -6,9 +6,16 @@ a {
     color: #000 !important;
 }
 
+
 a:hover {
     text-decoration: none !important;
     color: #D6A445 !important;
+}
+
+.recommended span {
+    /* Selects span elements directly inside paragraphs */
+    letter-spacing: 2px !important;
+    /* Letter spacing for numbers inside spans */
 }
 
 #myHeader {
@@ -28,6 +35,7 @@ a:hover {
     box-shadow: 2px 1px #fff;
     height: 125px;
 }
+
 .about-img {
     padding: 5px;
     width: 100%;
@@ -50,7 +58,8 @@ a:hover {
 
 /* Form */
 form {
-    width: 70%; /* Adjust width as needed */
+    width: 70%;
+    /* Adjust width as needed */
     margin: 20px auto;
 }
 
@@ -59,7 +68,7 @@ form {
     margin-bottom: 15px;
 }
 
-.formThongtae{
+.formThongtae {
     width: 100%;
     border-bottom: 1px;
     border: 1px solid #ccc;
@@ -69,14 +78,14 @@ form {
     color: #000;
 }
 
-.beforeGallery{
+.beforeGallery {
     width: 50%;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 20px;
 }
 
-.fg{
+.fg {
     font-family: "Prompt", sans-serif;
     text-align: center;
     font-size: 15px;
@@ -85,14 +94,15 @@ form {
     width: 100%;
 }
 
-.submitBtn{
+.submitBtn {
     padding-left: 20%;
     padding-right: 20%;
     border: 0px;
 }
 
 label {
-    width: 120px; /* Adjust label width as needed */
+    width: 120px;
+    /* Adjust label width as needed */
     margin-right: 10px;
     text-align: right;
 }
@@ -105,13 +115,16 @@ textarea {
     border-radius: 4px;
 }
 
-.example-image-link img{
+.example-image-link img {
     width: 100%;
 }
 
-.submitBtnContact{ padding: 30px;     border: 0px;}
+.submitBtnContact {
+    padding: 30px;
+    border: 0px;
+}
 
-.condoClass{
+.condoClass {
     padding-left: 40px !important;
     font-size: 12px !important;
     padding-top: 30px !important;
@@ -119,7 +132,8 @@ textarea {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff; /* Blue button */
+    background-color: #007bff;
+    /* Blue button */
     color: white;
     border: none;
     border-radius: 4px;
@@ -140,7 +154,7 @@ button {
     width: 70%;
 }
 
-.boxCatTown{
+.boxCatTown {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -155,7 +169,9 @@ button {
     text-align: center;
 }
 
-.spacingBottom{    padding-bottom: 30px;}
+.spacingBottom {
+    padding-bottom: 30px;
+}
 
 .singleTextBig {
     font-family: "Prompt", sans-serif;
@@ -164,9 +180,21 @@ button {
     margin-bottom: 0px !important;
 }
 
-.boxCat{width: 90%; margin-left: auto; margin-right: auto;}
-.boxMap{width: 35%; margin-left: auto; margin-right: auto;}
-.arrowBox{    margin-top: 7%;}
+.boxCat {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxMap {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrowBox {
+    margin-top: 7%;
+}
 
 .singleTextMinor {
     font-family: "Prompt", sans-serif;
@@ -174,7 +202,7 @@ button {
     font-weight: bold;
 }
 
-.infomationSingle .col{
+.infomationSingle .col {
     font-family: "Prompt", sans-serif;
     font-size: 16px !important;
     color: #000;
@@ -364,18 +392,18 @@ footer {
     color: #fff;
 }
 
-.fixLabelFooter{
+.fixLabelFooter {
     width: 50% !important;
     margin-left: auto;
     margin-right: auto;
 }
 
-.fixLabelFooter p{
+.fixLabelFooter p {
     font-size: 25px !important;
 }
 
-.backBrand{
-    background-image:url('../images/brand.png');
+.backBrand {
+    background-image: url('../images/brand.png');
     background-repeat: no-repeat;
     height: auto;
     width: 70% !important;
@@ -383,20 +411,22 @@ footer {
     margin-right: auto !important;
 }
 
-.iconBrand{
-    opacity: 0.5; /* Initial opacity at 60% */
-  transition: opacity 0.3s ease; 
+.iconBrand {
+    opacity: 0.5;
+    /* Initial opacity at 60% */
+    transition: opacity 0.3s ease;
 }
+
 .iconBrand:hover {
     opacity: 1;
 }
 
-.brandLink{
+.brandLink {
     width: 80%;
     margin-left: 12% !important;
 }
 
-.rowBrander{
+.rowBrander {
     margin-top: 12%;
     margin-bottom: 10%;
 }
@@ -452,7 +482,8 @@ footer {
     border: solid #fff 1px;
     border-radius: 80px;
     padding: 7px;
-    font-size: 11px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .policy {
@@ -525,13 +556,13 @@ footer {
     padding-top: 5px;
 }
 
-.formSelect{
+.formSelect {
     width: 100%;
     border: 0px;
     color: #7f7f7f;
 }
 
-.formText{
+.formText {
     font-family: "Prompt", sans-serif;
     color: #7f7f7f !important;
     font-size: 12px;
@@ -558,13 +589,13 @@ footer {
     border-radius: 0;
 }
 
-.mixed{
+.mixed {
     margin-top: 0px;
 }
 
-.nav-item-wt{
+.nav-item-wt {
     padding-top: 25px;
-    width:160px;
+    width: 160px;
 }
 
 
@@ -1258,11 +1289,13 @@ footer {
         padding: 15px !important;
     }
 
-    .showPC_logo img{
-        width:100% !important;
+    .showPC_logo img {
+        width: 100% !important;
     }
 
-    .filter-box img{ padding:10px;}
+    .filter-box img {
+        padding: 10px;
+    }
 
     .showPC {
         display: block !important;
