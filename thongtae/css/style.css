@@ -17,7 +17,7 @@ a:hover {
     position: sticky;
     top: 0;
     box-shadow: 2px 1px #fff;
-    height: 70px;
+    height: 90px;
 }
 
 #myHeaderInside {
@@ -364,6 +364,43 @@ footer {
     color: #fff;
 }
 
+.fixLabelFooter{
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fixLabelFooter p{
+    font-size: 25px !important;
+}
+
+.backBrand{
+    background-image:url('../images/brand.png');
+    background-repeat: no-repeat;
+    height: auto;
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.iconBrand{
+    opacity: 0.5; /* Initial opacity at 60% */
+  transition: opacity 0.3s ease; 
+}
+.iconBrand:hover {
+    opacity: 1;
+}
+
+.brandLink{
+    width: 80%;
+    margin-left: 12% !important;
+}
+
+.rowBrander{
+    margin-top: 12%;
+    margin-bottom: 10%;
+}
+
 .normal {
     padding: 30px;
     color: #fff;
@@ -631,7 +668,7 @@ footer {
     z-index: 10;
     margin: auto;
     background-color: #ffffff00 !important;
-    top: 13%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -1218,8 +1255,14 @@ footer {
     .showPC_logo {
         display: block !important;
         width: 15%;
-        padding: 40px;
+        padding: 15px !important;
     }
+
+    .showPC_logo img{
+        width:100% !important;
+    }
+
+    .filter-box img{ padding:10px;}
 
     .showPC {
         display: block !important;
