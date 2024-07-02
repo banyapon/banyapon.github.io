@@ -12,6 +12,64 @@ a:hover {
     color: #D6A445 !important;
 }
 
+.redAlert {
+    color: red;
+}
+
+.padCaeer {
+    padding: 20px;
+    font-family: "Prompt", sans-serif;
+}
+
+.jobDetail {
+    font-family: "Prompt", sans-serif;
+    text-align: left;
+}
+
+.jobDetail h4 {
+    padding-bottom: 20px;
+}
+
+.spacer {
+    height: 60px;
+}
+
+.benefits-container {
+    display: flex;
+    /* Enable Flexbox layout */
+    justify-content: space-around;
+    /* Distribute columns evenly */
+}
+
+.column {
+    width: 45%;
+    /* Adjust width as needed */
+    padding: 10px;
+    /* Add some padding for spacing */
+    border: 0px solid #ccc;
+    /* Optional: Add a subtle border */
+    border-radius: 5px;
+    /* Optional: Rounded corners */
+}
+
+.benefits-container ul {
+    list-style: none;
+    /* Remove default bullet points */
+    padding: 0;
+}
+
+.benefits-container li {
+    margin-bottom: 5px;
+    /* Add space between list items */
+}
+
+.mapcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
 .recommended span {
     /* Selects span elements directly inside paragraphs */
     letter-spacing: 2px !important;
@@ -575,7 +633,7 @@ footer {
     font-weight: 400;
     font-style: normal;
     color: #D6A445;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 45px;
 }
 
@@ -606,6 +664,8 @@ footer {
     color: #fff !important;
     text-shadow: 1px 1px #717171 !important;
     font-weight: bold !important;
+    letter-spacing: 2px;
+    font-size: 13px;
 }
 
 .navinside-link {
@@ -615,7 +675,8 @@ footer {
     color: #333 !important;
     /* text-shadow: 1px 1px #717171 !important; */
     font-weight: bold !important;
-    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 1px;
     text-align: center;
 }
 
