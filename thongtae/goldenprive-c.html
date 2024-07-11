@@ -287,38 +287,85 @@
             <p class="singleTextBig">แกลลอรี</p>
             <div class="row beforeGallery">
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/singleTypeA.png" /></a>
+                    <a href="goldenprive.html#gallery"><img src="images/singleTypeA.png" /></a>
                 </div>
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/singleTypeB.png" /></a>
+                    <a href="goldenprive-b.html#gallery"><img src="images/singleTypeB.png" /></a>
                 </div>
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/singleTypeC.png" /></a>
+                    <a href="goldenprive-c.html#gallery"><img src="images/singleTypeC.png" /></a>
                 </div>
             </div>
         </div>
         <div class="boxCat">
             <div class="row">
 
-                <div class="col"><a class="example-image-link" href="images/gallery/prive/Rectangle 27.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/prive/Rectangle 27.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/prive/Rectangle 28.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/prive/Rectangle 28.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/prive/Rectangle 29.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/prive/Rectangle 29.png" /></a></div>
-                <div class="w-100"></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/prive/Rectangle 30.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/prive/Rectangle 30.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/prive/Rectangle 31.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/prive/Rectangle 31.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/prive/Rectangle 32.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/prive/Rectangle 32.png" /></a></div>
+                <div id="gallery-container" class="row">
+                    <script>
+    
+                        const galleryContainer = document.getElementById("gallery-container");
+    
+                        async function cropImageToSquare(imageUrl) {
+                            const img = new Image();
+                            img.src = imageUrl;
+                            await new Promise((resolve) => img.onload = resolve);
+    
+                            const canvas = document.createElement('canvas');
+                            const ctx = canvas.getContext('2d');
+    
+                            const sideLength = Math.min(img.width, img.height);
+                            canvas.width = sideLength;
+                            canvas.height = sideLength;
+    
+                            const offsetX = (img.width - sideLength) / 2;
+                            const offsetY = (img.height - sideLength) / 2;
+    
+                            ctx.drawImage(img, offsetX, offsetY, sideLength, sideLength, 0, 0, sideLength, sideLength);
+    
+                            return new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg'));
+                        }
+    
+                        async function createGalleryImage(index) {
+                            const imageUrl = `images/gallery/prive/typec/${index}.jpg`;
+                            const imageLink = document.createElement("a");
+                            imageLink.classList.add("example-image-link");
+                            imageLink.href = imageUrl;
+                            imageLink.setAttribute("data-lightbox", "example-set");
+                            imageLink.setAttribute("data-title", "Click the right half of the image to move forward.");
+    
+                            const croppedImageBlob = await cropImageToSquare(imageUrl);
+                            const image = document.createElement("img");
+                            image.src = URL.createObjectURL(croppedImageBlob);
+    
+                            imageLink.appendChild(image);
+                            return imageLink;
+                        }
+    
+    
+                        async function createGallery() {
+                            for (let i = 1; i <= 100; i++) {
+                                const imageLink = await createGalleryImage(i);
+    
+                                // Create the column div
+                                const colDiv = document.createElement("div");
+                                colDiv.classList.add("col");
+                                colDiv.appendChild(imageLink);
+    
+                                // Append to container
+                                galleryContainer.appendChild(colDiv);
+    
+                                // Add divider
+                                if (i % 3 === 0) {
+                                    const divider = document.createElement("div");
+                                    divider.classList.add("w-100");
+                                    galleryContainer.appendChild(divider);
+                                }
+                            }
+                        }
+    
+                        createGallery(); 
+                    </script>
+                </div>
 
             </div>
         </div>
