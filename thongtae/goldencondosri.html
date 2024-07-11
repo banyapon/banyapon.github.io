@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/slider.js"></script>
     <link rel="stylesheet" href="css/lightbox.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
@@ -163,6 +164,7 @@
             </div>
 
         </div>
+        <a name="floorplan"></a>
         <div class="bannerSection"><img src="images/RectangleGCondoSri.png" /></div>
 
         <div class="infomationSingle">
@@ -171,32 +173,40 @@
                     <div class="row">
                         <div class="col col-4">
                             <div class="row">
+                                
                                 <div class="col col-4">
-                                    <img style="width: 65px !important;" src="images/iconcondo.png" />
+                                    <a href="goldencondosri.html#floorplan"><img style="width: 65px !important;" src="images/iconcondo.png" /></a>
                                 </div>
-                                <div class="col  col-8 thongtae condoClass" style="font-size: 12px !important;">
-                                    คอนโด <br />TYPE A
+                                <div class="col col-8 condoClass thongtae" style="font-size: 12px !important;">
+                                    <a href="goldencondosri.html#floorplan"></a>คอนโด <br />TYPE A</a>
                                 </div>
+                                </a>    
                             </div>
                         </div>
                         <div class="col col-4">
                             <div class="row">
+                                
                                 <div class="col col-4">
-                                    <img style="width: 65px !important;" src="images/iconcondo.png" />
+                                    <a href="goldencondosri-b.html#floorplan"><img style="width: 65px !important;" src="images/iconcondo.png" /></a>
                                 </div>
                                 <div class="col col-8 condoClass" style="font-size: 12px !important;">
-                                    คอนโด <br />TYPE B
+                                    <a href="goldencondosri-b.html#floorplan">คอนโด <br />TYPE B</a>
                                 </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col col-4">
                             <div class="row">
+                                
                                 <div class="col col-4">
-                                    <img style="width: 65px !important;" src="images/iconcondo.png" />
+                                    <a href="goldencondosri-c.html#floorplan">
+                                        <img style="width: 65px !important;" src="images/iconcondo.png" />
+                                    </a>
                                 </div>
                                 <div class="col col-8 condoClass" style="font-size: 12px !important;">
-                                    คอนโด <br />TYPE C
+                                    <a href="goldencondosri-c.html#floorplan">คอนโด <br />TYPE C </a>
                                 </div>
+                               
                             </div>
                         </div>
                         <div class="w-100"></div>
@@ -246,7 +256,7 @@
 
                         </div>
                         <div class="col-8">
-                            <a href="images/gallery/valley/MapValley.png" data-lightbox="image-1"
+                            <a href="images/gallery/sricondo/TypeA.jpg" data-lightbox="image-1"
                                 data-title="FLOOR PLAN"><img src="images/floorplan.png" /></a>
                         </div>
                         <div class="col-2">
@@ -264,59 +274,48 @@
 
         </div>
         <div class="boxCat">
-            <div class="row">
-                <div class="col arrowBox"><img src="images/arrowLeft.png" /></div>
-                <div class="col"><img src="images/Fac8.png" /></div>
-                <div class="col"><img src="images/Fac4.png" /></div>
-                <div class="col"><img src="images/Fac5.png" /></div>
-                <div class="col"><img src="images/Fac6.png" /></div>
-                <div class="col"><img src="images/Fac9.png" /></div>
-                <div class="col arrowBox"><img src="images/arrowRight.png" /></div>
-            </div>
+            <div class="cover">
+                <button class="left" onclick="leftScroll()">
+                    <img src="images/arrowLeft.png"/>
+                </button>
+                <div class="scroll-images">
+                  <div class="childIcon">
+                    <img src="images/Fac8.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac4.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac5.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac6.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac9.png" />
+                  </div>                
+                </div>
+                <button class="right" onclick="rightScroll()">
+                    <img src="images/arrowRight.png" />
+                </button>
+              </div>
         </div>
-
+        <a name="gallery"></a>
         <div class="center">
             <p class="singleTextBig">แกลลอรี</p>
             <div class="row beforeGallery">
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/condoTA.png" /></a>
+                    <a href="goldencondosri.html#gallery"><img src="images/condoTA.png" /></a>
                 </div>
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/condoTB.png" /></a>
+                    <a href="goldencondosri-b.html#gallery"><img src="images/condoTB.png" /></a>
                 </div>
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/condoTC.png" /></a>
+                    <a href="goldencondosri-c.html#gallery"><img src="images/condoTC.png" /></a>
                 </div>
             </div>
         </div>
-        <div class="boxCat">
-            <div class="row">
-
-                <div class="col"><a class="example-image-link" href="images/gallery/sricondo/Rectangle 39.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/sricondo/Rectangle 39.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/sricondo/Rectangle 40.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/sricondo/Rectangle 40.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/sricondo/Rectangle 41.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/sricondo/Rectangle 41.png" /></a></div>
-                <div class="w-100"></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/sricondo/Rectangle 42.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/sricondo/Rectangle 42.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="himages/gallery/sricondo/Rectangle 43.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/sricondo/Rectangle 43.png" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/sricondo/Rectangle 44.png"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/sricondo/Rectangle 44.png" /></a></div>
-
-            </div>
-        </div>
-        <div class="center">
-            <p class="singleTextBig">แผนที่ตั้งโครงการ</p>
-        </div>
+        
         <div class="boxMap">
             <div class="row">
 
@@ -336,13 +335,90 @@
                         }
                     });
                 </script>
-                <div class="col"><a href="images/maps/GcondoSiracha.jpg" data-lightbox="image-1"
+                <div class="col"><a href="images/maps/GCondo2Sriracha.jpg" data-lightbox="image-1"
                         data-title="FLOOR PLAN"><img src="images/frame.png" class="centerDivMap"></a>
                     <p class="singleTextCentrer">MAP</p>
                 </div>
 
             </div>
         </div>
+
+
+        <div class="boxCat">
+            
+            <div class="row">
+                <div id="gallery-container" class="row">
+                    <script>
+    
+                        const galleryContainer = document.getElementById("gallery-container");
+    
+                        async function cropImageToSquare(imageUrl) {
+                            const img = new Image();
+                            img.src = imageUrl;
+                            await new Promise((resolve) => img.onload = resolve);
+    
+                            const canvas = document.createElement('canvas');
+                            const ctx = canvas.getContext('2d');
+    
+                            const sideLength = Math.min(img.width, img.height);
+                            canvas.width = sideLength;
+                            canvas.height = sideLength;
+    
+                            const offsetX = (img.width - sideLength) / 2;
+                            const offsetY = (img.height - sideLength) / 2;
+    
+                            ctx.drawImage(img, offsetX, offsetY, sideLength, sideLength, 0, 0, sideLength, sideLength);
+    
+                            return new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg'));
+                        }
+    
+                        async function createGalleryImage(index) {
+                            const imageUrl = `images/gallery/sricondo/typea/${index}.jpg`;
+                            const imageLink = document.createElement("a");
+                            imageLink.classList.add("example-image-link");
+                            imageLink.href = imageUrl;
+                            imageLink.setAttribute("data-lightbox", "example-set");
+                            imageLink.setAttribute("data-title", "Click the right half of the image to move forward.");
+    
+                            const croppedImageBlob = await cropImageToSquare(imageUrl);
+                            const image = document.createElement("img");
+                            image.src = URL.createObjectURL(croppedImageBlob);
+    
+                            imageLink.appendChild(image);
+                            return imageLink;
+                        }
+    
+    
+                        async function createGallery() {
+                            for (let i = 1; i <= 90; i++) {
+                                const imageLink = await createGalleryImage(i);
+    
+                                // Create the column div
+                                const colDiv = document.createElement("div");
+                                colDiv.classList.add("col");
+                                colDiv.appendChild(imageLink);
+    
+                                // Append to container
+                                galleryContainer.appendChild(colDiv);
+    
+                                // Add divider
+                                if (i % 3 === 0) {
+                                    const divider = document.createElement("div");
+                                    divider.classList.add("w-100");
+                                    galleryContainer.appendChild(divider);
+                                }
+                            }
+                        }
+    
+                        createGallery(); 
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <p class="singleTextBig">แผนที่ตั้งโครงการ</p>
+        </div>
+        
     </div>
     <div class="text-center">
         <div class="center">

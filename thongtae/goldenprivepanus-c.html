@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/slider.js"></script>
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -162,7 +163,7 @@
 
         </div>
         <div class="bannerSection"><img src="images/Rectangle23.png" /></div>
-
+        <a name="floorplan"></a>
         <div class="infomationSingle">
             <div class="row detailSection">
                 <div class="col-4 itemSlide">
@@ -170,20 +171,20 @@
                         <div class="col">
                             <div class="row">
                                 <div class="col">
-                                    <a href="goldenprivepanus.html"><img src="images/singleDetailTypeA.png" /></a>
+                                    <a href="goldenprivepanus.html#floorplan"><img src="images/singleDetailTypeA.png" /></a>
                                 </div>
-                                <div class="col thongtae">
-                                    <a href="goldenprivepanus.html"></a>บ้านแฝด <br />TYPE A</a>
+                                <div class="col ">
+                                    <a href="goldenprivepanus.html#floorplan"></a>บ้านแฝด <br />TYPE A</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="row">
                                 <div class="col">
-                                    <a href="goldenprivepanus-b.html"><img src="images/singleDetailTypeB.png" /></a>
+                                    <a href="goldenprivepanus-b.html#floorplan"><img src="images/singleDetailTypeB.png" /></a>
                                 </div>
                                 <div class="col">
-                                    <a href="goldenprivepanus-b.html">บ้านเดี่ยว <br />TYPE B</a>
+                                    <a href="goldenprivepanus-b.html#floorplan">บ้านเดี่ยว <br />TYPE B</a>
                                 </div>
                             </div>
                         </div>
@@ -191,10 +192,10 @@
                         <div class="col">
                             <div class="row">
                                 <div class="col">
-                                    <a href="goldenprivepanus-c.html"><img src="images/singleDetailTypeC.png" /></a>
+                                    <a href="goldenprivepanus-c.html#floorplan"><img src="images/singleDetailTypeC.png" /></a>
                                 </div>
-                                <div class="col">
-                                    <a href="goldenprivepanus-c.html"></a> บ้านแฝด <br />TYPE C</a>
+                                <div class="col thongtae">
+                                    <a href="goldenprivepanus-c.html#floorplan"></a> บ้านแฝด <br />TYPE C</a>
                                 </div>
                             </div>
                         </div>
@@ -271,84 +272,125 @@
 
         </div>
         <div class="boxCat">
-            <div class="row">
-                <div class="col arrowBox"><img src="images/arrowLeft.png" /></div>
-                <div class="col"><img src="images/Fac1.png" /></div>
-                <div class="col"><img src="images/Fac2.png" /></div>
-                <div class="col"><img src="images/Fac3.png" /></div>
-                <div class="col"><img src="images/Fac4.png" /></div>
-                <div class="col"><img src="images/Fac5.png" /></div>
-                <div class="col arrowBox"><img src="images/arrowRight.png" /></div>
-            </div>
+            <div class="cover">
+                <button class="left" onclick="leftScroll()">
+                    <img src="images/arrowLeft.png"/>
+                </button>
+                <div class="scroll-images">
+                  <div class="childIcon">
+                    <img src="images/Fac1.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac2.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac3.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac4.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac5.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac6.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac7.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac8.png" />
+                  </div>                  
+                </div>
+                <button class="right" onclick="rightScroll()">
+                    <img src="images/arrowRight.png" />
+                </button>
+              </div>
         </div>
 
         <div class="center">
             <p class="singleTextBig">แกลลอรี</p>
             <div class="row beforeGallery">
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/singleTypeA.png" /></a>
+                    <a href="goldenprivepanus.html#gallery"><img src="images/singleTypeA.png" /></a>
                 </div>
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/singleTypeB.png" /></a>
+                    <a href="goldenprivepanus-b.html#gallery"><img src="images/singleTypeB.png" /></a>
                 </div>
                 <div class="col col-lg-4 boxHouse">
-                    <a href="#"><img src="images/singleTypeC.png" /></a>
+                    <a href="goldenprivepanus-c.html#gallery"><img src="images/singleTypeC.png" /></a>
                 </div>
             </div>
         </div>
         <div class="boxCat">
+            <a name="gallery"></a>
             <div class="row">
-
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/1.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/1.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/2.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/2.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/3.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/3.jpg" /></a></div>
-                            <div class="w-100"></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/4.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/4.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/5.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/5.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/6.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/6.jpg" /></a></div>
-                            <div class="w-100"></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/7.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/7.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/8.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/8.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/9.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/9.jpg" /></a></div>
-                            <div class="w-100"></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/10.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/10.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/11.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/11.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/12.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/12.jpg" /></a></div>
-                            <div class="w-100"></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/13.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/13.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/14.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/14.jpg" /></a></div>
-                <div class="col"><a class="example-image-link" href="images/gallery/panus/typec/15.jpg"
-                        data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img
-                            src="images/gallery/panus/typec/15.jpg" /></a></div>
-
+                <div id="gallery-container" class="row">
+                    <script>
+    
+                        const galleryContainer = document.getElementById("gallery-container");
+    
+                        async function cropImageToSquare(imageUrl) {
+                            const img = new Image();
+                            img.src = imageUrl;
+                            await new Promise((resolve) => img.onload = resolve);
+    
+                            const canvas = document.createElement('canvas');
+                            const ctx = canvas.getContext('2d');
+    
+                            const sideLength = Math.min(img.width, img.height);
+                            canvas.width = sideLength;
+                            canvas.height = sideLength;
+    
+                            const offsetX = (img.width - sideLength) / 2;
+                            const offsetY = (img.height - sideLength) / 2;
+    
+                            ctx.drawImage(img, offsetX, offsetY, sideLength, sideLength, 0, 0, sideLength, sideLength);
+    
+                            return new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg'));
+                        }
+    
+                        async function createGalleryImage(index) {
+                            const imageUrl = `images/gallery/panus/typec/${index}.jpg`;
+                            const imageLink = document.createElement("a");
+                            imageLink.classList.add("example-image-link");
+                            imageLink.href = imageUrl;
+                            imageLink.setAttribute("data-lightbox", "example-set");
+                            imageLink.setAttribute("data-title", "Click the right half of the image to move forward.");
+    
+                            const croppedImageBlob = await cropImageToSquare(imageUrl);
+                            const image = document.createElement("img");
+                            image.src = URL.createObjectURL(croppedImageBlob);
+    
+                            imageLink.appendChild(image);
+                            return imageLink;
+                        }
+    
+    
+                        async function createGallery() {
+                            for (let i = 1; i <= 100; i++) {
+                                const imageLink = await createGalleryImage(i);
+    
+                                // Create the column div
+                                const colDiv = document.createElement("div");
+                                colDiv.classList.add("col");
+                                colDiv.appendChild(imageLink);
+    
+                                // Append to container
+                                galleryContainer.appendChild(colDiv);
+    
+                                // Add divider
+                                if (i % 3 === 0) {
+                                    const divider = document.createElement("div");
+                                    divider.classList.add("w-100");
+                                    galleryContainer.appendChild(divider);
+                                }
+                            }
+                        }
+    
+                        createGallery(); 
+                    </script>
+                </div>
             </div>
         </div>
         <div class="center">
@@ -357,10 +399,24 @@
         <div class="boxMap">
             <div class="row">
 
-                <div class="col"><img src="images/GoogleMap.png" class="centerDiv" />
+                <div class="col"><a href="#map" data-lightbox
+                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62165.24161589201!2d100.89819576158864!3d13.14172386669525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b7a2edbd7b2f%3A0x6685631cd5309a96!2sG%20Condo%20Sriracha!5e0!3m2!1sen!2sth!4v1719909181956!5m2!1sen!2sth"><img
+                            src="images/GoogleMap.png" class="centerDiv" /></a>
                     <p class="singleTextCentrer">GOOGLE MAP</p>
                 </div>
-                <div class="col"><img src="images/frame.png" class="centerDivMap">
+                <div id="map" style="display:none;">
+                    <iframe width="600" height="450" frameborder="0"></iframe>
+                </div>
+
+                <script>
+                    $('[data-fancybox]').fancybox({
+                        afterLoad: function (instance, current) {
+                            current.$content.find('iframe').attr('src', current.src);
+                        }
+                    });
+                </script>
+                <div class="col"><a href="images/maps/GoldenPrivePanus.jpg" data-lightbox="image-1"
+                        data-title="FLOOR PLAN"><img src="images/frame.png" class="centerDivMap"></a>
                     <p class="singleTextCentrer">MAP</p>
                 </div>
 

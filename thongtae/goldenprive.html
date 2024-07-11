@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/slider.js"></script>
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -171,20 +172,20 @@
                         <div class="col">
                             <div class="row">
                                 <div class="col">
-                                    <a href="goldenprive.html"><img src="images/singleDetailTypeA.png" /></a>
+                                    <a href="goldenprive.html#floorplan"><img src="images/singleDetailTypeA.png" /></a>
                                 </div>
                                 <div class="col thongtae">
-                                    <a href="goldenprive.html">บ้านแฝด <br />TYPE A</a>
+                                    <a href="goldenprive.html#floorplan">บ้านแฝด <br />TYPE A</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="row">
                                 <div class="col">
-                                    <a href="goldenprive-b.html"><img src="images/singleDetailTypeB.png" /></a>
+                                    <a href="goldenprive-b.html#floorplan"><img src="images/singleDetailTypeB.png" /></a>
                                 </div>
                                 <div class="col">
-                                    <a href="goldenprive-b.html">บ้านเดี่ยว <br />TYPE B</a>
+                                    <a href="goldenprive-b.html#floorplan">บ้านเดี่ยว <br />TYPE B</a>
                                 </div>
                             </div>
                         </div>
@@ -192,10 +193,10 @@
                         <div class="col">
                             <div class="row">
                                 <div class="col">
-                                    <a href="goldenprive-c.html"><img src="images/singleDetailTypeC.png" /></a>
+                                    <a href="goldenprive-c.html#floorplan"><img src="images/singleDetailTypeC.png" /></a>
                                 </div>
                                 <div class="col">
-                                    <a href="goldenprive-c.html">บ้านแฝด <br />TYPE C</a>
+                                    <a href="goldenprive-c.html#floorplan">บ้านแฝด <br />TYPE C</a>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +255,8 @@
 
                         </div>
                         <div class="col-8">
-                            <a href="images/gallery/prive/MapPrive.png" data-lightbox="image-1"
+                            <a name="floorplan"></a>
+                            <a href="images/gallery/prive/a.jpg" data-lightbox="image-1"
                                 data-title="FLOOR PLAN"><img src="images/floorplan.png" /></a>
                         </div>
                         <div class="col-2">
@@ -272,15 +274,40 @@
 
         </div>
         <div class="boxCat">
-            <div class="row">
-                <div class="col arrowBox"><img src="images/arrowLeft.png" /></div>
-                <div class="col"><img src="images/Fac1.png" /></div>
-                <div class="col"><img src="images/Fac2.png" /></div>
-                <div class="col"><img src="images/Fac3.png" /></div>
-                <div class="col"><img src="images/Fac4.png" /></div>
-                <div class="col"><img src="images/Fac5.png" /></div>
-                <div class="col arrowBox"><img src="images/arrowRight.png" /></div>
-            </div>
+            <div class="cover">
+                <button class="left" onclick="leftScroll()">
+                    <img src="images/arrowLeft.png"/>
+                </button>
+                <div class="scroll-images">
+                  <div class="childIcon">
+                    <img src="images/Fac1.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac2.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac3.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac4.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac5.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac6.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac7.png" />
+                  </div>
+                  <div class="childIcon">
+                    <img src="images/Fac8.png" />
+                  </div>                  
+                </div>
+                <button class="right" onclick="rightScroll()">
+                    <img src="images/arrowRight.png" />
+                </button>
+              </div>
         </div>
 
         <div class="center">
@@ -342,7 +369,7 @@
 
 
                     async function createGallery() {
-                        for (let i = 1; i <= 100; i++) {
+                        for (let i = 1; i <= 108; i++) {
                             const imageLink = await createGalleryImage(i);
 
                             // Create the column div
@@ -372,10 +399,24 @@
         <div class="boxMap">
             <div class="row">
 
-                <div class="col"><img src="images/GoogleMap.png" class="centerDiv" />
+                <div class="col"><a href="#map" data-lightbox
+                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62165.24161589201!2d100.89819576158864!3d13.14172386669525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b7a2edbd7b2f%3A0x6685631cd5309a96!2sG%20Condo%20Sriracha!5e0!3m2!1sen!2sth!4v1719909181956!5m2!1sen!2sth"><img
+                            src="images/GoogleMap.png" class="centerDiv" /></a>
                     <p class="singleTextCentrer">GOOGLE MAP</p>
                 </div>
-                <div class="col"><img src="images/frame.png" class="centerDivMap">
+                <div id="map" style="display:none;">
+                    <iframe width="600" height="450" frameborder="0"></iframe>
+                </div>
+
+                <script>
+                    $('[data-fancybox]').fancybox({
+                        afterLoad: function (instance, current) {
+                            current.$content.find('iframe').attr('src', current.src);
+                        }
+                    });
+                </script>
+                <div class="col"><a href="images/maps/GoldenPriveBangsan.jpg" data-lightbox="image-1"
+                        data-title="FLOOR PLAN"><img src="images/frame.png" class="centerDivMap"></a>
                     <p class="singleTextCentrer">MAP</p>
                 </div>
 
