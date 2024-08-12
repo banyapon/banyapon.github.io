@@ -77,6 +77,11 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
+
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    padding: 10% !important;
+}
 .pro-features.active{
 	right:0;
 }
@@ -645,6 +650,7 @@ body{
     margin-top: 27px;
     font-weight: 400;
     font-size: 1.1rem;
+	text-shadow: 2px 2px rgb(48, 48, 48);
 }
 .slider .single-slider .button{
 	margin-top:30px;
@@ -728,6 +734,14 @@ body{
 	position: relative;
 	transform: translateY(-50%);
 	z-index:9;
+}
+
+.current{
+	background:#1A76D1 !important
+}
+
+.current:hover{
+	background:#1A76D1 !important;
 }
 .schedule .single-schedule {
 	position: relative;
