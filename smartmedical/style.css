@@ -50,7 +50,12 @@ Version:	1.1
 ===============================*/
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&display=swap');
-
+#failed {
+    display: none;
+}
+#alertBlock {
+    display: none;
+}
 body{
     font-family: "Noto Sans Thai", sans-serif;
 	font-weight: 400;
@@ -335,7 +340,7 @@ body{
 }
 .header .logo {
 	float: left;
-	margin-top: 18px;
+	margin-top: 2%;
 }
 .header .navbar {
 	background: none;
