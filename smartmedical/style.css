@@ -2850,7 +2850,9 @@ body{
 	width:100%;
 }
 .appointment .button .btn{
-	font-weight:500;
+	font-weight: 500;
+    color: #fff !important;
+    background-color: #51b700;
 }
 .appointment .button .btn:hover{
 	color:#fff;
