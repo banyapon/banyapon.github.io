@@ -71,6 +71,11 @@ iframe {
     border: 0 !important;
 }
 
+.aframebox {
+    height: 400px !important;
+    width: 100%;
+    }
+
 .parallax-window {
     min-height: 400px;
     background: transparent;
