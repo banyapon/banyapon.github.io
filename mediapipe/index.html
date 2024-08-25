@@ -1,106 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MediaPipe Hand Landmark Circle Game</title>
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
-  <style>
-    #canvas {
-      border: 2px solid black;
-    }
-  </style>
+<title>Grab Circle</title>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.5.1635989137/holistic.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div>Score: <span id="score">0</span></div>
-  <video id="video" width="640" height="480" autoplay></video>
+  <video id="video" width="640" height="480" autoplay playsinline></video>
   <canvas id="canvas" width="640" height="480"></canvas>
-  <script>
-    const video = document.getElementById('video');
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
-    const scoreDisplay = document.getElementById('score');
-    let score = 0;
-
-    // Circle properties
-    const circles = [
-      { x: 100, y: 100, radius: 30, color: 'green', outlineColor: 'lightgreen', active: true },
-      { x: 200, y: 200, radius: 30, color: 'blue', outlineColor: 'lightblue', active: true },
-      { x: 300, y: 100, radius: 30, color: 'red', outlineColor: 'pink', active: true },
-      { x: 400, y: 200, radius: 30, color: 'yellow', outlineColor: 'lightyellow', active: true }
-    ];
-    let grabbedCircle = null;
-
-    const hands = new Hands({
-      locateFile: (file) => {
-        return `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`;
-      }
-    });
-
-    hands.onResults(results => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.drawImage(results.image, 0, 0, canvas.width, canvas.height);
-
-      if (results.multiHandLandmarks) {
-        for (const landmarks of results.multiHandLandmarks) {
-          const indexFingerTip = landmarks[8]; // Index finger tip
-          const x = indexFingerTip.x * canvas.width;
-          const y = indexFingerTip.y * canvas.height;
-          
-          if (grabbedCircle) {
-            grabbedCircle.x = x;
-            grabbedCircle.y = y;
-          } else {
-            for (const circle of circles) {
-              if (circle.active && Math.hypot(x - circle.x, y - circle.y) < circle.radius) {
-                grabbedCircle = circle;
-                break;
-              }
-            }
-          }
-        }
-      }
-
-      // Draw circles and outline
-      for (const circle of circles) {
-        ctx.beginPath();
-        ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
-        ctx.fillStyle = circle.color;
-        ctx.fill();
-        ctx.strokeStyle = circle.outlineColor;
-        ctx.lineWidth = 5;
-        ctx.stroke();
-      }
-      
-      // Check for matches
-      circles.forEach(circle => {
-        if(circle.active){
-          if(Math.hypot(circle.x - circle.radius*5, circle.y - circle.radius*5) < circle.radius/2){
-            circle.active = false;
-            score += 1;
-            scoreDisplay.textContent = score;
-          }
-        }
-      });
-
-
-    });
-
-    hands.setOptions({
-      maxNumHands: 1,
-      modelComplexity: 1,
-      minDetectionConfidence: 0.5,
-      minTrackingConfidence: 0.5
-    });
-
-    hands.send({image: video});
-
-    const camera = new Camera(video, {
-      onFrame: async () => {
-        await hands.send({image: video});
-      },
-      width: 640,
-      height: 480
-    });
-    camera.start();
-  </script>
+  <div id="score">Score: 0</div>
+  <script src="script.js"></script> 
 </body>
 </html>
