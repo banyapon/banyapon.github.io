@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-TouchMovementResearch-0.1";
+const cacheName = "DefaultCompany-TouchMovementResearch-1.2";
 const contentToCache = [
     "Build/forward.loader.js",
     "Build/forward.framework.js",
