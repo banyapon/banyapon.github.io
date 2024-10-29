@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T1: Count Arm Movement with MediaPipe Hands</title>
+
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-yellow.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- MediaPipe -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Layout Header -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Online Self: Arm Muscle Rehabilitation</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="">Home</a>
+                    <a class="mdl-navigation__link" href="t1.html">Task 1</a>
+                    <a class="mdl-navigation__link" href="t2.html">Task 2</a>
+                    <a class="mdl-navigation__link" href="t3.html">Task 3</a>
+                    <a class="mdl-navigation__link" href="t4.html">Task 4</a>
+                    <a class="mdl-navigation__link" href="">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Website</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Home</a>
+                    <a class="mdl-navigation__link" href="t1.html">Task 1</a>
+                    <a class="mdl-navigation__link" href="t2.html">Task 2</a>
+                    <a class="mdl-navigation__link" href="t3.html">Task 3</a>
+                    <a class="mdl-navigation__link" href="t4.html">Task 4</a>
+                    <a class="mdl-navigation__link" href="">Contact</a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!--content-->
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--4-col">
+                      <a href="t1.html" style="text-decoration: none;">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                          <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Task 1</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            ยื่นสองมือไปด้านหน้าจากนั้นยกแขนขึ้นด้านบนศรีษะพับแขนไปด้านหลัง
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="t1.html">
+                              เริ่ม
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col">
+                      <a href="t2.html" style="text-decoration: none;">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                          <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Task 2</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            ยื่นสองมือไปด้านหน้าจากนั้นงอแขนเข้าออกหาลำตัว
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="t2.html">
+                              เริ่ม
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col">
+                      <a href="t3.html" style="text-decoration: none;">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                          <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Task 3</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            มือประสานกันไว้ระดับอก ยื่นออกมาหลังจากนั้นสลับหักข้อมือข้างซ้ายขวา
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="t3.html">
+                              เริ่ม
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col">
+                      <a href="t4.html" style="text-decoration: none;">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                          <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Task 4</h2>
+                          </div>
+                          <div class="mdl-card__supporting-text">
+                            เอานิ้วโป้งแตะที่มือทั้งสองข้างนั้นไล่ทุกนิ้ว 5 ครั้ง
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="t4.html">
+                              เริ่ม
+                            </a>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
