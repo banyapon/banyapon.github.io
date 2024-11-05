@@ -5,7 +5,7 @@ window.onload = function() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    const imagePaths = ['pattern1.jpg', 'pattern2.jpg', 'pattern3.jpg','pattern4.jpg']; // Array ของภาพที่ใช้
+    const imagePaths = ['pattern1.jpg', 'pattern2.jpg', 'pattern3.jpg', 'pattern4.jpg']; // Array ของภาพที่ใช้
     let currentImageIndex = 0;
     let dots = [];
     let highlightY = -1; // เก็บตำแหน่ง Y ที่จะระบายสีแดง
@@ -56,19 +56,14 @@ window.onload = function() {
             // รอแสดงผล 3 วินาทีก่อนเริ่มแอนิเมชันแตกตัว
             setTimeout(() => {
                 animateDotsOut();
-            }, 4000);
+            }, 5000);
         };
     }
 
     function drawDots() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         dots.forEach(dot => {
-            // ถ้าตำแหน่ง Y ของจุดตรงกับตำแหน่งเมาส์ที่ต้องการระบายสี ให้ใช้สีแดง
-            if (highlightY !== -1 && dot.y >= highlightY - 2 * 8 && dot.y <= highlightY + 4 * 8) {
-                ctx.fillStyle = '#f00'; // สีแดง
-            } else {
-                ctx.fillStyle = '#858585'; // สีดำ
-            }
+            ctx.fillStyle = getRandomColor();
 
             ctx.beginPath();
             ctx.arc(dot.x, dot.y, dot.size, 0, Math.PI * 2);
@@ -92,12 +87,12 @@ window.onload = function() {
 
                 ctx.beginPath();
                 ctx.arc(newX, newY, dot.size, 0, Math.PI * 2);
-                ctx.fillStyle = '#858585'; // เปลี่ยนจุดเป็นสีขาวเมื่อแตกตัวออก
+                ctx.fillStyle = getRandomColor(); // เปลี่ยนสีเป็นสีสุ่มที่ไม่ใช่สีขาว
                 ctx.fill();
             });
 
             if (frame < duration) {
-                requestAnimationFrame(animate);
+                setTimeout(() => requestAnimationFrame(animate), 1000 / 24); // ควบคุมให้ทำงานที่ 24 FPS
             } else {
                 // เริ่มการโหลดภาพใหม่และวาดจุดหลังจากแอนิเมชันแตกตัวเสร็จ
                 currentImageIndex = (currentImageIndex + 1) % imagePaths.length;
@@ -126,12 +121,12 @@ window.onload = function() {
 
                 ctx.beginPath();
                 ctx.arc(newX, newY, dot.size, 0, Math.PI * 2);
-                ctx.fillStyle = '#858585'; // เปลี่ยนจุดเป็นสีดำเมื่อรวมตัว
+                ctx.fillStyle = getRandomColor(); // เปลี่ยนสีเป็นสีสุ่มที่ไม่ใช่สีขาว
                 ctx.fill();
             });
 
             if (frame < duration) {
-                requestAnimationFrame(animate);
+                setTimeout(() => requestAnimationFrame(animate), 1000 / 24); // ควบคุมให้ทำงานที่ 24 FPS
             } else {
                 // โหลดภาพใหม่เมื่อแอนิเมชันจบ
                 loadImageAndDrawDots();
@@ -148,4 +143,15 @@ window.onload = function() {
     });
 
     loadImageAndDrawDots();
+
+    function getRandomColor() {
+        // สร้างสีสุ่มที่ไม่ใช่สีขาว
+        let r, g, b;
+        do {
+            r = Math.floor(Math.random() * 256);
+            g = Math.floor(Math.random() * 256);
+            b = Math.floor(Math.random() * 256);
+        } while (r > 240 && g > 240 && b > 240); // หลีกเลี่ยงสีขาวหรือใกล้ขาว
+        return `rgb(${r}, ${g}, ${b})`;
+    }
 };

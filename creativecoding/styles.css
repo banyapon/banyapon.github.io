@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Thai", sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+h1, h3 {
+    margin: 0;
+    padding: 10px 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p{
+    padding: 0 5% 0 5%;
+    font-size: 0.9rem;
+}
+
+.header-container {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    text-align: right;
+    width: 30%; /* กำหนดพื้นที่ให้ element ข้างขวา */
+    z-index: 2;
+}
+
+.overlay a{
+    text-decoration: none;
+    margin: 2%;
+    color: #858585;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%; /* กำหนดพื้นที่ให้ overlay ข้างขวา */
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    z-index: 1;
+    height: auto; /* กำหนดความสูงให้ overlay */
+    overflow: hidden; /* ป้องกันการเลื่อนใน overlay */
+}
+
+.slideshow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* แบ่งเป็น 3 คอลัมน์ */
+    gap: 15px;
+    height: 100%; /* ทำให้ slideshow เต็มความสูงของ overlay */
+    overflow-y: auto; /* เปิดการเลื่อนในแนวตั้ง */
+    padding-right: 10px; /* เพิ่มช่องว่างสำหรับแถบเลื่อน */
+}
+
+.slide {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.slide img {
+    width: 100%; /* ทำให้ภาพปรับตามความกว้างของ container */
+    border-radius: 5px;
+}
+
+#patternCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1; /* ทำให้แคนวาสอยู่ด้านหลัง */
+}
+
+@media (max-width: 768px) {
+    .header-container, .overlay {
+        margin-top: 50%;
+        width: 80vw;
+        text-align: center
+    }
+
+    #patternCanvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        z-index: -1; /* ทำให้แคนวาสอยู่ด้านหลัง */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .slideshow {
+        grid-template-columns: 1fr; /* เปลี่ยนเป็น 1 คอลัมน์สำหรับหน้าจอขนาดเล็ก */
+    }
+
+    .overlay {
+        width: 100%;
+        position: relative;
+        /* margin: 0; */
+        padding: 0;
+    }
+
+    .slide {
+        width: 90%; /* ลดขนาดให้เหมาะสมกับหน้าจอมือถือ */
+        margin: 0 auto;
+    }
+}
