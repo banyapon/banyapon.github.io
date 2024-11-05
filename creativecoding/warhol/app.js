@@ -5,7 +5,7 @@ window.onload = function() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    const imagePaths = ['pano1.png', 'pano2.png', 'pano3.png', 'pano4.png']; // Array ของภาพที่ใช้
+    const imagePaths = ['pano1.png', 'pano2.png', 'pano3.png', 'pano4.png','pano6.png','pano5.png']; // Array ของภาพที่ใช้
     let currentImageIndex = 0;
 
     function loadImageAndDrawDots() {
@@ -54,7 +54,7 @@ window.onload = function() {
         setInterval(() => {
             currentImageIndex = (currentImageIndex + 1) % imagePaths.length;
             loadImageAndDrawDots();
-        }, 4000); // เปลี่ยนภาพทุกๆ 4 วินาที
+        }, 2000); // เปลี่ยนภาพทุกๆ 4 วินาที
     }
 
     changeImagePeriodically();
