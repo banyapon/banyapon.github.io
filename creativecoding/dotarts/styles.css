@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff; /* พื้นหลังสีขาว */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:#858585;
+}
+
+canvas {
+    display: block;
+}
