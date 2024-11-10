@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #636363;
+    border-radius: 80%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+/* Responsive สำหรับมือถือ */
+@media (max-width: 768px) {
+    canvas {
+        width: 90vw;
+        height: 50vh;
+    }
+}

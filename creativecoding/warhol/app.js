@@ -54,7 +54,7 @@ window.onload = function() {
         setInterval(() => {
             currentImageIndex = (currentImageIndex + 1) % imagePaths.length;
             loadImageAndDrawDots();
-        }, 2000); // เปลี่ยนภาพทุกๆ 4 วินาที
+        }, 1000); // เปลี่ยนภาพทุกๆ 4 วินาที
     }
 
     changeImagePeriodically();
