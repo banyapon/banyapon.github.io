@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Sans", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    background: linear-gradient(30deg, #220055, #f90057);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    font-family: "IBM Plex Sans", serif;
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+h1#songTitle {
+    font-family: "IBM Plex Sans", serif;
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    z-index: 20;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+h1 a {
+    font-family: "IBM Plex Sans", serif;
+    color: #f9c74f;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    font-family: "IBM Plex Sans", serif;
+    text-decoration: underline;
+}
+
+h3#songSubTitle {
+    font-family: "IBM Plex Sans", serif;
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    z-index: 20;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+h3 a {
+    color: #f9c74f;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
