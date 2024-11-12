@@ -111,7 +111,27 @@ p{
     }
 
     .slideshow {
-        grid-template-columns: 1fr; /* เปลี่ยนเป็น 1 คอลัมน์สำหรับหน้าจอขนาดเล็ก */
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;     /* Firefox */
+    }
+    
+    .slideshow::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+    
+    .slide {
+        flex: 0 0 auto;
+        width: 20%;
+        margin: 10px;
+    }
+    
+    .slide img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .overlay {
@@ -121,8 +141,5 @@ p{
         padding: 0;
     }
 
-    .slide {
-        width: 90%; /* ลดขนาดให้เหมาะสมกับหน้าจอมือถือ */
-        margin: 0 auto;
-    }
+    
 }

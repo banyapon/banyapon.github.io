@@ -155,3 +155,21 @@ window.onload = function() {
         return `rgb(${r}, ${g}, ${b})`;
     }
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+    const slideshow = document.querySelector('.slideshow');
+
+    let scrollAmount = 0;
+    const scrollStep = 1;
+    const scrollInterval = 20;
+
+    function autoScroll() {
+        scrollAmount += scrollStep;
+        if (scrollAmount >= slideshow.scrollWidth - slideshow.clientWidth) {
+            scrollAmount = 0;
+        }
+        slideshow.scrollLeft = scrollAmount;
+    }
+
+    setInterval(autoScroll, scrollInterval);
+});
