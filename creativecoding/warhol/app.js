@@ -6,6 +6,7 @@ window.onload = function() {
     canvas.height = window.innerHeight;
 
     const imagePaths = ['pano1.png', 'pano2.png', 'pano3.png', 'pano4.png','pano6.png','pano5.png']; // Array ของภาพที่ใช้
+    //const imagePaths = ['banya.jpg', 'banya.jpg', 'banya.jpg', 'banya.jpg','banya.jpg','banya.jpg'];
     let currentImageIndex = 0;
 
     function loadImageAndDrawDots() {
