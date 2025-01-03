@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-TouchMovement-0.1";
+const cacheName = "DefaultCompany-TouchMovement-1.0";
 const contentToCache = [
     "Build/research.loader.js",
     "Build/research.framework.js",
