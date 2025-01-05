@@ -8,7 +8,7 @@ const exportHeight = 1080; // ขนาดความสูงของภา�
 
 function preload() {
   // โหลด density map
-  img = loadImage('../images/density_khon.png'); // ใช้ภาพ density_map.png
+  img = loadImage('images/density_khon.png'); // ใช้ภาพ density_map.png
 }
 
 function setup() {
