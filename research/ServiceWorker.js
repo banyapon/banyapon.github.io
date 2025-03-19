@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-TouchMovement-1.0";
+const cacheName = "KMITL-Research3DNavigation-1.0";
 const contentToCache = [
-    "Build/research.loader.js",
-    "Build/research.framework.js",
-    "Build/research.data",
-    "Build/research.wasm",
+    "Build/app.loader.js",
+    "Build/app.framework.js",
+    "Build/app.data",
+    "Build/app.wasm",
     "TemplateData/style.css"
 
 ];
