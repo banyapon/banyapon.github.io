@@ -1,0 +1,81 @@
+{
+  "runtime_sec": 12,
+  "captions": { "burn_in": false, "generate": false, "force_no_captions": true },
+  "postprocess": { "strip_text_layers": true, "remove_layers": ["Text"] },
+
+  "shot": {
+    "composition": "overhead rooftop duel, wide establishing to spinning close-ups",
+    "camera_motion": "crane swing, 360 orbit, whip pan cuts, slow motion at impact",
+    "frame_rate": "24fps",
+    "camera_model": "ARRI Alexa 65, cinematic LUT",
+    "lens": "50mm anamorphic, f/2.2",
+    "white_balance": "warm 4100K",
+    "film_grain": "35mm cinematic texture 10%",
+    "insert": [
+      {
+        "timestamp": 5.4,
+        "description": "slow-motion close-up of blades clashing, sparks fly mid-air"
+      },
+      {
+        "timestamp": 8.2,
+        "description": "rotating overhead shot as the fighters leap apart from a mid-air clash"
+      }
+    ]
+  },
+
+  "subject": {
+    "name": "เมืองซวยเสาะ",
+    "age": 38,
+    "ethnicity": "Chinese",
+    "appearance": "หนวดบาง ดวงตาเย็นชา ผมยาวรวบ",
+    "wardrobe": "ชุดคลุมยาวสีเทาน้ำเงินเข้ม ปักลายมังกรดำ",
+    "emotion": "นิ่งขรึม แต่มุ่งมั่น",
+    "movement": "ใช้เท้าสะบัดปลิวขึ้นจากชายคา พุ่งรุกอย่างว่องไว"
+  },
+
+  "opponent": {
+    "name": "เจี๊ยบโกเซี๊ยะ",
+    "age": 29,
+    "ethnicity": "Chinese",
+    "appearance": "หน้าคม ตาเรียว แผลเป็นที่แก้มซ้าย",
+    "wardrobe": "เสื้อคลุมสั้นสีแดงเลือดนก ขลิบทอง ถือกระบี่สั้นคู่",
+    "emotion": "ขี้เล่นแต่จริงจังขณะต่อสู้",
+    "movement": "หมุนตัวกลางอากาศ สกัดด้วยกระบี่สองมือ"
+  },
+
+  "scene": {
+    "location": "หลังคาพระราชวังหลวงกลางเมือง, ปักกิ่ง ยุคราชวงศ์สมมุติ",
+    "time_of_day": "พลบค่ำ พระอาทิตย์ตกหลังหมอก",
+    "environment": "ลมแรง ผ้าปลิวสะบัด เงาโครงกระเบื้องสะท้อนแสงทอง"
+  },
+
+  "audio": {
+    "ambient": "เสียงลมหวีด, กระเบื้องแตกร้าว, ดาบเสียดสี",
+    "mix_level_db": -14,
+
+    "voice_over": {
+      "language": "th-TH",
+      "voice_profile": {
+        "id": "ThaiMale_DramaticV1",
+        "tier": "studio",
+        "accent": "TH-Bangkok",
+        "emotion": "intense_focus",
+        "speech_speed": "medium_100"
+      },
+      "script": [
+        {
+          "timestamp": 1.0,
+          "text": "ซวยเสาะ! ข้ารอวันนี้มานานนัก... มาทดสอบวิชากระบี่ของข้ากันเถอะ!"
+        },
+        {
+          "timestamp": 6.0,
+          "text": "เจี๊ยบโกเซี๊ยะ เจ้าก็ยังหุนหันไม่เปลี่ยน... แต่ครั้งนี้ ข้าจะไม่ออมมือ!"
+        }
+      ]
+    },
+
+    "audio_master": { "target_lufs": -14, "true_peak_db": -2 }
+  },
+
+  "color_palette": "ทองอมส้มจากตะวันตกดิน เงาดำบนกระเบื้องหลังคา แสงจันทร์สีเงินบาง"
+}
