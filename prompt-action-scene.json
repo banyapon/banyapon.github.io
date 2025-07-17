@@ -20,10 +20,10 @@
     "lut": "Neon-Night"
   },
   "subject": {
-    "description": "Rayban glasses guy with agent suits, short wet hair, focused",
+    "description": "Athletic female agent, short wet hair, focused",
     "wardrobe": {
-      "1": "black agent suits",
-      "2": "black pants"
+      "1": "black tactical jacket",
+      "2": "combat pants"
     },
     "props": "silenced pistol"
   },
