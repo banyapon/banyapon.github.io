@@ -17,23 +17,23 @@
       }
     ],
     "film_grain": "16 mm grain overlay 20 %",
-    "lut": "Thailand-Night"
+    "lut": "Neon-Night"
   },
   "subject": {
-    "description": "Asian Handsome Man, short-medium wet hair, focused",
+    "description": "Rayban glasses guy with agent suits, short wet hair, focused",
     "wardrobe": {
-      "1": "blue shirt",
+      "1": "black agent suits",
       "2": "black pants"
     },
     "props": "silenced pistol"
   },
   "scene": {
-    "location": "night-light-streetfood-market",
+    "location": "neon-lit alley",
     "time_of_day": "midnight",
-    "environment": "rain traffic, glowing signs"
+    "environment": "rain, fog, glowing signs"
   },
   "visual_details": {
-    "action": "he runs, slides under a crate, fires once mid-slide, then tumbles into a crouch",
+    "action": "She runs, slides under a pipe, fires once mid-slide, then tumbles into a crouch",
     "fx_cues": [
       {
         "trigger_event": "muzzle flash",
@@ -44,9 +44,9 @@
     "hair_movement": "wet strands swept back"
   },
   "cinematography": {
-    "lighting": "blue/orange rims, amber edge lights",
+    "lighting": "cyan/magenta rims, amber edge lights",
     "tone": "gritty kinetic",
-    "color_palette": "blue, orange, white, black"
+    "color_palette": "blue, magenta, black"
   },
   "audio": {
     "ambient_bed": {
