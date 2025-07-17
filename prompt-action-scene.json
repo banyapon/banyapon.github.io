@@ -1,0 +1,87 @@
+{
+  "shot": {
+    "composition": "Tracking medium shot, 24 mm anamorphic, low angle",
+    "frame_rate": "24 fps base, 60 fps inserts",
+    "camera": {
+      "model": "RED Komodo-X",
+      "lens": "24 mm anam"
+    },
+    "camera_movements": [
+      {
+        "type": "tracking",
+        "description": "Steadicam runs alongside agent"
+      },
+      {
+        "type": "tilt-down crash-zoom",
+        "description": "Handheld snap-tilt and quick zoom as agent hits the ground"
+      }
+    ],
+    "film_grain": "16 mm grain overlay 20 %",
+    "lut": "Thailand-Night"
+  },
+  "subject": {
+    "description": "Asian Handsome Man, short-medium wet hair, focused",
+    "wardrobe": {
+      "1": "blue shirt",
+      "2": "black pants"
+    },
+    "props": "silenced pistol"
+  },
+  "scene": {
+    "location": "night-light-streetfood-market",
+    "time_of_day": "midnight",
+    "environment": "rain traffic, glowing signs"
+  },
+  "visual_details": {
+    "action": "he runs, slides under a crate, fires once mid-slide, then tumbles into a crouch",
+    "fx_cues": [
+      {
+        "trigger_event": "muzzle flash",
+        "effect": "brief bullet-time arc",
+        "timing": "00:04"
+      }
+    ],
+    "hair_movement": "wet strands swept back"
+  },
+  "cinematography": {
+    "lighting": "blue/orange rims, amber edge lights",
+    "tone": "gritty kinetic",
+    "color_palette": "blue, orange, white, black"
+  },
+  "audio": {
+    "ambient_bed": {
+      "description": "soft rain, distant sirens",
+      "mix_level": "-28 LUFS",
+      "loops": true
+    },
+    "music_track": {
+      "description": "140 BPM electronic pulse, distorted bass",
+      "file_type": "WAV",
+      "mix_level": "-14 LUFS",
+      "start_time": "00:00"
+    },
+    "vocal_track": {
+      "delivery": "calm, urgent whisper",
+      "line": "Target ahead.",
+      "file_type": "WAV",
+      "start_time": "00:01"
+    },
+    "fx": [
+      {
+        "name": "gunshot",
+        "description": "tight suppressed shot",
+        "start_time": "00:04",
+        "duration": "0:00.05"
+      }
+    ],
+    "mastering": {
+      "bus_processing": "limiter -1 dBTP",
+      "channel_format": "stereo"
+    }
+  },
+  "dialogue": {
+    "character": "Agent",
+    "line": "Let’s end this.",
+    "subtitles": false
+  }
+}
