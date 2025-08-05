@@ -1,0 +1,35 @@
+{
+    "shot": {
+        "composition":"medium shot",
+        "camera_motion":"static camera",
+        "frame_rate":"24 fps",
+        "aspect_ratio":"16:9",
+        "lens_type":"50 mm"
+    },
+    "subject": {
+        "primary":"a Van Gogh-style sunflower painting in a wooden frame, and a sleek art knife",
+        "pose":"The knife slices the canvas, causing real sunflowers to physically grow and emerge from the tear.",
+        "emotion":"surreal, tactile, and strangely satisfying"
+    },
+    "scene": {
+        "setting":"An artist's studio with soft, natural light.",
+        "prop":"none"
+    },
+    "visual_details": {
+        "timeline":[{
+            "t":"0-8",
+            "action":"A Van Gogh-style sunflower painting is shown. An art knife makes a clean vertical slice down the canvas, creating a visible tear. **Crucially, the scene does not change, dissolve, or wipe.** Immediately from the raw edges of **this exact tear**, the tips of green stems visibly push through the canvas. These stems elongate and grow upwards out of the cut in a clear, time-lapse-like motion ('nyoki-nyoki'). The stems develop buds that unfurl into photorealistic sunflowers, pushing out into 3D space. The entire growth process must be visible and originate **only from the cut**."
+        }]},
+    "cinematography": {
+        "lighting":"Soft, warm, natural light that highlights the texture of the paint and the real flowers."
+    },
+    "audio": {
+        "music":"none",
+        "ambient":"A highly detailed, crisp, ASMR-style sound of a sharp blade slicing through canvas (a 'zaku-zaku' or 'biri-biri' sound). This is immediately followed by a series of subtle but clear, tactile sounds of plant growth: gentle rustling, the crisp creaking of stems elongating, and the soft unfurling of petals. No chimes or sparkly magical sounds."
+    },
+    "color_palette":"Deep blues and vibrant yellows of the painting, contrasted with the fresh green and bright yellow of the photorealistic sunflowers.",
+    "visual_rules": {
+        "prohibited_elements":["Any scene change, wipe, or dissolve after the cut is made",
+            "Sunflowers appearing from anywhere except the tear in the canvas",
+            "The emerging sunflowers being anything other than photorealistic",
+            "Any chimes, sparkles, or non-diegetic magical sounds"]}}
