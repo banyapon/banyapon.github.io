@@ -1,0 +1,181 @@
+[
+  {
+    "id": 0,
+    "levels": [
+      {
+        "level": "ayutthaya",
+        "story": [
+          {
+            "id": 0,
+            "character": "Narrator",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "The team visits Wat Mahathat, unaware their documentary shoot is about to become personal.",
+            "text_th": "ทีมมาถึงวัดมหาธาตุ โดยไม่รู้เลยว่าการถ่ายทำจะกลายเป็นเรื่องส่วนตัว",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 1,
+            "character": "Grandpa",
+            "main": "characters/grandpa/sad",
+            "other": "characters/blank",
+            "text": "Have you seen this man? He’s my son. We haven't spoken in decades...",
+            "text_th": "เคยเห็นผู้ชายในรูปไหม? เขาเป็นลูกชายของฉัน... เราไม่ได้คุยกันมาเป็นสิบปีแล้ว",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 2,
+            "character": "Bane",
+            "main": "characters/bane/normal",
+            "other": "characters/grandpa/sad",
+            "text": "That’s... strange. This place, this face—it feels familiar.",
+            "text_th": "แปลกจัง... สถานที่นี่ กับหน้านี้ มันคุ้นมากเลยครับ",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 3,
+            "character": "Mae",
+            "main": "characters/mae/normal",
+            "other": "characters/bane/normal",
+            "text": "Let’s help him. Maybe the story we're meant to tell… is his.",
+            "text_th": "เราช่วยเขาเถอะ บางทีเรื่องที่เราต้องเล่า อาจเป็นเรื่องของเขาก็ได้",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 4,
+            "character": "Tom",
+            "main": "characters/tom/normal",
+            "other": "characters/mae/normal",
+            "text": "I’ll shoot everything. If we find the son, he’ll know we tried.",
+            "text_th": "เดี๋ยวผมถ่ายทุกอย่างไว้เอง ถ้าเจอลูกชาย เขาจะได้รู้ว่าเราพยายามจริงๆ",
+            "background": "level/ayutthaya/02"
+          },
+          {
+            "id": 5,
+            "character": "Yo",
+            "main": "characters/yo/smile",
+            "other": "characters/bane/normal",
+            "text": "Look, there’s a local museum nearby. If he lived here, maybe he left something behind.",
+            "text_th": "พี่ๆ แถวนี้มีพิพิธภัณฑ์นะ ถ้าเขาเคยอยู่ที่นี่ อาจมีอะไรหลงเหลืออยู่ก็ได้",
+            "background": "level/ayutthaya/02"
+          },
+          {
+            "id": 6,
+            "character": "Narrator",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "Amongst 2,000+ ancient artifacts, a dusty letter sits forgotten.",
+            "text_th": "ท่ามกลางโบราณวัตถุกว่า 2,000 ชิ้น มีจดหมายเก่าใบหนึ่งที่ถูกลืมอยู่",
+            "background": "level/ayutthaya/03"
+          },
+          {
+            "id": 7,
+            "character": "Bane",
+            "main": "characters/bane/sad",
+            "other": "characters/grandpa/sad",
+            "text": "It’s... addressed to Grandpa. But it was never sent.",
+            "text_th": "นี่มันเขียนถึงคุณตาเลย... แต่ทำไมถึงไม่เคยถูกส่งออกไป?",
+            "background": "level/ayutthaya/03"
+          },
+          {
+            "id": 8,
+            "character": "Grandpa",
+            "main": "characters/grandpa/sad",
+            "other": "characters/bane/normal",
+            "text": "Maybe he thought I wouldn’t forgive him… but every day, I waited.",
+            "text_th": "บางทีเขาอาจคิดว่าฉันไม่ให้อภัย... แต่ทุกวัน ฉันก็เฝ้ารอเขา",
+            "background": "level/ayutthaya/03"
+          },
+          {
+            "id": 9,
+            "character": "Mae",
+            "main": "characters/mae/smile",
+            "other": "characters/grandpa/normal",
+            "text": "Then we’ll help you send that message now—in your words, through our lens.",
+            "text_th": "งั้นเราจะช่วยส่งข้อความนี้แทนคุณ ผ่านคำของคุณ ผ่านกล้องของพวกเรา",
+            "background": "level/ayutthaya/03"
+          },
+          {
+            "id": 10,
+            "character": "Narrator",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "They return to Wat Phra Ngam for the final shoot—a message of hope.",
+            "text_th": "พวกเขากลับมาที่วัดพระงาม เพื่อถ่ายทำข้อความสุดท้าย...ข้อความแห่งความหวัง",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 11,
+            "character": "Tom",
+            "main": "characters/tom/smile",
+            "other": "characters/yo/normal",
+            "text": "Camera’s ready. We’ve got golden hour light—it’s perfect.",
+            "text_th": "กล้องพร้อม แสงเย็นกำลังสวยเลยครับ",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 12,
+            "character": "Mae",
+            "main": "characters/mae/smile",
+            "other": "characters/bane/smile",
+            "text": "This is more than just a vlog. It's a message he’s waited a lifetime for.",
+            "text_th": "นี่ไม่ใช่วล็อกธรรมดาแล้ว นี่คือข้อความที่เขารอคอยมาตลอดชีวิต",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 13,
+            "character": "Bane",
+            "main": "characters/bane/smile",
+            "other": "characters/blank",
+            "text": "Let’s shoot. I’m ready to tell this story—for both of them.",
+            "text_th": "มาเริ่มถ่ายกัน ผมพร้อมเล่าเรื่องนี้ให้ทั้งสองคนแล้ว",
+            "background": "level/ayutthaya/04"
+          }
+        ]
+      }
+    ],
+    "stat": [
+      {
+        "dialogueId": 4,
+        "choices": [
+          {
+            "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+            "text": "Create an inspiring documentary-style video.",
+            "impact": {
+              "Creative": 2,
+              "Visual and Design": 1,
+              "Story Telling": 2,
+              "Technic": 0,
+              "Value and Engage": 2
+            },
+            "nextDialogueId": 5
+          },
+          {
+            "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+            "text": "Make a fun viral-style travel and food review.",
+            "impact": {
+              "Creative": 1,
+              "Visual and Design": 2,
+              "Story Telling": 1,
+              "Technic": 1,
+              "Value and Engage": 3
+            },
+            "nextDialogueId": 6
+          },
+          {
+            "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+            "text": "Focus on a behind-the-scenes team documentary.",
+            "impact": {
+              "Creative": 2,
+              "Visual and Design": 1,
+              "Story Telling": 3,
+              "Technic": 0,
+              "Value and Engage": 1
+            },
+            "nextDialogueId": 7
+          }
+        ]
+      }
+    ]
+  }
+]

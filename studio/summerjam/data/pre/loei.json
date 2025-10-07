@@ -1,0 +1,244 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "loei",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ทีมเดินทางมาถึงอุทยานแห่งชาติภูกระดึง เตรียมตัวลุยภารกิจใหม่: ถ่ายสารคดีธรรมชาติบนภูกระดึง",
+                        "text": "The team arrives at Phu Kradueng National Park, ready to take on a new mission: filming nature content atop Phu Kradueng.",
+                        "background": "level/loei/01"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/normal",
+                        "text_th": "Bane นายเคยขึ้นเขากลางสายหมอกแบบนี้มั้ย?",
+                        "text": "Bane, have you ever hiked through morning mist like this?",
+                        "background": "level/loei/01"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ไม่เคยเลย... แต่มีเธอเดินด้วยแบบนี้ก็น่าลุยขึ้นเยอะ",
+                        "text": "Never… but having you walk beside me makes it easier.",
+                        "background": "level/loei/01"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "โอ้โห เริ่มหวานตั้งแต่ก้าวแรกเลยนะพี่!",
+                        "text": "Wow, getting sweet already, huh!",
+                        "background": "level/loei/01"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ขอเปิดกล้องตั้งแต่ตรงนี้เลยมั้ยครับพี่ ฮ่าๆๆ",
+                        "text": "Should I start filming now? Haha!",
+                        "background": "level/loei/01"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "แสงเช้าสะท้อนบนยอดไม้ หมอกลอยอ้อยอิ่งเหนือเส้นทางเดินเขา",
+                        "text": "Sunlight glistens through treetops as mist clings to the winding trail.",
+                        "background": "level/loei/02"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/normal",
+                        "text_th": "ตอนเด็กฉันเคยฝันว่าสักวันจะได้ทำอะไรแบบนี้กับใครสักคน...",
+                        "text": "I used to dream of doing this with someone, someday...",
+                        "background": "level/loei/02"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "และตอนนี้... ฉันอยู่ตรงนี้ไง",
+                        "text": "Well… here I am.",
+                        "background": "level/loei/02"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "Mae หยุดถ่ายภาพดอกไม้ริมทาง Bane ยืนมองเธอด้วยสายตาอบอุ่น",
+                        "text": "Mae stops to photograph wildflowers. Bane watches her, quietly smiling.",
+                        "background": "level/loei/03"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/blank",
+                        "text_th": "ทุก Shot ที่ผมเก็บ มันมีอะไรบางอย่างมากกว่าแค่ธรรมชาติ...",
+                        "text": "Every shot I’ve taken… there’s something more than just nature in them.",
+                        "background": "level/loei/03"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "เอาไว้ตัดต่อเป็น short film วาเลนไทน์ส่งเข้าเฟสบุ๊กได้เลย!",
+                        "text": "This could be a Valentine short film, Yo!",
+                        "background": "level/loei/03"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "พวกเขาหยุดพักริมลำธาร ใบไม้ร่วงช้าๆ และเสียงน้ำไหลเบาๆ ก้องในความเงียบ",
+                        "text": "They rest beside a stream, leaves gently falling, water flowing softly in the silence.",
+                        "background": "level/loei/04"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Mae",
+                        "main": "characters/mae/sad",
+                        "other": "characters/bane/normal",
+                        "text_th": "บางที... ฉันก็กลัวว่าเรื่องนี้มันจะเป็นแค่เรื่องชั่วคราว",
+                        "text": "Sometimes… I’m afraid this is all temporary.",
+                        "background": "level/loei/04"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "แต่สำหรับฉัน... มันคือจุดเริ่มต้นของบางอย่างที่อยากรักษาไว้",
+                        "text": "But to me… this feels like the start of something I want to keep.",
+                        "background": "level/loei/04"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ลมเย็นพัดผ่าน เบนจับมือแม่ไว้แน่น... ก่อนจะยิ้มให้กัน",
+                        "text": "A breeze sweeps by. Bane gently takes Mae’s hand… and they share a quiet smile.",
+                        "background": "level/loei/04"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/normal",
+                        "text_th": "ฮู้ววววว! ผมไม่เห็นอะไรทั้งนั้น! กล้องก็ไม่อัดนะครับพี่! (อัดอยู่)",
+                        "text": "Whoooaaa! I saw nothing! Totally didn’t record that! (He did.)",
+                        "background": "level/loei/04"
+                    },
+                    {
+                        "id": 16,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/bane/normal",
+                        "text_th": "นายว่าพรุ่งนี้เราจะเห็นทะเลหมอกมั้ย?",
+                        "text": "Do you think we’ll see the sea of fog tomorrow morning?",
+                        "background": "level/loei/04"
+                    },
+                    {
+                        "id": 17,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ฉันไม่รู้หรอก... แต่รู้แค่ว่าอยากตื่นมาเจอมันพร้อมเธอ",
+                        "text": "I’m not sure… but I know I want to wake up and see it with you.",
+                        "background": "level/loei/04"
+                    },
+                    {
+                        "id": 18,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "คืนนั้นดาวเต็มฟ้า... พวกเขานอนในเต็นท์ ฟังเสียงธรรมชาติแทนเสียงเมือง",
+                        "text": "That night, the sky was full of stars… and they fell asleep to the sound of nature instead of city life.",
+                        "background": "level/loei/05"
+                    },
+                    {
+                        "id": 19,
+                        "character": "Bane",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "(ขอบคุณนะ... ที่ให้ฉันได้รู้ว่าการเดินทางครั้งนี้มีความหมายขนาดไหน)",
+                        "text": "(Thank you… for making this journey mean so much more than I ever imagined.)",
+                        "background": "level/loei/05"
+                    },
+                    {
+                        "id": 20,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "รุ่งเช้า... การเดินทางสู่ยอดเขาครั้งสำคัญกำลังจะเริ่มต้น",
+                        "text": "At dawn… the final stretch to the summit begins.",
+                        "background": "level/loei/05"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "nakhonratchasima",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ทีมเดินทางมาถึงสถานที่ถ่ายทำถัดไปในนครราชสีมา พร้อมพลังและความคิดที่ต่างกัน",
+                        "text": "The team arrives at the next filming location in nakhonratchasima, charged with energy—and opposing ideas.",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/bane/normal",
+                        "text_th": "ฉันอยากลองเล่าแบบลึกซึ้ง ซึ้งกินใจนะ Bane เหมาะกับที่นี่",
+                        "text": "I think we should go emotional and deep, Bane. It fits this place.",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Bane",
+                        "main": "characters/bane/sad",
+                        "other": "characters/mae/normal",
+                        "text_th": "แต่ฉันว่าเราเล่าด้วยมุมฮาๆ สอดแทรกสาระจะดึงคนได้มากกว่า",
+                        "text": "But I believe humor with a message will attract more viewers.",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Tom",
+                        "main": "characters/tom/normal",
+                        "other": "characters/blank",
+                        "text_th": "เราลองถ่ายสองแบบไปเลยมั้ย แล้วค่อยดูผลตอบรับ?",
+                        "text": "Why don’t we shoot both versions and compare feedback later?",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Yo",
+                        "main": "characters/yo/normal",
+                        "other": "characters/bane/normal",
+                        "text_th": "Challenge! ทีม Mae vs ทีม Bane คอนเทนต์ใครปังกว่ารอดูกัน",
+                        "text": "Challenge time! Team Mae vs. Team Bane. Let’s see whose content wins.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Narrator",
+                        "main": "characters/bane/sad",
+                        "other": "characters/mae/sad",
+                        "text_th": "ทั้งสองทีมเริ่มวางแผน ถ่ายทำในมุมที่ตนถนัด มีบรรยากาศตึงๆ เล็กน้อย",
+                        "text": "Both teams start planning their shoots, each with a tense but driven vibe.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/yo/smile",
+                        "text_th": "Yo มุมนี้แสงสวยนะ ลองใช้ซาวด์จากธรรมชาติเป็นแบ็คกราวด์ด้วย",
+                        "text": "Yo, this lighting is beautiful. Let’s use the natural sounds as background too.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "Tom ไปซูมร้านก๋วยเตี๋ยวข้างทางให้หน่อย ฉากนี้ฉันจะใส่มุกให้สุด",
+                        "text": "Tom, zoom in on that noodle stall. I’ve got the perfect joke for this shot.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/blank",
+                        "text_th": "โอเค ได้ทั้งสาระ และเสียงหัวเราะเลยงานนี้!",
+                        "text": "Alright, we’re getting both wisdom and laughter in one shoot!",
+                        "background": "level/nakhonratchasima/03"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 3,
+                            "Technic": 0,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,190 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "nakhonratchasima",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "หลังถ่ายทำเสร็จ ทั้งสองทีมกลับมารวมตัวเพื่อดูผลงานที่ได้",
+                        "text": "After filming wrapped, both teams gathered to review their work.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "ฉันว่าคลิปเราน่าจะโดนใจสายซึ้งนะ ดูแล้วอบอุ่นหัวใจดี",
+                        "text": "I think our clip will touch hearts. It has a warm, emotional vibe.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ของเราฮาหนักมาก คนดูน่าจะแชร์กันกระจาย ฮ่าๆ",
+                        "text": "Ours is hilarious. I bet people will share it like crazy, haha.",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Tom",
+                        "main": "characters/tom/normal",
+                        "other": "characters/blank",
+                        "text_th": "ผมตัดต่อสองคลิปเรียบร้อย พร้อมอัปโหลดเลยครับ",
+                        "text": "I've edited both versions. Ready to upload!",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/blank",
+                        "text_th": "โพสต์เลย! แล้วเราจะได้รู้ว่าใครคือครีเอเตอร์ตัวจริง",
+                        "text": "Let’s post them! Then we’ll know who the real content champ is.",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "คอมเมนต์แรกเริ่มหลั่งไหลเข้ามา... ทั้งชื่นชมและฮาแตก",
+                        "text": "Comments started pouring in—praise, laughter, and excitement.",
+                        "background": "level/nakhonratchasima/01"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/blank",
+                        "text_th": "ดูนี่สิ! มีคนบอกว่าอยากย้อนคิดถึงบ้านเกิดเพราะคลิปเรา",
+                        "text": "Look! Someone said our clip made them miss their hometown.",
+                        "background": "level/nakhonratchasima/01"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "ของเราก็มีคนแท็กเพื่อนให้ดูด้วยนะ บอกว่า ‘มุกนี้โคตรใช่!’",
+                        "text": "Ours got tagged by friends too—‘This joke hit home!’",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "ทั้งสองคลิปยอดวิวใกล้กันเป๊ะเลย นี่สิ ศึกที่แท้ทรู",
+                        "text": "Both videos are neck-and-neck in views. Now that’s a real showdown!",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Yo",
+                        "main": "characters/yo/normal",
+                        "other": "characters/bane/smile",
+                        "text_th": "ไม่คิดว่าจะสูสีขนาดนี้ สุดท้ายเราทุกคนก็ชนะแล้วล่ะ",
+                        "text": "Didn’t expect it to be this close. In the end, we all won.",
+                        "background": "level/nakhonratchasima/02"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "ฉันดีใจที่เราได้ลองทั้งสองแนว มันเติมเต็มกันดี",
+                        "text": "I’m glad we tried both styles. They really complemented each other.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ครั้งหน้าลองผสมแนวกันมั้ย? สนุกแน่นอน",
+                        "text": "Next time, let’s mix the styles! It’ll be even more fun.",
+                        "background": "level/nakhonratchasima/03"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "เราคือทีมที่ลงตัวสุด ๆ แล้วล่ะ!",
+                        "text": "We’ve got the perfect team combo!",
+                        "background": "level/nakhonratchasima/04"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/blank",
+                        "text_th": "และภารกิจนี้ก็สอนให้เรารู้ว่า ‘มุมมองที่ต่าง คือพลังสร้างสรรค์’",
+                        "text": "This challenge taught us—‘Differences spark creativity.’",
+                        "background": "level/nakhonratchasima/04"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "พวกเขาเก็บของ เตรียมเดินทางสู่จังหวัดถัดไป พร้อมประสบการณ์ใหม่ที่ไม่มีใครลืม",
+                        "text": "They packed up, ready to head to the next province—with unforgettable memories in tow.",
+                        "background": "level/nakhonratchasima/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 3,
+                            "Technic": 0,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

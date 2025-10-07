@@ -1,0 +1,244 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "maehongson",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ทีมตื่นแต่เช้าที่หมู่บ้านขุนยวม... หมอกยังคลุมแน่น เสียงนกร้องแผ่วเบาจากบนดอย",
+                        "text": "The team wakes early in Khun Yuam. Mist blankets the village, and mountain birds sing softly in the distance.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "นี่อาจเป็นที่เงียบที่สุดที่เราเคยมาถ่ายคลิป... แต่กลับรู้สึกว่าภาพมันพูดมากที่สุด",
+                        "text": "This might be the quietest place we’ve ever filmed… yet it feels like the images speak the loudest.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Narrator",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "Bane ไม่ได้พูดอะไร... เขายกกล้องขึ้น และกดบันทึก",
+                        "text": "Bane says nothing. He just lifts the camera… and presses record.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "พี่ Yo รู้ไหม… ตอนแรกผมก็แค่อยากถ่าย Vlog มัน ๆ แต่ตอนนี้รู้สึกเหมือนเรากำลังถ่ายสารคดีชีวิต",
+                        "text": "Yo… at first I just wanted to shoot a fun vlog. But now it feels like we’re filming real life itself.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Yo",
+                        "main": "characters/bane/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "จริงครับ… เราไม่ได้ถ่ายแค่สถานที่ แต่เรากำลังบันทึกความสัมพันธ์ของพวกเรา",
+                        "text": "Exactly. We’re not just filming places… we’re capturing our bond.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Cherry",
+                        "main": "characters/bane/normal",
+                        "other": "characters/cherry/smile",
+                        "text_th": "พวกพี่ถ่ายคลิปกันเหมือนกำลังเขียนบทหนังด้วยกล้องเลยค่ะ",
+                        "text": "You guys shoot like you’re writing a film… with a camera.",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Korn",
+                        "main": "characters/cherry/smile",
+                        "other": "characters/korn/normal",
+                        "text_th": "แล้วก็เป็นหนังที่ถ่ายด้วยหัวใจจริง ๆ ไม่ใช่แค่เทคนิค",
+                        "text": "And it’s a film made from the heart… not just technique.",
+                        "background": "level/maehongson/02"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Mae",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "รู้มั้ย ฉันไม่แน่ใจเลยว่าจุดหมายของทริปนี้คืออะไร... แต่ฉันมั่นใจในทีมนี้มากขึ้นทุกวัน",
+                        "text": "You know… I’m not sure what the goal of this trip was anymore. But I’m more certain about this team every day.",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Narrator",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "Bane มอง Mae... แววตาที่เข้าใจกันมากกว่าคำพูดใด ๆ",
+                        "text": "Bane looks at Mae… a gaze that says more than any words ever could.",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Tom",
+                        "main": "characters/bane/normal",
+                        "other": "characters/tom/smile",
+                        "text_th": "จำตอนแรกที่พี่ Bane ยังไม่พูดอะไรเลยได้ไหม? ตอนนี้แกกลายเป็นคนเปิดกล้องคนแรกทุกเช้า",
+                        "text": "Remember how Bane used to say nothing? Now he’s the one turning the camera on every morning.",
+                        "background": "level/maehongson/02"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/normal",
+                        "text_th": "แล้วเราก็กลายเป็นทีมที่ไม่ต้องพูดอะไรมาก... แต่เข้าใจกัน",
+                        "text": "And we’ve become a team that doesn’t need to talk much… to understand each other.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Mae",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "ฉันคิดว่าฉันพร้อมแล้วล่ะ... ที่จะเดินไปด้วยกัน ไม่ว่าจะไกลแค่ไหน",
+                        "text": "I think I’m ready now… to walk with you, no matter how far.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ภาพสุดท้ายของคลิป ‘แม่ฮ่องสอน: เส้นทางแห่งความเงียบที่พูดได้’ คือการหันกล้องกลับมาหาทีม",
+                        "text": "The last shot in ‘Mae Hong Son: The Silent Path That Speaks’ turns the camera… back toward the team.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Korn",
+                        "main": "characters/korn/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "แม้ฉันจะไม่ได้ไปกับพวกนาย... แต่คลิปนี้ทำให้ผมเหมือนได้เดินด้วยอีกครั้ง",
+                        "text": "Even though I wasn’t there… that video made me feel like I walked it with you.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Yo",
+                        "main": "characters/bane/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "เราไม่ได้สร้างแค่คลิปท่องเที่ยว… เรากำลังสร้างบางสิ่งที่ใหญ่กว่านั้น",
+                        "text": "We’re not just making travel videos… we’re building something bigger.",
+                        "background": "level/maehongson/02"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Tom",
+                        "main": "characters/bane/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "มันคือความทรงจำ... ที่เก็บไว้ในรูปแบบที่แชร์ได้กับคนทั้งโลก",
+                        "text": "It’s memories—preserved in a form we can share with the world.",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 16,
+                        "character": "Cherry",
+                        "main": "characters/bane/normal",
+                        "other": "characters/cherry/smile",
+                        "text_th": "พวกพี่ทำให้หมู่บ้านเล็ก ๆ นี้มีเสียงขึ้นมาอีกครั้ง... ขอบคุณนะคะ",
+                        "text": "You gave this little village a voice again… thank you.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 17,
+                        "character": "Korn",
+                        "main": "characters/bane/smile",
+                        "other": "characters/korn/normal",
+                        "text_th": "อย่าลืมกลับมาอีกเน่อ… ทางนี้จะคอยฮับเสมอ",
+                        "text": "Don’t forget to come back, now… we’ll always be here waiting.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 18,
+                        "character": "Mae",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "เรายังมีเรื่องต้องเล่าอีกเยอะ… และฉันจะไม่ปล่อยให้เธอเล่าเรื่องนั้นคนเดียวแน่",
+                        "text": "We’ve still got so many stories to tell… and I’m not letting you tell them alone.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 19,
+                        "character": "Narrator",
+                        "main": "characters/bane/normal",
+                        "other": "characters/blank",
+                        "text_th": "ทีมก้าวขึ้นรถคันเดิม แต่หัวใจไม่เหมือนเดิมอีกต่อไป...",
+                        "text": "The team steps into the same van… but their hearts are no longer the same.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 20,
+                        "character": "Narrator",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "เพราะการเดินทางครั้งนี้... ทำให้พวกเขารู้ว่า จุดหมาย ไม่เคยสำคัญเท่ากับ 'เรามาด้วยกัน'",
+                        "text": "Because this journey… taught them that the destination never matters more than the fact that we came here together.",
+                        "background": "level/maehongson/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

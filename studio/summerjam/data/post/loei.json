@@ -1,0 +1,154 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "ayutthaya",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "หลังลงจากภูกระดึง ทีมใช้เวลาพักฟื้นหนึ่งคืนที่เชียงคาน เมืองสงบริมโขง",
+                        "text": "After descending from Phu Kradueng, the team takes a quiet night to rest in Chiang Khan.",
+                        "background": "level/loei/06"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "บรรยากาศที่นี่เงียบดีนะ... เหมาะกับการทบทวนอะไรหลายๆ อย่าง",
+                        "text": "It’s quiet here… perfect for reflecting on everything.",
+                        "background": "level/loei/06"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/normal",
+                        "text_th": "ฉันไม่คิดเลยว่าการทำคลิปเที่ยวครั้งนี้จะได้อะไรมากกว่าที่หวังไว้",
+                        "text": "I didn’t expect this trip to give me more than just footage.",
+                        "background": "level/loei/06"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "คลิป “ข้ามหมอก ภูกระดึง” ถูกอัปโหลดในวันรุ่งขึ้น ได้เสียงตอบรับท่วมท้น",
+                        "text": "The video 'Crossing the Mist – Phu Kradueng' goes live the next day and is met with overwhelming support.",
+                        "background": "level/loei/08"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "ยอดวิวพุ่งแรงเลยครับพี่ Bane คนดูคอมเมนต์บอกว่าอินมาก!",
+                        "text": "Views are skyrocketing, Bane! People say it’s deeply moving!",
+                        "background": "level/loei/08"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Yo",
+                        "main": "characters/yo/normal",
+                        "other": "characters/tom/smile",
+                        "text_th": "บางคอมเมนต์บอกว่า... อยากออกเดินทางเหมือนพวกเราเลยครับ",
+                        "text": "Some comments say they feel inspired to travel… just like we did.",
+                        "background": "level/loei/08"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "คิดว่าถึงเวลาแล้วล่ะ... ที่จะใช้กล้องของเราเล่าเรื่องมากกว่าภาพวิว",
+                        "text": "I think it’s time we start telling stories beyond just scenery shots.",
+                        "background": "level/loei/08"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ใช่... ภาพที่ดีไม่ใช่แค่ภาพสวย แต่ต้องสื่อความรู้สึกด้วย",
+                        "text": "Yeah… a great shot isn’t just beautiful. It has to carry feeling, too.",
+                        "background": "level/loei/09"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "เช้าวันต่อมา... ทีมออกเดินทางอีกครั้ง",
+                        "text": "The next morning… the team sets off again.",
+                        "background": "level/loei/09"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Yo",
+                        "main": "characters/tom/normal",
+                        "other": "characters/yo/smile",
+                        "text_th": "อย่างน้อย... ที่นี่ก็เก็บภาพความทรงจำดี ๆ ไว้ได้เยอะเลยนะครับ",
+                        "text": "At the very least… we’ve captured a lot of beautiful memories here.",
+                        "background": "level/loei/06"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/bane/smile",
+                        "text_th": "ไม่เป็นไร... ถึงเวลาออกไปฟังเสียงจากอีกมุมของประเทศแล้วล่ะ",
+                        "text": "That’s okay… it’s time we heard stories from the other corner of this country.",
+                        "background": "level/loei/06"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": 0,
+    "levels": [
+      {
+        "level": "ayutthaya",
+        "story": [
+          {
+            "id": 0,
+            "character": "Narrator",
+            "main": "characters/bane/smile",
+            "other": "characters/blank",
+            "text": "The team begins recording Grandpa’s message to his long-lost son.",
+            "text_th": "ทีมเริ่มถ่ายข้อความของคุณตาถึงลูกชายที่หายไป",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 1,
+            "character": "Grandpa",
+            "main": "characters/grandpa/normal",
+            "other": "characters/blank",
+            "text": "Son… if you see this… come home. I’ve missed you.",
+            "text_th": "ลูก... ถ้าลูกได้เห็นสิ่งนี้ กลับบ้านนะ พ่อคิดถึงลูกมาก",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 2,
+            "character": "Yo",
+            "main": "characters/yo/smile",
+            "other": "characters/tom/smile",
+            "text": "Uploaded and live. Let’s hope it reaches him.",
+            "text_th": "อัปโหลดแล้วครับ หวังว่าเขาจะได้เห็นมันนะ",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 3,
+            "character": "Narrator",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "Some stories begin with loss, but end in reconnection.",
+            "text_th": "บางเรื่องเริ่มต้นจากการพลัดพราก แต่จบด้วยการกลับมาเชื่อมโยงกันใหม่",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 4,
+            "character": "Mae",
+            "main": "characters/mae/smile",
+            "other": "characters/bane/smile",
+            "text": "Where are we going next, director?",
+            "text_th": "ผู้กำกับคะ เราจะไปที่ไหนต่อดี?",
+            "background": "level/ayutthaya/04"
+          },
+          {
+            "id": 5,
+            "character": "Bane",
+            "main": "characters/bane/smile",
+            "other": "characters/mae/smile",
+            "text": "Anywhere the story takes us.",
+            "text_th": "ที่ไหนก็ได้... ที่มีเรื่องรอให้เราเล่า",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 6,
+            "character": "Narrator",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "One week later… a message arrives.",
+            "text_th": "หนึ่งสัปดาห์ต่อมา... มีข้อความตอบกลับมา",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 7,
+            "character": "Bane",
+            "main": "characters/bane/normal",
+            "other": "characters/blank",
+            "text": "Guys… someone left a comment: 'Dad… I saw your video.'",
+            "text_th": "ทุกคนครับ... มีคอมเมนต์ว่า 'พ่อ... ผมเห็นวิดีโอของพ่อแล้ว'",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 8,
+            "character": "Grandpa",
+            "main": "characters/grandpa/sad",
+            "other": "characters/bane/smile",
+            "text": "Is it really him…? After all this time?",
+            "text_th": "เป็นเขาจริงเหรอ... หลังจากที่เวลาผ่านมานานขนาดนี้...",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 9,
+            "character": "Narrator",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "Later that day, a man walks quietly into the temple ruins.",
+            "text_th": "ในวันนั้นเอง ชายคนหนึ่งก็เดินเข้ามาอย่างเงียบ ๆ ที่วัดร้าง",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 10,
+            "character": "Son",
+            "main": "characters/son/normal",
+            "other": "characters/blank",
+            "text": "Dad… I’m here.",
+            "text_th": "พ่อ... ผมมาแล้วครับ",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 11,
+            "character": "Grandpa",
+            "main": "characters/grandpa/sad",
+            "other": "characters/son/sad",
+            "text": "You came back… I wasn’t sure you ever would.",
+            "text_th": "ลูกกลับมาแล้ว... พ่อไม่แน่ใจเลยว่าจะได้เจอลูกอีกไหม",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 12,
+            "character": "Son",
+            "main": "characters/son/sad",
+            "other": "characters/grandpa/sad",
+            "text": "I was afraid… that you'd still be mad at me.",
+            "text_th": "ผมกลัว... กลัวว่าพ่อจะยังโกรธผมอยู่",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 13,
+            "character": "Grandpa",
+            "main": "characters/grandpa/normal",
+            "other": "characters/son/sad",
+            "text": "Never. I’ve only missed you every single day.",
+            "text_th": "ไม่เลย พ่อแค่คิดถึงลูกทุกวัน",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 14,
+            "character": "Son",
+            "main": "characters/son/smile",
+            "other": "characters/grandpa/normal",
+            "text": "I’m here to make it right… if you’ll have me back.",
+            "text_th": "ผมกลับมาเพื่อเริ่มต้นใหม่... ถ้าพ่อยอมให้โอกาสผม",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 15,
+            "character": "Grandpa",
+            "main": "characters/grandpa/smile",
+            "other": "characters/son/smile",
+            "text": "Of course, son. Welcome home.",
+            "text_th": "แน่นอนลูก... ยินดีต้อนรับกลับบ้าน",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 16,
+            "character": "Narrator",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "Bane lowers his camera. No need for shots—this moment is for them.",
+            "text_th": "Bane วางกล้องลงอย่างเงียบ ๆ ช่วงเวลานี้... ควรเป็นของพวกเขาสองคน",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 17,
+            "character": "Mae",
+            "main": "characters/mae/smile",
+            "other": "characters/bane/smile",
+            "text": "You caught that on film, right?",
+            "text_th": "ถ่ายไว้ทันใช่ไหม?",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 18,
+            "character": "Bane",
+            "main": "characters/bane/smile",
+            "other": "characters/mae/smile",
+            "text": "No need. That one’s for the heart.",
+            "text_th": "ไม่ต้องหรอก... ช็อตนี้เก็บไว้ในใจ",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 19,
+            "character": "Tom",
+            "main": "characters/tom/smile",
+            "other": "characters/yo/smile",
+            "text": "Sometimes the real story happens after you stop recording.",
+            "text_th": "บางที เรื่องจริงก็เกิดหลังจากเรากดหยุดถ่าย",
+            "background": "level/ayutthaya/01"
+          },
+          {
+            "id": 20,
+            "character": "System",
+            "main": "characters/blank",
+            "other": "characters/blank",
+            "text": "Ayutthaya Episode Completed!",
+            "text_th": "จบตอน: การเดินทางที่อยุธยา",
+            "background": "level/ayutthaya/01"
+          }
+        ]
+      }
+    ],
+    "stat": [
+      {
+        "dialogueId": 4,
+        "choices": [
+          {
+            "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+            "text": "Create an inspiring documentary-style video.",
+            "impact": {
+              "Creative": 2,
+              "Visual and Design": 1,
+              "Story Telling": 2,
+              "Technic": 0,
+              "Value and Engage": 2
+            },
+            "nextDialogueId": 5
+          },
+          {
+            "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+            "text": "Make a fun viral-style travel and food review.",
+            "impact": {
+              "Creative": 1,
+              "Visual and Design": 2,
+              "Story Telling": 1,
+              "Technic": 1,
+              "Value and Engage": 3
+            },
+            "nextDialogueId": 6
+          },
+          {
+            "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+            "text": "Focus on a behind-the-scenes team documentary.",
+            "impact": {
+              "Creative": 2,
+              "Visual and Design": 1,
+              "Story Telling": 3,
+              "Technic": 0,
+              "Value and Engage": 1
+            },
+            "nextDialogueId": 7
+          }
+        ]
+      }
+    ]
+  }
+]

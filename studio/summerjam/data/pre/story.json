@@ -1,0 +1,101 @@
+[
+  {
+    "id": 0,
+    "character": "Narrator",
+    "text_th": "ในยุคหลังโควิด ธุรกิจหลายอย่างต้องปิดตัว... และ Bane ก็เป็นหนึ่งในนั้น",
+    "text": "After the COVID era, many businesses shut down... and Bane was one of them.",
+    "main": "characters/blank",
+    "other": "characters/blank",
+    "background":"level/bangkok/main"
+  },
+  {
+    "id": 1,
+    "character": "Bane",
+    "text_th": "(ถอนหายใจ) บริษัทที่เคยสร้างมากับมือ... ล้มละลายเพราะพิษเศรษฐกิจ",
+    "text": "(sigh) The company I built from the ground up... went bankrupt due to the economic crisis.",
+    "main": "characters/bane/sad",
+    "other": "characters/blank",
+    "background":"level/bangkok/main"
+  },
+  {
+    "id": 2,
+    "character": "Narrator",
+    "text_th": "Bane ตกงาน ถูกฟ้องร้องหนี้สิน และต้องเริ่มต้นใหม่จากศูนย์",
+    "text": "Bane lost his job, faced lawsuits over debts, and had to start over from scratch.",
+    "main": "characters/bane/normal",
+    "other": "characters/blank",
+    "background":"level/bangkok/main"
+  },
+  {
+    "id": 3,
+    "character": "Mae",
+    "text_th": "Bane! ฉันรู้ว่านายกำลังลำบาก… แต่ฉันมีไอเดียหนึ่ง อยากให้นายช่วย",
+    "text": "Bane! I know you're struggling… but I have an idea, and I need your help.",
+    "main": "characters/bane/sad",
+    "other": "characters/mae/smile",
+    "background":"level/bangkok/officework"
+  },
+  {
+    "id": 4,
+    "character": "Bane",
+    "text_th": "อะไรนะ Mae… ฉันไม่มีอะไรเหลือแล้วด้วยซ้ำ",
+    "text": "What? Mae… I have nothing left.",
+    "main": "characters/bane/normal",
+    "other": "characters/mae/normal",
+    "background":"level/bangkok/officework"
+  },
+  {
+    "id": 5,
+    "character": "Mae",
+    "text_th": "เรามาสร้าง Studio ทำช่อง YouTube ด้วยกัน! ช่องพาเที่ยว + ทำคอนเทนต์สาระ บ้าๆ บอๆ ที่เราเคยคุยกันไว้ไง",
+    "text": "Let’s build a studio and start a YouTube channel together! A travel + fun educational content channel like we always talked about.",
+    "main": "characters/bane/normal",
+    "other": "characters/mae/smile",
+    "background":"level/bangkok/officework"
+  },
+  {
+    "id": 6,
+    "character": "Narrator",
+    "text_th": "Bane ลังเล แต่สุดท้ายก็ตัดสินใจร่วมมือกับ Mae เพื่อสู้ต่ออีกครั้ง",
+    "text": "Bane hesitated, but eventually decided to team up with Mae and fight once more.",
+    "main": "characters/bane/normal",
+    "other": "characters/blank",
+    "background":"level/bangkok/officework"
+  },
+  {
+    "id": 7,
+    "character": "Tom",
+    "text_th": "ถ้านายจะทำจริง ฉันยินดีลุยไปด้วยกัน กล้องฉันพร้อมเสมอ",
+    "text": "If you're serious, I'm in. My camera is always ready.",
+    "main": "characters/bane/normal",
+    "other": "characters/tom/smile",
+    "background":"level/bangkok/officework"
+  },
+  {
+    "id": 8,
+    "character": "Yo",
+    "text_th": "ผมชื่อโยครับ เป็นช่างเทคนิคฝึกงานอะไรก็ทำได้ จะเชื่อมสาย ตัดคลิป ซ่อมกล้อง ผมลุยหมด!",
+    "text": "I'm Yo, an intern technician—I can handle anything. Cables, editing, fixing gear—I'm all in!",
+    "main": "characters/bane/normal",
+    "other": "characters/yo/normal",
+    "background":"level/bangkok/officework"
+  },
+  {
+    "id": 9,
+    "character": "Narrator",
+    "text_th": "และแล้วทั้งสี่คนก็รวมทีมกัน... เพื่อสร้างช่อง 'ระหว่างทาง' คอนเทนต์ Roadtrip พาเที่ยว + ภารกิจชีวิต",
+    "text": "And so, the four came together... to create the 'Ra-Wang-Tang' channel—a road trip content journey and life mission.",
+    "main": "characters/blank",
+    "other": "characters/blank",
+    "background":"level/bangkok/officework"
+  },
+  {
+    "id": 10,
+    "character": "System",
+    "text_th": "เริ่มต้นการเดินทาง...",
+    "text": "The journey begins...",
+    "main": "characters/blank",
+    "other": "characters/blank",
+    "background":"cover/Start"
+  }
+]

@@ -1,0 +1,101 @@
+[
+    {
+      "id": 0,
+      "levels": [
+        {
+          "level": "bangkok",
+          "story": [
+            {
+              "id": 0,
+              "character": "Bane",
+              "main": "characters/bane/normal",
+              "other": "characters/mae/smile",
+              "text_th": "เราต้องทำให้คลิปแรกของเราออกมาดีที่สุด... ไม่งั้นคงไม่มีตอนต่อไปแน่ๆ",
+              "text": "We have to make our first video the best... or there might not be a next one.",
+              "background": "level/bangkok/officework"
+            },
+            {
+              "id": 1,
+              "character": "Mae",
+              "main": "characters/bane/normal",
+              "other": "characters/mae/smile",
+              "text_th": "งั้นเราเริ่มวางคอนเซปต์กันก่อนดีมั้ย? ฉันอยากได้อะไรที่สร้างแรงบันดาลใจ",
+              "text": "Then shall we start brainstorming the concept? I want something truly inspiring.",
+              "background": "level/bangkok/officework"
+            },
+            {
+              "id": 2,
+              "character": "Tom",
+              "main": "characters/bane/normal",
+              "other": "characters/tom/normal",
+              "text_th": "แต่ภาพก็สำคัญนะ มุมกล้องต้องได้อารมณ์ ไม่งั้นคนไม่ดูแน่",
+              "text": "But visuals matter too. The camera angles need to convey emotion, or people won't watch.",
+              "background": "level/bangkok/officework"
+            },
+            {
+              "id": 3,
+              "character": "Yo",
+              "main": "characters/bane/normal",
+              "other": "characters/yo/smile",
+              "text_th": "เรามีอุปกรณ์ไม่เยอะนะครับ ต้องเลือกใช้เท่าที่มีให้เวิร์กสุดๆ",
+              "text": "We don't have much gear, so we have to make the most out of what we’ve got.",
+              "background": "level/bangkok/officework"
+            },
+            {
+              "id": 4,
+              "character": "Narrator",
+              "main": "characters/bane/normal",
+              "other": "characters/mae/normal",
+              "text_th": "เลือกแนวทางของคลิปแรกของคุณ",
+              "text": "Choose the direction of your first video.",
+              "background": "level/bangkok/officework"
+            }
+          ]
+        }
+      ],
+      "stat": [
+        {
+          "dialogueId": 4,
+          "choices": [
+            {
+              "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+              "text": "Create an inspiring documentary-style video.",
+              "impact": {
+                "Creative": 2,
+                "Visual and Design": 1,
+                "Story Telling": 2,
+                "Technic": 0,
+                "Value and Engage": 2
+              },
+              "nextDialogueId": 5
+            },
+            {
+              "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+              "text": "Make a fun viral-style travel and food review.",
+              "impact": {
+                "Creative": 1,
+                "Visual and Design": 2,
+                "Story Telling": 1,
+                "Technic": 1,
+                "Value and Engage": 3
+              },
+              "nextDialogueId": 6
+            },
+            {
+              "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+              "text": "Focus on a behind-the-scenes team documentary.",
+              "impact": {
+                "Creative": 2,
+                "Visual and Design": 1,
+                "Story Telling": 3,
+                "Technic": 0,
+                "Value and Engage": 1
+              },
+              "nextDialogueId": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

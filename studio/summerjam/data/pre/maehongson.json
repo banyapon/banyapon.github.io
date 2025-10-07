@@ -1,0 +1,244 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "maehongson",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/bane/normal",
+                        "other": "characters/blank",
+                        "text_th": "เมื่อเส้นทางพาเราสู่ปลายฟ้าเหนือ ทีมก็เดินทางสู่แม่ฮ่องสอน จังหวัดที่ห้อมล้อมด้วยภูเขาและหมอก",
+                        "text": "The road winds north, taking the team to Mae Hong Son—a province wrapped in mist and mountains.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "รู้ไหม Bane... ฉันไม่เคยกลัวเส้นทางเลย ถ้ามีใครบางคนอยู่ข้าง ๆ",
+                        "text": "You know Bane… I’m never afraid of the road, as long as someone’s walking beside me.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Narrator",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "หมู่บ้านรักไทเงียบสงบ ชายแดนจีน-ไทยที่เต็มไปด้วยความทรงจำของผู้คนพลัดถิ่น",
+                        "text": "Rak Thai Village is quiet and peaceful—on the border of China and Thailand, rich in stories of displacement and resilience.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Cherry",
+                        "main": "characters/bane/normal",
+                        "other": "characters/cherry/smile",
+                        "text_th": "ฉันชื่อ Cherry ค่ะ โตที่นี่เลย บ้านเราสอนว่าการต้อนรับคือสิ่งสำคัญที่สุด",
+                        "text": "I’m Cherry. I grew up here, and my family always said hospitality is everything.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Cherry",
+                        "main": "characters/bane/normal",
+                        "other": "characters/cherry/smile",
+                        "text_th": "ชาอู่หลงในถ้วยนี้... ไม่ได้มาจากไร่ใหญ่ แต่มาจากบ้านของเราเอง",
+                        "text": "This oolong tea… it’s not from a big estate, it’s from our own backyard.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Narrator",
+                        "main": "characters/bane/normal",
+                        "other": "characters/blank",
+                        "text_th": "สายลมหนาวพัดผ่านไร่ชา... แววตา Mae มองไปที่ Bane อย่างเงียบ ๆ",
+                        "text": "The cold wind blows through the tea hills… and Mae gazes at Bane in silence.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Yo",
+                        "main": "characters/bane/normal",
+                        "other": "characters/yo/normal",
+                        "text_th": "พี่ Bane เงียบจังเลยช่วงนี้นะ… หรือกำลังตั้งใจฟังเสียงใจตัวเอง?",
+                        "text": "Bane’s been awfully quiet lately… maybe he’s listening to his own heart?",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Tom",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "หรือไม่ก็พี่ Mae เงียบพอให้เขาได้พูดบ้างแล้ว ฮ่าๆ",
+                        "text": "Or maybe Mae finally let him get a word in, haha.",
+                        "background": "level/maehongson/01"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Narrator",
+                        "main": "characters/bane/normal",
+                        "other": "characters/blank",
+                        "text_th": "ณ ถนนคนเดินปาย ทีมได้พบ Korn ผู้ใหญ่บ้านอารมณ์ดีที่เล่าเรื่องเมืองได้เหมือนบทกวี",
+                        "text": "On Pai’s walking street, the team meets Korn—a cheerful village chief whose stories sound like poetry.",
+                        "background": "level/maehongson/02"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Korn",
+                        "main": "characters/bane/normal",
+                        "other": "characters/korn/normal",
+                        "text_th": "เมืองปายนี่นะครับ... เดิมเป็นจุดเชื่อมคนย้ายถิ่น จนกลายเป็นบ้านของหลากหัวใจ",
+                        "text": "Pai used to be a waypoint for migrants… now it’s a home for many hearts.",
+                        "background": "level/maehongson/02"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Korn",
+                        "main": "characters/bane/smile",
+                        "other": "characters/korn/smile",
+                        "text_th": "เวลามีใครมาเที่ยวปาย ผมไม่ให้พวกเขามองแค่ร้านกาแฟ… แต่ให้ฟังเสียงคนที่นี่",
+                        "text": "When people come to Pai, I don’t just show them cafés… I ask them to hear our stories.",
+                        "background": "level/maehongson/02"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Narrator",
+                        "main": "characters/bane/normal",
+                        "other": "characters/blank",
+                        "text_th": "สะพานประวัติศาสตร์เมืองปายทอดยาวเหนือแม่น้ำ เสียงลมพัดกับเสียงไม้ดังกึกก้องอยู่ใต้ฝ่าเท้า",
+                        "text": "The Pai Memorial Bridge stretches across the river. The wind whispers and wooden planks creak underfoot.",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Mae",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/normal",
+                        "text_th": "เธอเชื่อในคำว่า 'ปลายทาง' มั้ย Bane? หรือมันเป็นแค่ข้ออ้างให้เราเริ่มเดิน",
+                        "text": "Do you believe in ‘destinations’, Bane? Or is it just an excuse to keep walking?",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Narrator",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "Bane ไม่ได้ตอบอะไรทันที… แต่สีหน้าเขาบอกว่าเขาเข้าใจแล้ว",
+                        "text": "Bane doesn’t answer right away… but the look on his face says he understands.",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Cherry",
+                        "main": "characters/bane/normal",
+                        "other": "characters/cherry/smile",
+                        "text_th": "มีคนเคยบอกว่า 'ระหว่างทาง' คือบทเรียนที่ยิ่งใหญ่กว่าจุดหมาย…",
+                        "text": "Someone once told me the journey teaches more than the destination ever could.",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Tom",
+                        "main": "characters/bane/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ผมว่าพี่ Cherry นี่เหมือน narrator ในภาพยนตร์เลยนะ!",
+                        "text": "Cherry’s like the narrator of this whole film, I swear!",
+                        "background": "level/maehongson/03"
+                    },
+                    {
+                        "id": 16,
+                        "character": "Narrator",
+                        "main": "characters/bane/normal",
+                        "other": "characters/blank",
+                        "text_th": "เมื่อเดินทางถึงขุนยวม ทีมเลือกพักในโฮมสเตย์เงียบ ๆ กลางหมอกเช้า",
+                        "text": "Reaching Khun Yuam, the team stays at a quiet homestay surrounded by morning fog.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 17,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "Yo… ฉันเข้าใจแล้วว่าการเดินทางไม่ใช่การหนี… แต่มันคือการยอมรับตัวเอง",
+                        "text": "Yo… I finally get it. Travel isn’t about running away. It’s about accepting yourself.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 18,
+                        "character": "Yo",
+                        "main": "characters/bane/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "แล้วที่สำคัญ… เราไม่ได้เดินคนเดียวไงพี่",
+                        "text": "And the best part? We never walk alone.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 19,
+                        "character": "Mae",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "พรุ่งนี้อย่าเพิ่งวางกล้องนะ… เพราะฉันยังอยากเล่าเรื่องนี้ไปเรื่อย ๆ",
+                        "text": "Don’t put the camera down tomorrow… because I still want to keep telling this story.",
+                        "background": "level/maehongson/04"
+                    },
+                    {
+                        "id": 20,
+                        "character": "Narrator",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "เสียงหัวเราะจาง ๆ ดังขึ้นในสายลม พร้อมกับแสงแรกที่ค่อย ๆ ลอดม่านหมอกในขุนเขา",
+                        "text": "A faint laugh rises with the wind, as the first light gently pierces the mountain fog.",
+                        "background": "level/maehongson/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

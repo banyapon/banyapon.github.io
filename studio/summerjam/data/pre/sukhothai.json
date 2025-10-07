@@ -1,0 +1,199 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "sukhothai",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ทีมเดินทางสู่จังหวัดสุโขทัย เมืองแห่งรุ่งอรุณของอารยธรรมไทย",
+                        "text": "The team arrives in Sukhothai, the dawn of Thai civilization.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Tom",
+                        "main": "characters/tom/normal",
+                        "other": "characters/yo/smile",
+                        "text_th": "ที่นี่... ยังเหมือนเดิมเลยว่ะ Yo",
+                        "text": "This place… still feels the same, Yo.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/normal",
+                        "text_th": "Tom รู้จักที่นี่ดีเหรอ?",
+                        "text": "Tom, are you familiar with this place?",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Narrator",
+                        "main": "characters/minn/normal",
+                        "other": "characters/tom/normal",
+                        "text_th": "เสียงหนึ่งดังขึ้นจากทางด้านหลัง พร้อมใบหน้ายิ้มที่ Tom คุ้นเคยดี",
+                        "text": "A familiar voice calls out from behind… followed by a smile Tom knows all too well.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Minn",
+                        "main": "characters/minn/smile",
+                        "other": "characters/tom/normal",
+                        "text_th": "ไม่คิดเลยว่าจะเจอเธอที่นี่… Tom",
+                        "text": "Never thought I’d see you here… Tom.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/minn/smile",
+                        "text_th": "Minn...? ตอนนี้เป็นไกด์เหรอ?",
+                        "text": "Minn...? You’re a tour guide now?",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Minn",
+                        "main": "characters/minn/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ก็มีคนเคยบอกว่า... ฉันเล่าเรื่องดีนี่นา",
+                        "text": "Someone once told me I was good at storytelling, remember?",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "Minn พาทุกคนเดินชมอุทยานประวัติศาสตร์สุโขทัย เมืองหลวงเก่าในยุคเริ่มต้นของชาติไทย",
+                        "text": "Minn leads the team through Sukhothai Historical Park, the ancient capital of the early Thai kingdom.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Minn",
+                        "main": "characters/minn/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "พระบรมราชานุสาวรีย์พ่อขุนรามคำแหงตั้งอยู่ตรงนี้ เพื่อให้ทุกคนระลึกถึงจุดเริ่มต้นของภาษาไทย",
+                        "text": "This monument of King Ramkhamhaeng stands here to honor the birth of the Thai script.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Tom",
+                        "main": "characters/tom/normal",
+                        "other": "characters/minn/smile",
+                        "text_th": "เธอยังจำได้ทุกจุด เหมือนวันแรกที่เธอพาฉันมาเลยนะ",
+                        "text": "You still remember every spot… just like that first day you brought me here.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Minn",
+                        "main": "characters/minn/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "บางความทรงจำ... มันไม่เคยหายไปไหนหรอก",
+                        "text": "Some memories… never really fade, do they?",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "พวกเขาเดินทางต่อไปยังวัดศรีชุม หนึ่งในสถาปัตยกรรมที่มีชื่อเสียงที่สุดในสุโขทัย",
+                        "text": "They continue to Wat Si Chum, one of Sukhothai’s most iconic sites.",
+                        "background": "level/sukhothai/02"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Minn",
+                        "main": "characters/minn/normal",
+                        "other": "characters/tom/normal",
+                        "text_th": "มีตำนานว่า... พระพูดได้ที่นี่เคยให้กำลังใจทหารก่อนออกศึก",
+                        "text": "Legend says the 'talking Buddha' here gave strength to soldiers before battle.",
+                        "background": "level/sukhothai/02"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Tom",
+                        "main": "characters/tom/normal",
+                        "other": "characters/minn/normal",
+                        "text_th": "แล้วตอนนี้... เธอเชื่อในเรื่องพลังใจแบบนั้นอยู่มั้ย?",
+                        "text": "Do you still believe in inner strength… like you used to?",
+                        "background": "level/sukhothai/02"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Minn",
+                        "main": "characters/minn/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ถ้ายังไม่เชื่อ... ก็มาทำคลิปนี้ให้ดีที่สุดก่อนสิ แล้วค่อยตัดสิน",
+                        "text": "If you’re unsure… then let’s make this video great together. Decide after.",
+                        "background": "level/sukhothai/02"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "เสียงหัวเราะเบา ๆ เริ่มกลับคืนมา พร้อมแสงแดดอ่อน ๆ ที่ลอดต้นไม้ลงมาแตะขอบใจ",
+                        "text": "Soft laughter returns… along with sunlight peeking through the ancient trees.",
+                        "background": "level/sukhothai/02"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

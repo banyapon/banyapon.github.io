@@ -1,0 +1,172 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "yala",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "หลายวันผ่านไป ทีมได้เดินทางเก็บภาพทั่วเมือง ทั้งตลาดเก่า มัสยิด และสกายวอล์กกลางสายหมอก",
+                        "text": "Over several days, the team captured Yala’s beauty—from its old market and mosques to skywalks in the mist.",
+                        "background": "level/yala/01"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Karim",
+                        "main": "characters/karim/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "ขอบคุณที่เปิดใจมาถ่ายทำที่นี่นะครับ บางครั้งแค่ ‘มองเห็น’ ก็เปลี่ยนโลกได้แล้ว",
+                        "text": "Thank you for opening your hearts to this place. Sometimes, just 'seeing' is enough to change the world.",
+                        "background": "level/yala/01"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/fatima/smile",
+                        "text_th": "ผมว่าภาพที่เราถ่ายมา มันไม่ได้เล่าเรื่องของวิว... แต่มันเล่าเรื่องของผู้คน",
+                        "text": "I think what we filmed wasn’t just about views… it was about people.",
+                        "background": "level/yala/01"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Fatima",
+                        "main": "characters/fatima/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "พวกเราดีใจที่ได้เห็นยะลาในสายตาของพวกพี่ มันอบอุ่นมากเลยค่ะ",
+                        "text": "We're happy to see Yala through your eyes. It felt so heartwarming.",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/bane/smile",
+                        "text_th": "ฉันเคยคิดว่าที่นี่ไกล... แต่ตอนนี้กลับรู้สึกใกล้มากกว่าเดิม",
+                        "text": "I once thought this place was far… but now, it feels closer than ever.",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "คลิป ‘ยะลา: เมืองแห่งมิตรภาพและความงาม’ ถูกเผยแพร่ และกลายเป็นกระแสอย่างรวดเร็ว",
+                        "text": "The video 'Yala: A City of Friendship and Beauty' goes live… and quickly goes viral.",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "พี่เบน... คอมเมนต์นี่บอกว่า 'ฉันอยากกลับบ้านเกิด หลังดูคลิปพี่เลยครับ'",
+                        "text": "Bane… one comment says, 'Your video made me want to return to my hometown.'",
+                        "background": "level/yala/03"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "ยอดวิวพุ่งไม่หยุดเลย! แต่ที่สำคัญกว่าคือ... ใจคนดูถึง",
+                        "text": "Views are off the charts! But what really matters… is that it touched people.",
+                        "background": "level/yala/03"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "จากคลิปท่องเที่ยว... กลายเป็นคลิปที่เปลี่ยนมุมมองของคนทั้งประเทศ",
+                        "text": "From a travel vlog… to a video that changed how people see the south.",
+                        "background": "level/yala/04"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "เสียงเรียกจากสายลมชายแดนใต้ พาเรื่องราวความแตกต่างให้กลายเป็นหนึ่งเดียว",
+                        "text": "The wind of the southern border carried a message—of unity in diversity.",
+                        "background": "level/yala/04"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "ฉันว่าพวกเรายังมีเรื่องอีกมากที่ยังไม่ได้เล่า... ถึงเวลาที่ต้องออกเดินทางอีกครั้ง",
+                        "text": "I think there are still many stories left untold… it’s time we move on to the next journey.",
+                        "background": "level/yala/04"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Karim",
+                        "main": "characters/karim/smile",
+                        "other": "characters/fatima/smile",
+                        "text_th": "ยะลาจะรอพี่ๆ กลับมาเสมอครับ อินชาอัลลอฮ์",
+                        "text": "Yala will always welcome you back. Insha’Allah.",
+                        "background": "level/yala/01"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "และกล้องก็ยังไม่หยุดเดิน... เพราะเรื่องราวยังคงเดินต่อไป",
+                        "text": "And the camera keeps rolling… because the story is far from over.",
+                        "background": "level/yala/01"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

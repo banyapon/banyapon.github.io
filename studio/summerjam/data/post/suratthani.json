@@ -1,0 +1,199 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "suratthani",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ทีมใช้เวลาวันสุดท้ายบนเกาะสมุย ริมหาดที่เงียบสงบและแสงเย็นที่อ่อนลงเรื่อย ๆ",
+                        "text": "On their last day in Samui, the team enjoys the quiet beach and soft golden light of dusk.",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Steve",
+                        "main": "characters/mae/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "Mae… ฉันไม่คิดว่าฉันจะยิ้มจากใจจริงได้แบบนี้… ในการเดินทาง",
+                        "text": "Mae… I didn’t think I’d genuinely smile like this… on a trip.",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "เพราะนายไม่ได้เดินทางคนเดียวไงล่ะ Steve",
+                        "text": "Because you weren’t traveling alone, Steve.",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "คลิป ‘ใต้สุดหัวใจ – สุราษฎร์ธานี’ ถูกตัดต่ออย่างเรียบง่ายแต่เต็มไปด้วยความรู้สึกจริง",
+                        "text": "The video ‘From the South, with Heart – Surat Thani’ is edited simply, but it’s full of raw emotion.",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "พี่ Bane! สปอนเซอร์มาเมนต์นี้แหละครับ... เห็นรอยยิ้มพี่ Steve เต็มเฟรมเลย!",
+                        "text": "Bane! This sponsor moment is gold—Steve’s smile is dead center in the frame!",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "คลิปนี้ต่างจากทุกคลิปที่เราทำมา… มันมี 'ความรู้สึกที่เปลี่ยนคน'",
+                        "text": "This video feels different… like it changes people.",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "เมื่อคลิปถูกปล่อย... มียอดวิวทะลุหลักแสนในไม่กี่ชั่วโมง",
+                        "text": "When the video goes live… it hits hundreds of thousands of views within hours.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Steve",
+                        "main": "characters/bane/normal",
+                        "other": "characters/steve/normal",
+                        "text_th": "ฉันเคยคิดว่าแค่ลงทุนก็พอ... แต่ตอนนี้ ฉันเข้าใจแล้วว่าทำไมพวกนายถึงทำสิ่งนี้",
+                        "text": "I used to think investing was enough… now I understand why you all do this.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "เราทำเพราะเราเชื่อ... ว่าทุกการเดินทางมีเรื่องรอเล่าเสมอ",
+                        "text": "We do it because we believe—every journey has a story worth telling.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Steve",
+                        "main": "characters/steve/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ต่อไป... ถ้ามีทริปแบบนี้อีก ฉันขอเป็นแค่สมาชิกทีม... ไม่ใช่แค่สปอนเซอร์",
+                        "text": "Next time… if there’s another trip, I’d like to join as part of the team—not just a sponsor.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "ดีใจที่ได้ยินแบบนั้นนะ Steve",
+                        "text": "Glad to hear that, Steve.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ทีมมองหน้ากันเงียบ ๆ แต่รอยยิ้มของแต่ละคนบอกความรู้สึกแทนคำพูด",
+                        "text": "The team exchanges silent glances—but their smiles speak louder than words.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ผมว่าเราพร้อมแล้วนะพี่... พร้อมจะเริ่มบทต่อไป",
+                        "text": "I think we’re ready, Tom… ready for the next chapter.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "บทต่อไปที่มีคนเพิ่มขึ้น... คนที่เข้าใจความหมายของการเดินทางจริง ๆ",
+                        "text": "A chapter with someone new… someone who truly gets what this journey means.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "การเดินทางจบลงที่รอยยิ้ม... และเริ่มต้นใหม่ในใจของทุกคน",
+                        "text": "The trip ends in smiles… and a new beginning in everyone’s heart.",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Steve",
+                        "main": "characters/bane/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "ขอบคุณนะ... ที่ให้ฉันเดินทางได้อย่างแท้จริง",
+                        "text": "Thank you… for letting me truly travel—for the first time.",
+                        "background": "level/suratthani/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

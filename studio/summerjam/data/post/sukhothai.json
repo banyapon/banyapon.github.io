@@ -1,0 +1,172 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "sukhothai",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "แม้ภารกิจหลักจะเสร็จสิ้น แต่ Yo ขอเก็บฟุตเตจเพิ่ม ทำให้ทีมต้องย้อนกลับไปยังสถานที่เดิมอีกครั้ง",
+                        "text": "Though the main shoot was over, Yo requested extra footage—bringing the team back to the same familiar places.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Minn",
+                        "main": "characters/minn/normal",
+                        "other": "characters/tom/normal",
+                        "text_th": "ขอบคุณนะ ที่ยอมกลับมาเดินที่นี่ด้วยกันอีกครั้ง",
+                        "text": "Thanks… for coming back here with me, even if just for a little while.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Tom",
+                        "main": "characters/tom/normal",
+                        "other": "characters/minn/normal",
+                        "text_th": "มันไม่ใช่แค่เดินเก็บฟุตเตจหรอก… ฉันแค่ยังไม่อยากบอกลาที่นี่เร็วเกินไป",
+                        "text": "It’s not just about footage… I guess I wasn’t ready to say goodbye just yet.",
+                        "background": "level/sukhothai/01"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ที่วัดศรีชุม บรรยากาศดูเงียบกว่าเดิม แต่ในใจของพวกเขายังคงสะท้อนเสียงวันเก่า",
+                        "text": "At Wat Si Chum, the silence echoed deeper—resonating with memories that refused to fade.",
+                        "background": "level/sukhothai/02"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Minn",
+                        "main": "characters/minn/smile",
+                        "other": "characters/tom/normal",
+                        "text_th": "รู้มั้ย ตอนที่เธอกลับเข้ามาในเมืองนี้ ฉันกลัวนะ… กลัวว่าจะลืมเธอไม่ได้อีก",
+                        "text": "You know… when you walked back into this city, I was scared. Scared I’d never be able to forget again.",
+                        "background": "level/sukhothai/02"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/minn/smile",
+                        "text_th": "แต่เธอไม่ได้ลืม… เธอแค่เปลี่ยนหน้าที่ของความรู้สึกนั้น ให้มันกลายเป็นแรงบันดาลใจ",
+                        "text": "But you didn’t forget… you just changed what it meant. You made it your strength.",
+                        "background": "level/sukhothai/02"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ที่วัดช้างล้อม ศรีสัชนาลัย พวกเขายืนมองเจดีย์เก่าในความเงียบ... ไม่มีคำใดจำเป็น",
+                        "text": "At Wat Chang Lom, they stood quietly beneath ancient stupas. No words were needed.",
+                        "background": "level/sukhothai/03"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Minn",
+                        "main": "characters/minn/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ฉันดีใจนะ ที่เรื่องราวของเราไม่ได้จบแบบผิดหวัง... แต่มันกลายเป็นแรงใจให้เราเดินต่อ",
+                        "text": "I’m glad our story didn’t end in regret… but became a reason to keep going.",
+                        "background": "level/sukhothai/03"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/minn/smile",
+                        "text_th": "ถึงจะเดินคนละทาง… แต่ฉันจะเก็บทุกสิ่งที่เคยมีไว้กับเธอเสมอ",
+                        "text": "Even if we walk separate paths… I’ll always keep what we had close to my heart.",
+                        "background": "level/sukhothai/03"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ตะวันเช้าทอดเงาลงที่วัดตระพังทอง เสียงพระสวดกับเสียงจังหวะตักบาตรดังเป็นจังหวะสงบ",
+                        "text": "Morning sunlight filtered into Wat Traphang Thong. The sound of monks chanting and the rhythm of alms giving filled the air.",
+                        "background": "level/sukhothai/04"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Minn",
+                        "main": "characters/minn/normal",
+                        "other": "characters/tom/normal",
+                        "text_th": "บางครั้งการพบกันอีกครั้ง... ไม่ได้เพื่อกลับมา แต่เพื่อบอกลาให้สมบูรณ์",
+                        "text": "Sometimes, meeting again isn’t about coming back… but about saying goodbye properly.",
+                        "background": "level/sukhothai/04"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/minn/smile",
+                        "text_th": "เธอเก่งมากเลยนะ Minn... และฉันก็ภูมิใจที่เคยเป็นส่วนหนึ่งของเรื่องราวของเธอ",
+                        "text": "You’ve done so well, Minn… and I’m proud to have once been part of your story.",
+                        "background": "level/sukhothai/04"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ภาพสุดท้ายที่ Yo ถ่ายไว้... ไม่ใช่แลนด์สเคป แต่เป็นรอยยิ้มของอดีตที่เข้าใจกันแล้ว",
+                        "text": "The final shot Yo captured wasn’t a landscape… it was the smile of two people who now understood each other.",
+                        "background": "level/sukhothai/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

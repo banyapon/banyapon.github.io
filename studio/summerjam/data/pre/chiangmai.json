@@ -1,0 +1,289 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "chaingmai",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "กล้องของทีมยังไม่หยุดหมุน... คราวนี้พวกเขาเดินทางสู่เมืองล้านนา เชียงใหม่",
+                        "text": "The camera hasn’t stopped rolling… this time, the team heads to the Lanna land of Chiang Mai.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "เชียงใหม่เป็นที่ที่ฉันอยากพามาเสมอ... นายจะหลงรักที่นี่แน่ Bane",
+                        "text": "I’ve always wanted to bring you here, Bane… You’re going to fall in love with this place.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ฉันคิดว่าฉันเริ่มรักมันตั้งแต่เห็นเธอยิ้มตอนพูดถึงมันแล้วล่ะ",
+                        "text": "I think I started loving it… the moment I saw your smile while talking about it.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "โอ๊ยยย! ขอซูม Shot นี้หน่อยครับ! พลังงานคู่รักทะลุเลนส์เลย!",
+                        "text": "Whoa! Let me zoom in on this scene—romance levels off the charts!",
+                        "background": "level/chiangmai/01"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Narrator",
+                        "main": "characters/makhin/normal",
+                        "other": "characters/blank",
+                        "text_th": "ที่ทางขึ้นดอย พวกเขาได้พบกับหญิงสาวชาวเขาชื่อ Makhin ที่จะเป็นไกด์ให้พวกเขาในวันนี้",
+                        "text": "At the base of the mountain, they meet Makhin, a young hill tribe woman who becomes their guide for the day.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Makhin",
+                        "main": "characters/makhin/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "สวัสดีเจ้า ยินดีต้อนฮับสู่อ้อมอกดอยสุเทพเจ้า~",
+                        "text": "Sawasdee jao! Welcome to the heart of Doi Suthep!",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/makhin/smile",
+                        "text_th": "พูดเพราะจังเลยค่ะ อยากรู้เรื่องราวของที่นี่มาก ๆ เลยค่ะ",
+                        "text": "That’s so charming… I’d love to hear more stories about this place.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Makhin",
+                        "main": "characters/makhin/normal",
+                        "other": "characters/bane/normal",
+                        "text_th": "วัดพระธาตุดอยสุเทพสร้างมานานกว่า 600 ปี เป็นที่ศรัทธาของชาวล้านนาและนักเดินทางทั่วโลก",
+                        "text": "Wat Phra That Doi Suthep was built over 600 years ago. It’s a spiritual home for Lanna people and travelers worldwide.",
+                        "background": "level/chiangmai/02"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "จากนั้นทีมเดินทางต่อไปยังสถานีเกษตรหลวงดอยอินทนนท์ ซึ่งเป็นโครงการพัฒนาที่สูงตามพระราชดำริ",
+                        "text": "Next, the team travels to the Royal Agricultural Station at Doi Inthanon, part of the highland development project.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Makhin",
+                        "main": "characters/makhin/normal",
+                        "other": "characters/blank",
+                        "text_th": "โครงการนี้ส่งเสริมการปลูกชา กาแฟ และผักเมืองหนาว เพื่อยกระดับชีวิตชาวเขา",
+                        "text": "This project promotes the cultivation of tea, coffee, and cool-climate vegetables to uplift the hill tribe communities.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/makhin/normal",
+                        "text_th": "กลิ่นกาแฟหอมแบบนี้… ถ่ายรายการทีไร กาแฟต้องมา!",
+                        "text": "The smell of coffee is amazing… Every time we film, we need to feature this!",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "ลองชิมกาแฟที่ปลูกโดยชาวเขาสิ รับรองว่าอร่อยไม่เหมือนที่ไหนแน่นอน",
+                        "text": "Try the coffee grown by the hill tribe—it tastes unlike anything you’ve had before.",
+                        "background": "level/chiangmai/01"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "ช็อตนี้น่าจะได้ซีนดีเลยครับ ผมถ่ายวิธีเก็บชาด้วย Slow-mo ดีไหม?",
+                        "text": "This scene will be great—should I capture the tea picking in slow motion?",
+                        "background": "level/chiangmai/01"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/makhin/normal",
+                        "text_th": "ได้เลยครับ! เดี๋ยวจัดเสียงลมปะทะกลีบใบชาด้วยนะ จะยิ่งฟีลสูง",
+                        "text": "Sure thing! I’ll layer in the wind rustling through the tea leaves—it’ll add to the high-altitude vibe.",
+                        "background": "level/chiangmai/00"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "หลังจากเก็บภาพที่โครงการพัฒนา ทีมก็พากันลงมาสู่ประตูท่าแพ เพื่อสะท้อนภาพเมืองเก่า",
+                        "text": "After filming at the development station, the team descends to Tha Phae Gate to capture the old city’s charm.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Makhin",
+                        "main": "characters/makhin/smile",
+                        "other": "characters/blank",
+                        "text_th": "ประตูท่าแพถือเป็นหัวใจของเมืองเก่าเชียงใหม่หลายร้อยปีแล้ว",
+                        "text": "Tha Phae Gate has been at the heart of Old Chiang Mai for centuries.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 16,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/bane/normal",
+                        "text_th": "ภาพบรรยากาศดีมากเลยค่ะ เหมาะกับการเล่าประวัติศาสตร์ผ่านภาพจริงๆ",
+                        "text": "The atmosphere is incredible… perfect for telling history through visuals.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 17,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ผมว่าเราควรขอสัมภาษณ์พ่อค้าแม่ค้าที่นี่ด้วย จะได้มุมมองชีวิตคนเชียงใหม่",
+                        "text": "We should interview the local vendors here to get perspectives on Chiang Mai life.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 18,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "ชัดแจ๋ว! เดี๋ยวผมจัดกล้องติดกับลูกค้าในร้านกาแฟริมกำแพงเมืองให้ดูบรรยากาศจริงๆ",
+                        "text": "Perfect! I’ll rig a camera on a coffee shop by the old wall to show the real vibe.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 19,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/normal",
+                        "text_th": "และอย่าลืมใส่เสียงจักจั่นพื้นหลัง จะยิ่งอินกับเมืองล้านนา",
+                        "text": "And don’t forget to layer in cicada sounds for that authentic Lanna ambience.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 20,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ปิดท้ายวัน ทีมมุ่งหน้าสู่หมู่บ้านแม่กำปอง เพื่อสัมผัสวิถีชาวเขาแบบใกล้ชิด",
+                        "text": "To wrap up the day, the team heads to Mae Kampong village for an up-close encounter with hill tribe life.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 21,
+                        "character": "Makhin",
+                        "main": "characters/makhin/smile",
+                        "other": "characters/blank",
+                        "text_th": "ที่แม่กำปองมีโฮมสเตย์และการจัดการท่องเที่ยวชุมชนแบบยั่งยืนด้วยนะเจ้าค่ะ",
+                        "text": "In Mae Kampong, they have eco-friendly homestays and sustainable community tourism initiatives.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 22,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/makhin/smile",
+                        "text_th": "ฉันอยากลองพักโฮมสเตย์ดูจัง ได้เรียนรู้วัฒนธรรมชาวเขาจริงๆ",
+                        "text": "I really want to try a homestay—get a real feel for hill tribe culture.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 23,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/normal",
+                        "text_th": "เดี๋ยวคืนนี้ผมจะถามเรื่องวิธีทำกาแฟสดตามวิถีแม่กำปองให้รู้สึกอินขึ้นไปอีก",
+                        "text": "Tonight I’ll ask about their fresh coffee brewing methods—it’ll make the segment even more immersive.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 24,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "ช็อตบรรยากาศหมอกโพล้เพล้ริมลำธารต้องใส่ slow-mo และเสียงน้ำไหลนะครับ",
+                        "text": "For the misty creek shots, we should use slow-mo and add flowing water sounds.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 25,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "เมื่อวันแรกจบลง พรุ่งนี้ทีมจะเดินทางต่อไป ห้ามพลาด!",
+                        "text": "With the first day wrapped, tomorrow the team heads to work—don’t miss it!",
+                        "background": "level/chiangmai/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

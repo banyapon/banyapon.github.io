@@ -1,0 +1,244 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "chaingmai",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ยามเช้าในหมู่บ้านแม่กำปอง เสียงน้ำไหลและกลิ่นกาแฟสดปลุกทีมให้ตื่นขึ้นอย่างสงบ",
+                        "text": "In the morning mist of Mae Kampong, the sound of flowing water and fresh coffee wake the team peacefully.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Makhin",
+                        "main": "characters/makhin/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "อยู่ที่นี่แล้วใจมันสงบดีเนอะ~ เหมือนเวลาก็เดินช้าลง",
+                        "text": "Time slows down here, doesn’t it? It’s so peaceful.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/bane/smile",
+                        "text_th": "หรือบางที… ที่นี่ทำให้เราได้ยินเสียงของหัวใจตัวเองมากขึ้น",
+                        "text": "Maybe it’s because places like this let us hear our hearts more clearly.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "เสียงหัวใจเธอ... และของฉัน มันกำลังเดินไปในจังหวะเดียวกัน",
+                        "text": "Your heart… and mine. They seem to be beating in sync.",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "ฮู้ววว! ผมว่าทริปนี้ได้ Footage โรแมนติกที่สุดในซีรีส์แน่นอน!",
+                        "text": "Whew! This trip gave us the most romantic footage in the whole series!",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Yo",
+                        "main": "characters/yo/normal",
+                        "other": "characters/tom/smile",
+                        "text_th": "อย่าเพิ่งตัดฉากไปนะครับ ผมขอซูมตา Mae อีกรอบ… โฟกัสแสงพระอาทิตย์!",
+                        "text": "Hold the cut! Zoom in on Mae’s eyes… with the morning sun behind her!",
+                        "background": "level/chiangmai/04"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "วันสุดท้าย ทีมพากันเดินเล่นที่ประตูท่าแพ ถนนคนเดินเต็มไปด้วยสีสันและชีวิต",
+                        "text": "On the final day, the team strolls through Tha Phae Gate. The walking street bursts with color and life.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "ผู้คนที่นี่มีทั้งรอยยิ้ม ความตั้งใจ และความเชื่อของตัวเอง... เหมือนเรานะ",
+                        "text": "The people here—smiles, dedication, and their beliefs… kind of like us, right?",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "ใช่... แค่กล้องตัวเดียวก็พาเราเข้าถึงโลกทั้งใบ",
+                        "text": "Yeah… all it took was one camera to bring us closer to the whole world.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Makhin",
+                        "main": "characters/makhin/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "อย่าลืมเมืองนี้เน่อ ถึงห่างไกล... แต่หัวใจฮ้องต้อนฮับอยู่เสมอ",
+                        "text": "Don’t forget this city. Though far away… our hearts always welcome you back.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ผมว่าพี่ Mae กับพี่ Bane จะเป็นคู่หูรายการตลอดไปแน่นอน~",
+                        "text": "I bet Mae and Bane will be the ultimate co-host duo forever~",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "และทีมโปรดักชันเบื้องหลังสุดซ่าอย่างเรา~",
+                        "text": "With the most chaotic but talented production crew behind them—us!",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "คลิป 'เชียงใหม่: เมืองแห่งตำนานและหัวใจ' กลายเป็นคลิปที่มีผู้ชมมากที่สุดของช่อง",
+                        "text": "'Chiang Mai: City of Legends and Heart' becomes the channel’s most-watched episode.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/normal",
+                        "text_th": "นายพร้อมจะไปต่อหรือยัง? เพราะฉัน... จะอยู่ข้างนายเสมอ",
+                        "text": "You ready for the next stop? Because I… I’ll be by your side, always.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ฉันพร้อมทุกครั้ง... ตราบใดที่มีเธออยู่ด้วย",
+                        "text": "I’m always ready… as long as you’re with me.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "เฮ้! พวกเราล่ะ!? อย่าลืมว่าทีมนี้ขาดคนตลกไม่ได้!",
+                        "text": "Hey! What about us!? This team needs its comedy duo too!",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 16,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/smile",
+                        "text_th": "ใช่ครับ! ภารกิจพวกเราคือเก็บทุกช็อตที่ไม่มีใครกล้าเก็บ ฮ่าๆ",
+                        "text": "Exactly! Our job is to catch every shot no one else dares to film, haha!",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 17,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ทีมงานทั้งสี่มองหน้ากัน แล้วยิ้ม... พร้อมเริ่มต้นบทใหม่ที่ยังรออยู่ข้างหน้า",
+                        "text": "The four of them glance at each other and smile… ready to begin the next chapter ahead.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 18,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "นี่ไม่ใช่แค่คอนเทนต์อีกคลิป แต่มันคือการเดินทางของชีวิต",
+                        "text": "This isn’t just another video… it’s a journey of life.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 19,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "และพวกเราก็พร้อมจะเดินไปด้วยกัน... ไม่ว่าจุดหมายต่อไปจะอยู่ที่ไหน",
+                        "text": "And we’ll walk it together… no matter where the next destination is.",
+                        "background": "level/chiangmai/03"
+                    },
+                    {
+                        "id": 20,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ท้องฟ้าแห่งดินแดนล้านนาปิดฉากลงอย่างงดงาม... แต่เรื่องราวของพวกเขายังเดินต่อไป",
+                        "text": "The northern sky fades into dusk… but their story keeps moving forward.",
+                        "background": "level/chiangmai/03"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

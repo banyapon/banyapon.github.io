@@ -1,0 +1,163 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "bangkok",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "คลิปแรกของทีมถูกอัปโหลดในค่ำคืนเงียบๆ ณ ออฟฟิศเล็กๆ ย่านกรุงเทพฯ",
+                        "text": "The team’s first video was uploaded during a quiet night in a tiny Bangkok office.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/normal",
+                        "text_th": "คลิปมันยังไม่เป๊ะเลยนะ… แสงก็ดับตอนสัมภาษณ์ เห็นมั้ย Mae?",
+                        "text": "The video’s not perfect… The lights even cut out during the interview. You saw that, Mae?",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/sad",
+                        "text_th": "แต่มันจริงใจมากนะ ฉันรู้สึกได้เลยว่านี่คือตัวเราจริงๆ",
+                        "text": "But it’s so honest. I can feel it—it’s genuinely *us* in there.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/blank",
+                        "text_th": "เสียงแตกนิดๆ ภาพหลุดโฟกัสบ้าง แต่…ก็น่ารักดีนะ ฮ่าๆ",
+                        "text": "A little crackly audio, a bit out of focus… but kind of charming, haha.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/blank",
+                        "text_th": "คนดูเริ่มเมนต์แล้วครับ! มีคนบอกว่า ‘ดูแล้วรู้สึกเหมือนเพื่อนทำให้ดู’",
+                        "text": "Comments are coming in! Someone said, ‘Feels like a friend made this just for me.’",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ยอดวิวไม่ได้พุ่ง แต่หัวใจของคนดูค่อยๆ เข้ามาอยู่ข้างพวกเขา",
+                        "text": "The views weren’t skyrocketing—but the hearts of viewers were slowly siding with them.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/yo/smile",
+                        "text_th": "คนบอกว่าอยากเห็นพวกเราทำคลิปต่อ! นี่แหละแรงผลักดันที่แท้จริง",
+                        "text": "People are asking for more videos! Now *this* is true motivation.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/blank",
+                        "text_th": "มีคนส่งกาแฟมาให้ด้วยนะ บอกว่า ‘สู้ๆ พี่ ผมดูตอนทำงานรู้สึกดีมาก’",
+                        "text": "Someone even sent us coffee! Said, ‘Keep going! Watching your video made my workday better.’",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Tom",
+                        "main": "characters/tom/normal",
+                        "other": "characters/blank",
+                        "text_th": "นี่แหละ พลังของคลิปที่มีหัวใจ ไม่ต้องเพอร์เฟกต์ก็มีคุณค่าได้",
+                        "text": "This is it—the power of heartfelt content. Doesn’t need to be perfect to have value.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "งั้นภารกิจต่อไป... เราจะทำให้ดีกว่าเดิม แต่ยังเป็นตัวเราเหมือนเดิม",
+                        "text": "So the next mission… we’ll improve—but still be truly ourselves.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/normal",
+                        "text_th": "เพราะของจริง ไม่ต้องปรุงเยอะ แค่จริงใจก็ไปถึงใจคนดูแล้ว",
+                        "text": "Authenticity doesn’t need much seasoning—just honesty touches hearts.",
+                        "background": "level/bangkok/officework"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "และนั่นคือจุดเริ่มต้นของทีมเล็กๆ ที่เริ่มต้นด้วยคลิปเกือบพัง…แต่เต็มไปด้วยพลัง",
+                        "text": "And that marked the beginning of a small team, whose almost-failed clip carried a powerful spirit.",
+                        "background": "level/bangkok/officework"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 3,
+                            "Technic": 0,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

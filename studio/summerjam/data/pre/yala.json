@@ -1,0 +1,199 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "yala",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "หลังจากทริปเหนือจบลง ทีมเดินทางสู่ชายแดนใต้ ด้วยภารกิจใหม่ในจังหวัดยะลาที่ได้รับการสนับสนุนจากสปอนเซอร์",
+                        "text": "After completing their northern journey, the team heads to Thailand’s southern border, on a new sponsored mission in Yala.",
+                        "background": "level/yala/01"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "ไม่เคยคิดเลยว่าวันหนึ่งจะได้มาถ่ายคอนเทนต์ถึงยะลาแบบนี้",
+                        "text": "Never thought I’d be shooting content all the way in Yala.",
+                        "background": "level/yala/01"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/smile",
+                        "text_th": "ก็เพราะมีสปอนเซอร์ไงล่ะ~ ขอบคุณเขาเลยนะที่สนับสนุนความกล้าใหม่ของเรา",
+                        "text": "That’s what sponsors are for~ Gotta thank them for supporting our bold new step.",
+                        "background": "level/yala/01"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "พี่เบน พี่แม่... ถ้ามีหมู่บ้านบนเขาแบบในหนัง ผมขอขึ้นโดรนนะ!",
+                        "text": "If there’s a hidden hill village like in the movies, I’m flying the drone!",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Yo",
+                        "main": "characters/yo/normal",
+                        "other": "characters/tom/smile",
+                        "text_th": "แล้วผมจะตั้งกล้องซ้อนหน้า Shot มาเลยนะ อย่าลืมรีวิวของกินด้วยล่ะ",
+                        "text": "And I’ll get the double camera setup ready. Don’t forget the food shots!",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Narrator",
+                        "main": "characters/fatima/normal",
+                        "other": "characters/karim/smile",
+                        "text_th": "ที่หน้าโรงแรมแห่งหนึ่งในยะลา มีเจ้าหน้าที่สองคนมายืนรอต้อนรับด้วยรอยยิ้ม",
+                        "text": "At the entrance of a hotel in Yala, two staff members await the team with warm smiles.",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Fatima",
+                        "main": "characters/fatima/smile",
+                        "other": "characters/bane/normal",
+                        "text_th": "สวัสดีค่ะ ดิฉันฟาติมา จากการโรงแรมราชภัฏยะลา ยินดีต้อนรับพี่ๆ ทุกคนนะคะ",
+                        "text": "Sawasdee ka, I’m Fatima from Rajabhat Yala Hotel Management. Welcome to Yala!",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Karim",
+                        "main": "characters/karim/smile",
+                        "other": "characters/fatima/normal",
+                        "text_th": "ถ้าอยากได้ฟีลท้องถิ่น วัฒนธรรมสามศาสนา ห้ามพลาดนะครับ",
+                        "text": "If you're looking for local vibes and multicultural roots, you're in the right place.",
+                        "background": "level/yala/02"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/fatima/smile",
+                        "text_th": "ฟังแล้วตื่นเต้นเลยค่ะ ฟาติมา พอจะพาเราไปเจออะไรแปลกใหม่ได้ไหม?",
+                        "text": "That sounds exciting, Fatima. Think you can show us something truly unique?",
+                        "background": "level/yala/03"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Fatima",
+                        "main": "characters/fatima/smile",
+                        "other": "characters/mae/smile",
+                        "text_th": "ได้เลยค่ะ เรามีทั้งวัดไทย มัสยิดเก่า และวัฒนธรรมจีนแบบโบราณในเมืองเดียวกันเลยค่ะ",
+                        "text": "Of course! We have Thai temples, historic mosques, and old Chinese shrines all in one town.",
+                        "background": "level/yala/03"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Karim",
+                        "main": "characters/karim/normal",
+                        "other": "characters/yo/normal",
+                        "text_th": "มี Skywalk อัยเยอร์เวง ด้วยนะครับ เห็นทะเลหมอกจากมุมสูงสวยมากเลย",
+                        "text": "And don’t miss Aiyerweng Skywalk. The foggy sea view from up there is breathtaking.",
+                        "background": "level/yala/03"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "หลังเตรียมอุปกรณ์เรียบร้อย ทีมพร้อมเดินทางสำรวจมุมใหม่ของยะลาทันที",
+                        "text": "With gear packed and ready, the team sets off to discover the unseen side of Yala.",
+                        "background": "level/yala/04"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/bane/normal",
+                        "text_th": "นี่มันเหมือนเป็นทริปเปิดโลกใหม่เลยนะ Bane",
+                        "text": "This feels like a whole new world we’re stepping into, Bane.",
+                        "background": "level/yala/04"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Bane",
+                        "main": "characters/bane/normal",
+                        "other": "characters/mae/smile",
+                        "text_th": "อืม... ยิ่งได้มาเห็นด้วยตาตัวเอง ยิ่งรู้สึกว่าทุกภาพที่ถ่าย มีคุณค่าจริงๆ",
+                        "text": "Yeah… the more I see with my own eyes, the more every frame feels valuable.",
+                        "background": "level/yala/04"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Fatima",
+                        "main": "characters/fatima/normal",
+                        "other": "characters/karim/smile",
+                        "text_th": "ยะลาสวยกว่าที่หลายคนคิดนะคะ แค่มองด้วยใจเปิดกว้าง...",
+                        "text": "Yala is more beautiful than most people expect… if you look with an open heart.",
+                        "background": "level/yala/04"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "และนั่นคือจุดเริ่มต้นของการเดินทาง... ที่ไม่ได้แค่ค้นหาภาพงาม แต่เพื่อเข้าใจผู้คน",
+                        "text": "And so begins a journey—not just to find beautiful frames, but to understand the people behind them.",
+                        "background": "level/yala/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]

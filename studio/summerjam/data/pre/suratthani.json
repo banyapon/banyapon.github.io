@@ -1,0 +1,199 @@
+[
+    {
+        "id": 0,
+        "levels": [
+            {
+                "level": "suratthani",
+                "story": [
+                    {
+                        "id": 0,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/steve/normal",
+                        "text_th": "สุราษฎร์ธานี เมืองแห่งสายน้ำ ภูเขา และเกาะ ทีมงานรอบนี้มี Steve ตัวแทนสปอนเซอร์ติดตามมาทำรายการด้วย",
+                        "text": "Surat Thani, land of rivers, mountains, and islands. This time, the team is joined by Steve, the sponsor's representative.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 1,
+                        "character": "Mae",
+                        "main": "characters/mae/normal",
+                        "other": "characters/steve/normal",
+                        "text_th": "คุณ Steve พร้อมหรือยังคะ? วันนี้เราจะพาไปตลาดน้ำท้องถิ่นนะคะ",
+                        "text": "Steve, are you ready? We’re heading to a local floating market today.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 2,
+                        "character": "Steve",
+                        "main": "characters/mae/smile",
+                        "other": "characters/steve/normal",
+                        "text_th": "Honestly… I still don’t get why people enjoy heat, crowds, and… boat noodles.",
+                        "text": "Honestly… I still don’t get why people enjoy heat, crowds, and… boat noodles.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 3,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/yo/normal",
+                        "text_th": "ไม่เป็นไรครับ เดี๋ยวเราทำให้คุณเปลี่ยนใจให้ได้ เชื่อผมสิ!",
+                        "text": "That’s alright. We’ll change your mind—just trust us!",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 4,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "ที่ตลาดน้ำเมืองสุราษฎร์ ผู้คนยิ้มแย้ม เรือขายของลอยเรียงราย บรรยากาศคึกคักแต่เป็นกันเอง",
+                        "text": "At Surat Thani’s floating market, cheerful vendors line the waterways in boats, bustling yet friendly.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 5,
+                        "character": "Tom",
+                        "main": "characters/tom/smile",
+                        "other": "characters/steve/normal",
+                        "text_th": "คุณ Steve กล้าลองลูกชิ้นไม้ละ 1 บาทไหมครับ?",
+                        "text": "Steve, dare to try the legendary 1-baht meatball stick?",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 6,
+                        "character": "Steve",
+                        "main": "characters/tom/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "Well… it’s better than I expected. Spicy, but tasty.",
+                        "text": "Well… it’s better than I expected. Spicy, but tasty.",
+                        "background": "level/suratthani/01"
+                    },
+                    {
+                        "id": 7,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "วันต่อมา ทีมออกเดินทางสู่เขื่อนรัชชประภา หรือที่ใครๆ เรียกว่า กุ้ยหลินเมืองไทย",
+                        "text": "The next day, the team heads to Ratchaprapha Dam—Thailand’s very own Guilin.",
+                        "background": "level/suratthani/02"
+                    },
+                    {
+                        "id": 8,
+                        "character": "Steve",
+                        "main": "characters/bane/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "This… this is unbelievable. I didn’t know Thailand had places like this.",
+                        "text": "This… this is unbelievable. I didn’t know Thailand had places like this.",
+                        "background": "level/suratthani/02"
+                    },
+                    {
+                        "id": 9,
+                        "character": "Mae",
+                        "main": "characters/mae/smile",
+                        "other": "characters/steve/normal",
+                        "text_th": "ธรรมชาติของที่นี่ ไม่ได้ขอให้คุณเชื่อ... แต่จะทำให้คุณรู้สึกเอง",
+                        "text": "Nature here doesn’t ask you to believe—it simply lets you feel.",
+                        "background": "level/suratthani/02"
+                    },
+                    {
+                        "id": 10,
+                        "character": "Yo",
+                        "main": "characters/yo/smile",
+                        "other": "characters/tom/normal",
+                        "text_th": "พี่ Tom ถ่าย Shot นี้ดีมากเลยอ่ะ! สะท้อนเขาในน้ำเป๊ะเลย",
+                        "text": "Tom, that shot is perfect! Mountain reflection is crystal clear!",
+                        "background": "level/suratthani/02"
+                    },
+                    {
+                        "id": 11,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "หลังจากล่องเรือ ทีมเดินทางสู่เขานาในหลวง จุดชมวิวศิลปะพุทธธรรมกลางธรรมชาติ",
+                        "text": "After boating, they hike to Khao Na Nai Luang—a spiritual spot blending Buddhist art with nature.",
+                        "background": "level/suratthani/03"
+                    },
+                    {
+                        "id": 12,
+                        "character": "Steve",
+                        "main": "characters/mae/normal",
+                        "other": "characters/steve/normal",
+                        "text_th": "It’s… calm. I don’t usually say that, but… something about this place feels right.",
+                        "text": "It’s… calm. I don’t usually say that, but… something about this place feels right.",
+                        "background": "level/suratthani/03"
+                    },
+                    {
+                        "id": 13,
+                        "character": "Bane",
+                        "main": "characters/bane/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "คุณไม่ได้เดินทางมาแค่ดูวิว… คุณมาหาตัวเองด้วย",
+                        "text": "You’re not just here for the views… you’re here to find yourself, too.",
+                        "background": "level/suratthani/03"
+                    },
+                    {
+                        "id": 14,
+                        "character": "Narrator",
+                        "main": "characters/blank",
+                        "other": "characters/blank",
+                        "text_th": "สุดท้าย ทีมพา Steve มาที่เกาะสมุย… ไข่มุกแห่งอ่าวไทย",
+                        "text": "Finally, the team brings Steve to Koh Samui—the pearl of the Gulf of Thailand.",
+                        "background": "level/suratthani/04"
+                    },
+                    {
+                        "id": 15,
+                        "character": "Steve",
+                        "main": "characters/bane/smile",
+                        "other": "characters/steve/smile",
+                        "text_th": "You know what? This journey was never about me enjoying it… it was about learning how to.",
+                        "text": "You know what? This journey was never about me enjoying it… it was about learning how to.",
+                        "background": "level/suratthani/04"
+                    }
+                ]
+            }
+        ],
+        "stat": [
+            {
+                "dialogueId": 4,
+                "choices": [
+                    {
+                        "text_th": "สร้างคลิปแนวสารคดีแรงบันดาลใจ",
+                        "text": "Create an inspiring documentary-style video.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 2,
+                            "Technic": 0,
+                            "Value and Engage": 2
+                        },
+                        "nextDialogueId": 5
+                    },
+                    {
+                        "text_th": "ทำคลิปรีวิวกิน เที่ยว แบบไวรัลสนุกๆ",
+                        "text": "Make a fun viral-style travel and food review.",
+                        "impact": {
+                            "Creative": 1,
+                            "Visual and Design": 2,
+                            "Story Telling": 1,
+                            "Technic": 1,
+                            "Value and Engage": 3
+                        },
+                        "nextDialogueId": 6
+                    },
+                    {
+                        "text_th": "เน้นเบื้องหลังทีมทำงานแบบสารคดีชีวิต",
+                        "text": "Focus on a behind-the-scenes team documentary.",
+                        "impact": {
+                            "Creative": 2,
+                            "Visual and Design": 1,
+                            "Story Telling": 5,
+                            "Technic": 1,
+                            "Value and Engage": 1
+                        },
+                        "nextDialogueId": 7
+                    }
+                ]
+            }
+        ]
+    }
+]
