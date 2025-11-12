@@ -32,7 +32,7 @@ def MoveForward(car, distance, Road):
         if isNotEmpty(NodeS):
             nextRoad, nextDir = GetConnection(NodeS)
             car.roadno = nextRoad
-            car.dir = nextDir  # สำคัญ: อัปเดตทิศใหม่เสมอ
+            car.dir = nextDir  #  อัปเดตทิศใหม่เสมอ
             nextRoadObj = Road[nextRoad]
 
             # เข้าทาง NodeS ของถนนใหม่
@@ -49,7 +49,7 @@ def MoveForward(car, distance, Road):
         if isNotEmpty(NodeE):
             nextRoad, nextDir = GetConnection(NodeE)
             car.roadno = nextRoad
-            car.dir = nextDir  # สำคัญ: อัปเดตทิศใหม่เสมอ
+            car.dir = nextDir  # อัปเดตทิศใหม่เสมอ
             nextRoadObj = Road[nextRoad]
 
             # เข้าทาง NodeE ของถนนใหม่
