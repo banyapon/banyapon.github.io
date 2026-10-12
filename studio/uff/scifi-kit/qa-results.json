@@ -1,0 +1,193 @@
+{
+  "blender": {
+    "blender": "5.1.2",
+    "checks": {
+      "atlasPacked": true,
+      "proceduralMaterials": true,
+      "moduleCount": true,
+      "geometryNodesScales": true,
+      "geometryNodesKeepsUV": true
+    },
+    "geometryNodesSamples": [
+      {
+        "count": 3,
+        "vertices": 3456,
+        "uv_layers": 1
+      },
+      {
+        "count": 9,
+        "vertices": 10368,
+        "uv_layers": 1
+      }
+    ]
+  },
+  "browser": {
+    "browser": "Edge / Playwright",
+    "errors": [],
+    "checks": {
+      "runRight": {
+        "passed": true,
+        "state": {
+          "x": 1.0070000001788137,
+          "y": 0,
+          "vx": 5,
+          "vy": 0,
+          "grounded": true,
+          "facing": 1,
+          "coyote": 0.1,
+          "jumpBuffer": 0
+        }
+      },
+      "runLeft": {
+        "passed": true,
+        "state": {
+          "x": -0.034999999701976856,
+          "y": 0,
+          "vx": -5,
+          "vy": 0,
+          "grounded": true,
+          "facing": -1,
+          "coyote": 0.1,
+          "jumpBuffer": 0
+        }
+      },
+      "ramp": {
+        "passed": true,
+        "state": {
+          "x": 18.402000000178788,
+          "y": 1,
+          "vx": 0,
+          "vy": 0,
+          "grounded": true,
+          "facing": 1,
+          "coyote": 0.1,
+          "jumpBuffer": 0
+        }
+      },
+      "gapJump": {
+        "passed": true,
+        "state": {
+          "x": 24.808000000119215,
+          "y": 2.4,
+          "vx": 0,
+          "vy": 0,
+          "grounded": true,
+          "facing": 1,
+          "coyote": 0.1,
+          "jumpBuffer": 0
+        }
+      },
+      "respawn": {
+        "passed": true,
+        "state": {
+          "x": -1,
+          "y": 0,
+          "vx": 0,
+          "vy": 0,
+          "grounded": true,
+          "facing": 1,
+          "coyote": 0.1,
+          "jumpBuffer": 0
+        }
+      },
+      "mobileControls": {
+        "passed": true,
+        "state": {
+          "x": 8.528499999940399,
+          "y": 0,
+          "vx": 5,
+          "vy": 0,
+          "grounded": true,
+          "facing": 1,
+          "coyote": 0.1,
+          "jumpBuffer": 0
+        }
+      },
+      "noRuntimeErrors": true
+    }
+  },
+  "gltf": {
+    "validator": "Khronos glTF Validator",
+    "optimization": "glTF Transform 4.5.1 dedup + prune",
+    "files": [
+      {
+        "file": "bridge-grate-6m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "ground-grate-4m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "ground-panel-4m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "ground-road-4m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "level-demo.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "platform-blue-3m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "platform-grate-3m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "platform-green-3m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "platform-small-2m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "platform-yellow-3m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "ramp-road-4m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "support-pillar-2m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      },
+      {
+        "file": "wall-panel-2m.glb",
+        "errors": 0,
+        "warnings": 0,
+        "messages": []
+      }
+    ]
+  }
+}

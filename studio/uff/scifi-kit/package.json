@@ -1,0 +1,10 @@
+{
+  "name": "uff-scifi-platform-kit-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {"optimize": "node optimize_glb.mjs"},
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/functions": "4.5.1"
+  }
+}

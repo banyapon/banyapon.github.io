@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UFF · Sci-fi Platform Kit</title>
+  <link rel="icon" href="data:,">
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#eef5f7;color:#183642;font:15px/1.5 system-ui,sans-serif}a{color:inherit}button{font:inherit;cursor:pointer}header{height:86px;padding:18px 5vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #d2e0e5;background:#fff}h1{font-size:21px;margin:0;font-weight:650}header p{margin:2px 0 0;font-size:12px;color:#64808b}.tag{padding:7px 12px;border:1px solid #c6e5df;border-radius:20px;background:#f1fffa;color:#287560;font-size:12px}.stage{height:calc(100svh - 184px);min-height:440px;position:relative;overflow:hidden;background:#bceafd}.layer{position:absolute;display:flex;pointer-events:none;will-change:transform}.layer img{height:100%;width:auto;display:block;max-width:none;flex:none}.layer img:nth-child(even){transform:scaleX(-1)}#far{height:80%;top:-3%;left:-30%}#near{height:66%;bottom:10%;left:-30%}canvas{position:absolute;inset:0;width:100%;height:100%;display:block}.overlay{position:absolute;top:22px;left:5vw;background:#ffffffde;backdrop-filter:blur(8px);border:1px solid #fff;border-radius:14px;padding:13px 17px;pointer-events:none;max-width:320px}.overlay strong{display:block;font-size:14px}.overlay span{font-size:12px;color:#5b7682}#status{position:absolute;bottom:20px;left:5vw;font-size:12px;background:#fffdf1e8;border-radius:9px;padding:8px 13px}.controls{display:flex;gap:8px;position:absolute;bottom:20px;right:5vw}.controls button{width:48px;height:48px;background:#ffffffe8;border:1px solid #bed3db;border-radius:12px;color:#234d60;touch-action:none}.controls button:active{background:#d2f5ff}footer{min-height:98px;padding:18px 5vw;display:flex;align-items:center;justify-content:space-between;gap:15px;background:#fff}footer p{margin:0;color:#5b7884;font-size:13px}.downloads{display:flex;gap:10px;flex-wrap:wrap}.downloads a{border:1px solid #cbdde3;border-radius:9px;text-decoration:none;padding:8px 12px;font-size:12px}.downloads a:first-child{background:#153e50;color:#fff;border-color:#153e50}@media(max-width:650px){header{padding:15px 20px}.tag{display:none}h1{font-size:18px}footer{display:block;padding:14px 20px}.downloads{margin-top:10px}.stage{height:calc(100svh - 223px)}.overlay{left:20px;max-width:250px}.controls{right:20px}}
+  </style>
+  <style>@media(max-width:650px){#status{bottom:78px;max-width:calc(100% - 40px)}}</style>
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
+</head>
+<body>
+  <header><div><h1>UFF / SCI-FI CITY</h1><p>Modular 2.5D platform kit · White / Cyan / Yellow / Green</p></div><div class="tag">12 modules · 2 parallax layers</div></header>
+  <main class="stage" id="stage">
+    <div class="layer" id="far"><img src="parallax/city-far.png" alt=""><img src="parallax/city-far.png" alt=""><img src="parallax/city-far.png" alt=""><img src="parallax/city-far.png" alt=""></div>
+    <div class="layer" id="near"><img src="parallax/city-near.png" alt=""><img src="parallax/city-near.png" alt=""><img src="parallax/city-near.png" alt=""><img src="parallax/city-near.png" alt=""></div>
+    <div class="overlay"><strong>ลองวิ่งและกระโดดสำรวจด่าน</strong><span>A / D หรือ ← → · Space กระโดด · R เริ่มใหม่</span></div>
+    <div id="status" role="status">กำลังโหลดด่านและตัวละคร…</div>
+    <div class="controls"><button data-key="ArrowLeft" aria-label="เดินซ้าย">←</button><button data-key="ArrowRight" aria-label="เดินขวา">→</button><button data-key="Space" aria-label="กระโดด">↑</button></div>
+  </main>
+  <footer><p>พื้นถนน · พื้นตะแกรง · ทางลาด · แพลตฟอร์มแยกชิ้น<br>ใช้ไฟล์ Blender เพื่อปรับแต่งและประกอบด่านของคุณ</p><div class="downloads"><a href="scifi-platform-kit.blend" download>Blender source ↓</a><a href="glb/level-demo.glb" download>Level GLB ↓</a><a href="README.md">คู่มือ / โมดูล</a></div></footer>
+  <script type="module" src="preview.js"></script>
+</body>
+</html>

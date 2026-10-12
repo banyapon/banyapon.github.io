@@ -1,0 +1,566 @@
+{
+  "units": "meters",
+  "coordinates": "glTF: X run, Y up, Z depth",
+  "pivot": "center of walkable top; ramp center at low top",
+  "modules": {
+    "ground-panel-4m": {
+      "file": "glb/ground-panel-4m.glb",
+      "kind": "ground",
+      "length": 4,
+      "depth": 2.4,
+      "thickness": 0.65,
+      "accent": "cyan",
+      "surface": "panel",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -2.0,
+          -0.65,
+          -1.2
+        ],
+        "max": [
+          2.0,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 2376
+    },
+    "ground-road-4m": {
+      "file": "glb/ground-road-4m.glb",
+      "kind": "ground",
+      "length": 4,
+      "depth": 2.4,
+      "thickness": 0.65,
+      "accent": "yellow",
+      "surface": "road",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -2.0,
+          -0.65,
+          -1.2
+        ],
+        "max": [
+          2.0,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 2448
+    },
+    "ground-grate-4m": {
+      "file": "glb/ground-grate-4m.glb",
+      "kind": "ground",
+      "length": 4,
+      "depth": 2.4,
+      "thickness": 0.65,
+      "accent": "green",
+      "surface": "grate",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -2.0,
+          -0.65,
+          -1.2
+        ],
+        "max": [
+          2.0,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 2376
+    },
+    "platform-blue-3m": {
+      "file": "glb/platform-blue-3m.glb",
+      "kind": "platform",
+      "length": 3,
+      "depth": 2.4,
+      "thickness": 0.38,
+      "accent": "cyan",
+      "surface": "panel",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -1.5,
+          -0.38,
+          -1.2
+        ],
+        "max": [
+          1.5,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 2112
+    },
+    "platform-yellow-3m": {
+      "file": "glb/platform-yellow-3m.glb",
+      "kind": "platform",
+      "length": 3,
+      "depth": 2.4,
+      "thickness": 0.38,
+      "accent": "yellow",
+      "surface": "panel",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -1.5,
+          -0.38,
+          -1.2
+        ],
+        "max": [
+          1.5,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 2112
+    },
+    "platform-green-3m": {
+      "file": "glb/platform-green-3m.glb",
+      "kind": "platform",
+      "length": 3,
+      "depth": 2.4,
+      "thickness": 0.38,
+      "accent": "green",
+      "surface": "panel",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -1.5,
+          -0.38,
+          -1.2
+        ],
+        "max": [
+          1.5,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 2112
+    },
+    "platform-grate-3m": {
+      "file": "glb/platform-grate-3m.glb",
+      "kind": "platform",
+      "length": 3,
+      "depth": 2.4,
+      "thickness": 0.38,
+      "accent": "cyan",
+      "surface": "grate",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -1.5,
+          -0.38,
+          -1.2
+        ],
+        "max": [
+          1.5,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 2112
+    },
+    "platform-small-2m": {
+      "file": "glb/platform-small-2m.glb",
+      "kind": "platform",
+      "length": 2,
+      "depth": 2.4,
+      "thickness": 0.38,
+      "accent": "green",
+      "surface": "panel",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -1.0,
+          -0.38,
+          -1.2
+        ],
+        "max": [
+          1.0,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 1716
+    },
+    "bridge-grate-6m": {
+      "file": "glb/bridge-grate-6m.glb",
+      "kind": "bridge",
+      "length": 6,
+      "depth": 2.4,
+      "thickness": 0.45,
+      "accent": "yellow",
+      "surface": "grate",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -3.0,
+          -0.45,
+          -1.2
+        ],
+        "max": [
+          3.0,
+          0,
+          1.2
+        ],
+        "walkable": true
+      },
+      "triangles": 3300
+    },
+    "ramp-road-4m": {
+      "file": "glb/ramp-road-4m.glb",
+      "kind": "ramp",
+      "length": 4,
+      "depth": 2.4,
+      "thickness": 0.45,
+      "accent": "cyan",
+      "surface": "road",
+      "collider": {
+        "shape": "ramp",
+        "min": [
+          -2.0,
+          -0.45,
+          -1.2
+        ],
+        "max": [
+          2.0,
+          1,
+          1.2
+        ],
+        "walkable": true,
+        "rise": 1,
+        "vertices": [
+          [
+            -2.0,
+            -0.45,
+            -1.2
+          ],
+          [
+            -2.0,
+            0.0,
+            -1.2
+          ],
+          [
+            -2.0,
+            -0.45,
+            1.2
+          ],
+          [
+            -2.0,
+            0.0,
+            1.2
+          ],
+          [
+            2.0,
+            0.55,
+            -1.2
+          ],
+          [
+            2.0,
+            1.0,
+            -1.2
+          ],
+          [
+            2.0,
+            0.55,
+            1.2
+          ],
+          [
+            2.0,
+            1.0,
+            1.2
+          ]
+        ]
+      },
+      "triangles": 2448
+    },
+    "support-pillar-2m": {
+      "file": "glb/support-pillar-2m.glb",
+      "kind": "pillar",
+      "length": 0.8,
+      "depth": 0.8,
+      "thickness": 2,
+      "accent": "cyan",
+      "surface": "panel",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -0.4,
+          -2,
+          -0.4
+        ],
+        "max": [
+          0.4,
+          0,
+          0.4
+        ],
+        "walkable": false
+      },
+      "triangles": 396
+    },
+    "wall-panel-2m": {
+      "file": "glb/wall-panel-2m.glb",
+      "kind": "wall",
+      "length": 2,
+      "depth": 0.24,
+      "thickness": 2.4,
+      "accent": "green",
+      "surface": "panel",
+      "collider": {
+        "shape": "box",
+        "min": [
+          -1.0,
+          -2.4,
+          -0.12
+        ],
+        "max": [
+          1.0,
+          0,
+          0.12
+        ],
+        "walkable": false
+      },
+      "triangles": 396
+    }
+  },
+  "parallax": {
+    "far": {
+      "image": "parallax/city-far.png",
+      "factor": 0.12,
+      "alpha": false
+    },
+    "near": {
+      "image": "parallax/city-near.png",
+      "factor": 0.3,
+      "alpha": true
+    },
+    "repeat": "mirrored"
+  },
+  "level": {
+    "id": "level-demo",
+    "spawn": [
+      -1,
+      0,
+      0
+    ],
+    "run_speed": 5,
+    "jump_speed": 8,
+    "gravity": 18,
+    "instances": [
+      {
+        "id": "00_ground-panel-4m",
+        "module": "ground-panel-4m",
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "01_ground-road-4m",
+        "module": "ground-road-4m",
+        "position": [
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "02_ground-road-4m",
+        "module": "ground-road-4m",
+        "position": [
+          8,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "03_ground-grate-4m",
+        "module": "ground-grate-4m",
+        "position": [
+          12,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "04_ramp-road-4m",
+        "module": "ramp-road-4m",
+        "position": [
+          16,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "05_ground-panel-4m",
+        "module": "ground-panel-4m",
+        "position": [
+          20,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "06_ground-grate-4m",
+        "module": "ground-grate-4m",
+        "position": [
+          25.5,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "07_ground-road-4m",
+        "module": "ground-road-4m",
+        "position": [
+          29.5,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "08_ground-panel-4m",
+        "module": "ground-panel-4m",
+        "position": [
+          33.5,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "09_ground-panel-4m",
+        "module": "ground-panel-4m",
+        "position": [
+          37.5,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "10_platform-blue-3m",
+        "module": "platform-blue-3m",
+        "position": [
+          5,
+          1.35,
+          0
+        ]
+      },
+      {
+        "id": "11_platform-yellow-3m",
+        "module": "platform-yellow-3m",
+        "position": [
+          9,
+          2.5,
+          0
+        ]
+      },
+      {
+        "id": "12_platform-green-3m",
+        "module": "platform-green-3m",
+        "position": [
+          13,
+          3.4,
+          0
+        ]
+      },
+      {
+        "id": "13_bridge-grate-6m",
+        "module": "bridge-grate-6m",
+        "position": [
+          17.5,
+          3.4,
+          0
+        ]
+      },
+      {
+        "id": "14_platform-grate-3m",
+        "module": "platform-grate-3m",
+        "position": [
+          25,
+          2.4,
+          0
+        ]
+      },
+      {
+        "id": "15_platform-small-2m",
+        "module": "platform-small-2m",
+        "position": [
+          30,
+          3.2,
+          0
+        ]
+      },
+      {
+        "id": "16_support-pillar-2m",
+        "module": "support-pillar-2m",
+        "position": [
+          17.5,
+          3.4,
+          0.8
+        ],
+        "decor_only": true
+      },
+      {
+        "id": "17_wall-panel-2m",
+        "module": "wall-panel-2m",
+        "position": [
+          1,
+          2.4,
+          -1.75
+        ],
+        "decor_only": true
+      },
+      {
+        "id": "18_wall-panel-2m",
+        "module": "wall-panel-2m",
+        "position": [
+          35,
+          3.4,
+          -1.75
+        ],
+        "decor_only": true
+      }
+    ],
+    "file": "glb/level-demo.glb"
+  },
+  "atlas": {
+    "file": "textures/scifi-handpainted-atlas.png",
+    "size": [
+      2048,
+      2048
+    ],
+    "cells": {
+      "white": 0,
+      "gray": 1,
+      "dark": 2,
+      "cyan": 3,
+      "yellow": 4,
+      "green": 5,
+      "highlight": 6,
+      "steel": 7,
+      "panel": 8,
+      "road": 9,
+      "grate": 10,
+      "hazard": 11,
+      "glass": 12,
+      "mint": 13,
+      "warm": 14,
+      "shadow": 15
+    },
+    "inset_per_cell": 0.025,
+    "source": "Blender procedural brush shaders, emission-baked"
+  }
+}

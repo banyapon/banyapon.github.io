@@ -1,0 +1,53 @@
+{
+  "seed": 2048,
+  "atlas_size": 2048,
+  "module_depth": 2.4,
+  "bevel": 0.035,
+  "modules": [
+    {"id": "ground-panel-4m", "kind": "ground", "length": 4, "thickness": 0.65, "accent": "cyan", "surface": "panel"},
+    {"id": "ground-road-4m", "kind": "ground", "length": 4, "thickness": 0.65, "accent": "yellow", "surface": "road"},
+    {"id": "ground-grate-4m", "kind": "ground", "length": 4, "thickness": 0.65, "accent": "green", "surface": "grate"},
+    {"id": "platform-blue-3m", "kind": "platform", "length": 3, "thickness": 0.38, "accent": "cyan", "surface": "panel"},
+    {"id": "platform-yellow-3m", "kind": "platform", "length": 3, "thickness": 0.38, "accent": "yellow", "surface": "panel"},
+    {"id": "platform-green-3m", "kind": "platform", "length": 3, "thickness": 0.38, "accent": "green", "surface": "panel"},
+    {"id": "platform-grate-3m", "kind": "platform", "length": 3, "thickness": 0.38, "accent": "cyan", "surface": "grate"},
+    {"id": "platform-small-2m", "kind": "platform", "length": 2, "thickness": 0.38, "accent": "green", "surface": "panel"},
+    {"id": "bridge-grate-6m", "kind": "bridge", "length": 6, "thickness": 0.45, "accent": "yellow", "surface": "grate"},
+    {"id": "ramp-road-4m", "kind": "ramp", "length": 4, "thickness": 0.45, "rise": 1, "accent": "cyan", "surface": "road"},
+    {"id": "support-pillar-2m", "kind": "pillar", "length": 0.8, "depth": 0.8, "thickness": 2, "accent": "cyan", "surface": "panel"},
+    {"id": "wall-panel-2m", "kind": "wall", "length": 2, "depth": 0.24, "thickness": 2.4, "accent": "green", "surface": "panel"}
+  ],
+  "level": {
+    "id": "level-demo",
+    "spawn": [-1, 0, 0],
+    "run_speed": 5,
+    "jump_speed": 8,
+    "gravity": 18,
+    "instances": [
+      {"module": "ground-panel-4m", "position": [0, 0, 0]},
+      {"module": "ground-road-4m", "position": [4, 0, 0]},
+      {"module": "ground-road-4m", "position": [8, 0, 0]},
+      {"module": "ground-grate-4m", "position": [12, 0, 0]},
+      {"module": "ramp-road-4m", "position": [16, 0, 0]},
+      {"module": "ground-panel-4m", "position": [20, 1, 0]},
+      {"module": "ground-grate-4m", "position": [25.5, 1, 0]},
+      {"module": "ground-road-4m", "position": [29.5, 1, 0]},
+      {"module": "ground-panel-4m", "position": [33.5, 1, 0]},
+      {"module": "ground-panel-4m", "position": [37.5, 1, 0]},
+      {"module": "platform-blue-3m", "position": [5, 1.35, 0]},
+      {"module": "platform-yellow-3m", "position": [9, 2.5, 0]},
+      {"module": "platform-green-3m", "position": [13, 3.4, 0]},
+      {"module": "bridge-grate-6m", "position": [17.5, 3.4, 0]},
+      {"module": "platform-grate-3m", "position": [25, 2.4, 0]},
+      {"module": "platform-small-2m", "position": [30, 3.2, 0]},
+      {"module": "support-pillar-2m", "position": [17.5, 3.4, 0.8], "decor_only": true},
+      {"module": "wall-panel-2m", "position": [1, 2.4, -1.75], "decor_only": true},
+      {"module": "wall-panel-2m", "position": [35, 3.4, -1.75], "decor_only": true}
+    ]
+  },
+  "parallax": {
+    "far": {"image": "parallax/city-far.png", "factor": 0.12, "alpha": false},
+    "near": {"image": "parallax/city-near.png", "factor": 0.3, "alpha": true},
+    "repeat": "mirrored"
+  }
+}
